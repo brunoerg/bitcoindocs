@@ -1,0 +1,23 @@
+{
+  "name": "btc-blog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/btc-blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vue-command": "^23.0.1",
+    "vuepress-plugin-auto-sidebar": "^1.5.0"
+  }
+}
