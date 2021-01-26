@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>32 | Bitcoin Docs</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bitcoin.png">
+    <link rel="mask-icon" href="bitcoin.png" color="#3a0839">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="bitcoin.png">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#ff7e00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css" as="style"><link rel="preload" href="/bitcoindocs/assets/js/app.c31d8641.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/2.b78a9106.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/81.b70d3d0d.js" as="script"><link rel="prefetch" href="/bitcoindocs/assets/js/10.68a64a6d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/100.bd554273.js"><link rel="prefetch" href="/bitcoindocs/assets/js/101.df38dcc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/102.3bf2a9d4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/103.d879654a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/104.fcff9e3b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/105.324f3006.js"><link rel="prefetch" href="/bitcoindocs/assets/js/106.b8b3ca20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/107.4a9863c3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/108.e93a5196.js"><link rel="prefetch" href="/bitcoindocs/assets/js/109.e770824e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/11.f67301bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/110.72ba2ba4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/111.a33eb12f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/112.ecf1c295.js"><link rel="prefetch" href="/bitcoindocs/assets/js/113.85f94e5b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/114.c79655f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/115.3940b629.js"><link rel="prefetch" href="/bitcoindocs/assets/js/116.9ead4ccc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/117.d4b75110.js"><link rel="prefetch" href="/bitcoindocs/assets/js/118.87575c0c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/119.65af5cbd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/12.fc1e786f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/120.99826b18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/121.608c453c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/122.b24765eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/123.64680142.js"><link rel="prefetch" href="/bitcoindocs/assets/js/124.4b4f9bc2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/125.0e07a49d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/126.be3bae0f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/127.3d041c50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/128.5feda1e3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/129.307399ad.js"><link rel="prefetch" href="/bitcoindocs/assets/js/13.47ba1b02.js"><link rel="prefetch" href="/bitcoindocs/assets/js/130.0659f005.js"><link rel="prefetch" href="/bitcoindocs/assets/js/131.69a612f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/132.b51e17e2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/133.7bb492d9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/134.0f7e8787.js"><link rel="prefetch" href="/bitcoindocs/assets/js/135.e2504a16.js"><link rel="prefetch" href="/bitcoindocs/assets/js/136.8b6c7216.js"><link rel="prefetch" href="/bitcoindocs/assets/js/137.e38fc5b2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/138.095843e4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/139.4a5e77fb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/14.42b93c7a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/140.f517d934.js"><link rel="prefetch" href="/bitcoindocs/assets/js/141.7a6497c0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/142.8ae1c029.js"><link rel="prefetch" href="/bitcoindocs/assets/js/143.2fadb8ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/144.a64d8f22.js"><link rel="prefetch" href="/bitcoindocs/assets/js/145.1b1fa851.js"><link rel="prefetch" href="/bitcoindocs/assets/js/146.a59efe37.js"><link rel="prefetch" href="/bitcoindocs/assets/js/147.a0a8fc92.js"><link rel="prefetch" href="/bitcoindocs/assets/js/148.e177254d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/149.88223d18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/15.cdd298ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/150.c07e2220.js"><link rel="prefetch" href="/bitcoindocs/assets/js/151.843c50f7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/152.4f34674a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/153.c2ba1434.js"><link rel="prefetch" href="/bitcoindocs/assets/js/154.dec4842c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/155.ecd7b99f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/156.55d078d3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/157.44501232.js"><link rel="prefetch" href="/bitcoindocs/assets/js/158.79220932.js"><link rel="prefetch" href="/bitcoindocs/assets/js/159.33765ed3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/16.4c7eeecf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/160.ea470a70.js"><link rel="prefetch" href="/bitcoindocs/assets/js/161.2dc38d81.js"><link rel="prefetch" href="/bitcoindocs/assets/js/162.a27303c6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/163.31e293c1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/164.fca747d6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/165.52456cdd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/166.c2464f79.js"><link rel="prefetch" href="/bitcoindocs/assets/js/167.25467097.js"><link rel="prefetch" href="/bitcoindocs/assets/js/168.92664946.js"><link rel="prefetch" href="/bitcoindocs/assets/js/169.df73d115.js"><link rel="prefetch" href="/bitcoindocs/assets/js/17.b107683f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/170.08fb6e7e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/171.ba749017.js"><link rel="prefetch" href="/bitcoindocs/assets/js/172.c92581cb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/173.1fce2c58.js"><link rel="prefetch" href="/bitcoindocs/assets/js/174.34c08943.js"><link rel="prefetch" href="/bitcoindocs/assets/js/175.0f3c7a0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/176.36c2e712.js"><link rel="prefetch" href="/bitcoindocs/assets/js/177.15027195.js"><link rel="prefetch" href="/bitcoindocs/assets/js/178.a42c47f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/179.e9af4276.js"><link rel="prefetch" href="/bitcoindocs/assets/js/18.608ae665.js"><link rel="prefetch" href="/bitcoindocs/assets/js/180.48a51584.js"><link rel="prefetch" href="/bitcoindocs/assets/js/181.cc255bc5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/182.64362e5e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/183.256b3077.js"><link rel="prefetch" href="/bitcoindocs/assets/js/184.3139561e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/185.5af948dd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/19.8b76fc9c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/20.122a4ef0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/21.1f8a8820.js"><link rel="prefetch" href="/bitcoindocs/assets/js/22.eb68688b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/23.9e751fd9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/24.72ecb396.js"><link rel="prefetch" href="/bitcoindocs/assets/js/25.ad100f49.js"><link rel="prefetch" href="/bitcoindocs/assets/js/26.654fcf2f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/27.fdb46ea9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/28.b28d1103.js"><link rel="prefetch" href="/bitcoindocs/assets/js/29.979a7705.js"><link rel="prefetch" href="/bitcoindocs/assets/js/3.0ccb3eb1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/30.27ab6b09.js"><link rel="prefetch" href="/bitcoindocs/assets/js/31.0b51055d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/32.e5d3f476.js"><link rel="prefetch" href="/bitcoindocs/assets/js/33.5325af50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/34.6cc1e8e6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/35.4f93edf4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/36.56c4b763.js"><link rel="prefetch" href="/bitcoindocs/assets/js/37.d7fc3cc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/38.ba47e0be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/39.a4948230.js"><link rel="prefetch" href="/bitcoindocs/assets/js/4.f750dbd8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/40.13f04ebc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/41.efba2874.js"><link rel="prefetch" href="/bitcoindocs/assets/js/42.71cd6fcf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/43.3dd10508.js"><link rel="prefetch" href="/bitcoindocs/assets/js/44.0e0f5018.js"><link rel="prefetch" href="/bitcoindocs/assets/js/45.4e467a20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/46.fbc682be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/47.79e3cde6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/48.36d1a4f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/49.5c861a4e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/5.8f3d1a69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/50.0c7609ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/51.6497b8ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/52.6fef223e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/53.dc5dd169.js"><link rel="prefetch" href="/bitcoindocs/assets/js/54.560108ca.js"><link rel="prefetch" href="/bitcoindocs/assets/js/55.a09c65a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/56.f7f7c539.js"><link rel="prefetch" href="/bitcoindocs/assets/js/57.3b3dfb34.js"><link rel="prefetch" href="/bitcoindocs/assets/js/58.1048b51d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/59.01f56552.js"><link rel="prefetch" href="/bitcoindocs/assets/js/6.ea542132.js"><link rel="prefetch" href="/bitcoindocs/assets/js/60.1e424058.js"><link rel="prefetch" href="/bitcoindocs/assets/js/61.6d4493b3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/62.849c30d7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/63.0c6aaa64.js"><link rel="prefetch" href="/bitcoindocs/assets/js/64.0d99b925.js"><link rel="prefetch" href="/bitcoindocs/assets/js/65.d60db57e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/66.c6c02735.js"><link rel="prefetch" href="/bitcoindocs/assets/js/67.c0c64c59.js"><link rel="prefetch" href="/bitcoindocs/assets/js/68.99f833eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/69.88769157.js"><link rel="prefetch" href="/bitcoindocs/assets/js/7.474d9a1c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/70.0a746051.js"><link rel="prefetch" href="/bitcoindocs/assets/js/71.9847fc9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/72.8e04fa9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/73.772916a2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/74.9663297b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/75.66154da0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/76.358626cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/77.8eafda69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/78.782695f1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/79.99523f6b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/8.7a9d23a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/80.2c556ea8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/82.f0c621cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/83.13117f68.js"><link rel="prefetch" href="/bitcoindocs/assets/js/84.2361b62a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/85.e8f23ad0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/86.eab303cd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/87.a547f760.js"><link rel="prefetch" href="/bitcoindocs/assets/js/88.3c748686.js"><link rel="prefetch" href="/bitcoindocs/assets/js/89.6b7de962.js"><link rel="prefetch" href="/bitcoindocs/assets/js/9.6e1ca0bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/90.0907331e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/91.fe47eeeb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/92.f4c67fe3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/93.efdc2e47.js"><link rel="prefetch" href="/bitcoindocs/assets/js/94.b7862723.js"><link rel="prefetch" href="/bitcoindocs/assets/js/95.06e410a5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/96.0cc67031.js"><link rel="prefetch" href="/bitcoindocs/assets/js/97.b9460d90.js"><link rel="prefetch" href="/bitcoindocs/assets/js/98.0689894c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/99.f18fe9ac.js">
+    <link rel="stylesheet" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bitcoindocs/" class="home-link router-link-active"><!----> <span class="site-name">Bitcoin Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>BIPs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bitcoindocs/bips/" aria-current="page" class="sidebar-link">Bitcoin Improvement Proposals</a></li><li><a href="/bitcoindocs/bips/1.html" class="sidebar-link">1</a></li><li><a href="/bitcoindocs/bips/2.html" class="sidebar-link">2</a></li><li><a href="/bitcoindocs/bips/8.html" class="sidebar-link">8</a></li><li><a href="/bitcoindocs/bips/9.html" class="sidebar-link">9</a></li><li><a href="/bitcoindocs/bips/16.html" class="sidebar-link">16</a></li><li><a href="/bitcoindocs/bips/32.html" aria-current="page" class="active sidebar-link">32</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#abstract" class="sidebar-link">Abstract</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#copyright" class="sidebar-link">Copyright</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#motivation" class="sidebar-link">Motivation</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#specification-key-derivation-specification-key-derivation" class="sidebar-link">Specification: Key derivation {#specificationkeyderivation}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#specification-wallet-structure-specification-wallet-structure" class="sidebar-link">Specification: Wallet structure {#specificationwalletstructure}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#compatibility" class="sidebar-link">Compatibility</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#security" class="sidebar-link">Security</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#test-vectors-test-vectors" class="sidebar-link">Test Vectors {#test_vectors}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/32.html#acknowledgements" class="sidebar-link">Acknowledgements</a></li></ul></li><li><a href="/bitcoindocs/bips/39.html" class="sidebar-link">39</a></li><li><a href="/bitcoindocs/bips/42.html" class="sidebar-link">42</a></li><li><a href="/bitcoindocs/bips/43.html" class="sidebar-link">43</a></li><li><a href="/bitcoindocs/bips/44.html" class="sidebar-link">44</a></li><li><a href="/bitcoindocs/bips/45.html" class="sidebar-link">45</a></li><li><a href="/bitcoindocs/bips/47.html" class="sidebar-link">47</a></li><li><a href="/bitcoindocs/bips/49.html" class="sidebar-link">49</a></li><li><a href="/bitcoindocs/bips/50.html" class="sidebar-link">50</a></li><li><a href="/bitcoindocs/bips/60.html" class="sidebar-link">60</a></li><li><a href="/bitcoindocs/bips/61.html" class="sidebar-link">61</a></li><li><a href="/bitcoindocs/bips/62.html" class="sidebar-link">62</a></li><li><a href="/bitcoindocs/bips/64.html" class="sidebar-link">64</a></li><li><a href="/bitcoindocs/bips/65.html" class="sidebar-link">65</a></li><li><a href="/bitcoindocs/bips/66.html" class="sidebar-link">66</a></li><li><a href="/bitcoindocs/bips/67.html" class="sidebar-link">67</a></li><li><a href="/bitcoindocs/bips/68.html" class="sidebar-link">68</a></li><li><a href="/bitcoindocs/bips/69.html" class="sidebar-link">69</a></li><li><a href="/bitcoindocs/bips/70.html" class="sidebar-link">70</a></li><li><a href="/bitcoindocs/bips/71.html" class="sidebar-link">71</a></li><li><a href="/bitcoindocs/bips/72.html" class="sidebar-link">72</a></li><li><a href="/bitcoindocs/bips/73.html" class="sidebar-link">73</a></li><li><a href="/bitcoindocs/bips/74.html" class="sidebar-link">74</a></li><li><a href="/bitcoindocs/bips/75.html" class="sidebar-link">75</a></li><li><a href="/bitcoindocs/bips/78.html" class="sidebar-link">78</a></li><li><a href="/bitcoindocs/bips/79.html" class="sidebar-link">79</a></li><li><a href="/bitcoindocs/bips/80.html" class="sidebar-link">80</a></li><li><a href="/bitcoindocs/bips/81.html" class="sidebar-link">81</a></li><li><a href="/bitcoindocs/bips/83.html" class="sidebar-link">83</a></li><li><a href="/bitcoindocs/bips/84.html" class="sidebar-link">84</a></li><li><a href="/bitcoindocs/bips/85.html" class="sidebar-link">85</a></li><li><a href="/bitcoindocs/bips/90.html" class="sidebar-link">90</a></li><li><a href="/bitcoindocs/bips/91.html" class="sidebar-link">91</a></li><li><a href="/bitcoindocs/bips/98.html" class="sidebar-link">98</a></li><li><a href="/bitcoindocs/bips/99.html" class="sidebar-link">99</a></li><li><a href="/bitcoindocs/bips/100.html" class="sidebar-link">100</a></li><li><a href="/bitcoindocs/bips/101.html" class="sidebar-link">101</a></li><li><a href="/bitcoindocs/bips/102.html" class="sidebar-link">102</a></li><li><a href="/bitcoindocs/bips/103.html" class="sidebar-link">103</a></li><li><a href="/bitcoindocs/bips/104.html" class="sidebar-link">104</a></li><li><a href="/bitcoindocs/bips/105.html" class="sidebar-link">105</a></li><li><a href="/bitcoindocs/bips/106.html" class="sidebar-link">106</a></li><li><a href="/bitcoindocs/bips/107.html" class="sidebar-link">107</a></li><li><a href="/bitcoindocs/bips/109.html" class="sidebar-link">109</a></li><li><a href="/bitcoindocs/bips/111.html" class="sidebar-link">111</a></li><li><a href="/bitcoindocs/bips/112.html" class="sidebar-link">112</a></li><li><a href="/bitcoindocs/bips/113.html" class="sidebar-link">113</a></li><li><a href="/bitcoindocs/bips/114.html" class="sidebar-link">114</a></li><li><a href="/bitcoindocs/bips/115.html" class="sidebar-link">115</a></li><li><a href="/bitcoindocs/bips/116.html" class="sidebar-link">116</a></li><li><a href="/bitcoindocs/bips/117.html" class="sidebar-link">117</a></li><li><a href="/bitcoindocs/bips/118.html" class="sidebar-link">118</a></li><li><a href="/bitcoindocs/bips/119.html" class="sidebar-link">119</a></li><li><a href="/bitcoindocs/bips/120.html" class="sidebar-link">120</a></li><li><a href="/bitcoindocs/bips/121.html" class="sidebar-link">121</a></li><li><a href="/bitcoindocs/bips/122.html" class="sidebar-link">122</a></li><li><a href="/bitcoindocs/bips/123.html" class="sidebar-link">123</a></li><li><a href="/bitcoindocs/bips/124.html" class="sidebar-link">124</a></li><li><a href="/bitcoindocs/bips/125.html" class="sidebar-link">125</a></li><li><a href="/bitcoindocs/bips/126.html" class="sidebar-link">126</a></li><li><a href="/bitcoindocs/bips/127.html" class="sidebar-link">127</a></li><li><a href="/bitcoindocs/bips/130.html" class="sidebar-link">130</a></li><li><a href="/bitcoindocs/bips/131.html" class="sidebar-link">131</a></li><li><a href="/bitcoindocs/bips/132.html" class="sidebar-link">132</a></li><li><a href="/bitcoindocs/bips/133.html" class="sidebar-link">133</a></li><li><a href="/bitcoindocs/bips/134.html" class="sidebar-link">134</a></li><li><a href="/bitcoindocs/bips/135.html" class="sidebar-link">135</a></li><li><a href="/bitcoindocs/bips/136.html" class="sidebar-link">136</a></li><li><a href="/bitcoindocs/bips/137.html" class="sidebar-link">137</a></li><li><a href="/bitcoindocs/bips/140.html" class="sidebar-link">140</a></li><li><a href="/bitcoindocs/bips/141.html" class="sidebar-link">141</a></li><li><a href="/bitcoindocs/bips/142.html" class="sidebar-link">142</a></li><li><a href="/bitcoindocs/bips/143.html" class="sidebar-link">143</a></li><li><a href="/bitcoindocs/bips/144.html" class="sidebar-link">144</a></li><li><a href="/bitcoindocs/bips/145.html" class="sidebar-link">145</a></li><li><a href="/bitcoindocs/bips/146.html" class="sidebar-link">146</a></li><li><a href="/bitcoindocs/bips/147.html" class="sidebar-link">147</a></li><li><a href="/bitcoindocs/bips/148.html" class="sidebar-link">148</a></li><li><a href="/bitcoindocs/bips/149.html" class="sidebar-link">149</a></li><li><a href="/bitcoindocs/bips/150.html" class="sidebar-link">150</a></li><li><a href="/bitcoindocs/bips/151.html" class="sidebar-link">151</a></li><li><a href="/bitcoindocs/bips/152.html" class="sidebar-link">152</a></li><li><a href="/bitcoindocs/bips/154.html" class="sidebar-link">154</a></li><li><a href="/bitcoindocs/bips/155.html" class="sidebar-link">155</a></li><li><a href="/bitcoindocs/bips/156.html" class="sidebar-link">156</a></li><li><a href="/bitcoindocs/bips/157.html" class="sidebar-link">157</a></li><li><a href="/bitcoindocs/bips/158.html" class="sidebar-link">158</a></li><li><a href="/bitcoindocs/bips/159.html" class="sidebar-link">159</a></li><li><a href="/bitcoindocs/bips/171.html" class="sidebar-link">171</a></li><li><a href="/bitcoindocs/bips/173.html" class="sidebar-link">173</a></li><li><a href="/bitcoindocs/bips/174.html" class="sidebar-link">174</a></li><li><a href="/bitcoindocs/bips/175.html" class="sidebar-link">175</a></li><li><a href="/bitcoindocs/bips/176.html" class="sidebar-link">176</a></li><li><a href="/bitcoindocs/bips/178.html" class="sidebar-link">178</a></li><li><a href="/bitcoindocs/bips/179.html" class="sidebar-link">179</a></li><li><a href="/bitcoindocs/bips/180.html" class="sidebar-link">180</a></li><li><a href="/bitcoindocs/bips/197.html" class="sidebar-link">197</a></li><li><a href="/bitcoindocs/bips/199.html" class="sidebar-link">199</a></li><li><a href="/bitcoindocs/bips/300.html" class="sidebar-link">300</a></li><li><a href="/bitcoindocs/bips/301.html" class="sidebar-link">301</a></li><li><a href="/bitcoindocs/bips/310.html" class="sidebar-link">310</a></li><li><a href="/bitcoindocs/bips/320.html" class="sidebar-link">320</a></li><li><a href="/bitcoindocs/bips/322.html" class="sidebar-link">322</a></li><li><a href="/bitcoindocs/bips/325.html" class="sidebar-link">325</a></li><li><a href="/bitcoindocs/bips/339.html" class="sidebar-link">339</a></li><li><a href="/bitcoindocs/bips/340.html" class="sidebar-link">340</a></li><li><a href="/bitcoindocs/bips/341.html" class="sidebar-link">341</a></li><li><a href="/bitcoindocs/bips/342.html" class="sidebar-link">342</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_32"><a href="#_32" class="header-anchor">#</a> 32</h1> <p>RECENT CHANGES:</p> <ul><li>(16 Apr 2013) Added private derivation for i ≥ 0x80000000 (less risk
+of parent private key leakage)</li> <li>(30 Apr 2013) Switched from multiplication by I~L~ to addition of
+I~L~ (faster, easier implementation)</li> <li>(25 May 2013) Added test vectors</li> <li>(15 Jan 2014) Rename keys with index ≥ 0x80000000 to hardened keys,
+and add explicit conversion functions.</li> <li>(24 Feb 2017) Added test vectors for hardened derivation with
+leading zeros</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>      BIP: 32
+      Layer: Applications
+      Title: Hierarchical Deterministic Wallets
+      Author: Pieter Wuille &lt;pieter.wuille@gmail.com&gt;
+      Comments-Summary: No comments yet.
+      Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0032
+      Status: Final
+      Type: Informational
+      Created: 2012-02-11
+      License: BSD-2-Clause
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="abstract"><a href="#abstract" class="header-anchor">#</a> Abstract</h2> <p>This document describes hierarchical deterministic wallets (or &quot;HD
+Wallets&quot;): wallets which can be shared partially or entirely with
+different systems, each with or without the ability to spend coins.</p> <p>The specification is intended to set a standard for deterministic
+wallets that can be interchanged between different clients. Although the
+wallets described here have many features, not all are required by
+supporting clients.</p> <p>The specification consists of two parts. In a first part, a system for
+deriving a tree of keypairs from a single seed is presented. The second
+part demonstrates how to build a wallet structure on top of such a tree.</p> <h2 id="copyright"><a href="#copyright" class="header-anchor">#</a> Copyright</h2> <p>This BIP is licensed under the 2-clause BSD license.</p> <h2 id="motivation"><a href="#motivation" class="header-anchor">#</a> Motivation</h2> <p>The Bitcoin reference client uses randomly generated keys. In order to
+avoid the necessity for a backup after every transaction, (by default)
+100 keys are cached in a pool of reserve keys. Still, these wallets are
+not intended to be shared and used on several systems simultaneously.
+They support hiding their private keys by using the wallet encrypt
+feature and not sharing the password, but such &quot;neutered&quot; wallets lose
+the power to generate public keys as well.</p> <p>Deterministic wallets do not require such frequent backups, and elliptic
+curve mathematics permit schemes where one can calculate the public keys
+without revealing the private keys. This permits for example a webshop
+business to let its webserver generate fresh addresses (public key
+hashes) for each order or for each customer, without giving the
+webserver access to the corresponding private keys (which are required
+for spending the received funds).</p> <p>However, deterministic wallets typically consist of a single &quot;chain&quot;
+of keypairs. The fact that there is only one chain means that sharing a
+wallet happens on an all-or-nothing basis. However, in some cases one
+only wants some (public) keys to be shared and recoverable. In the
+example of a webshop, the webserver does not need access to all public
+keys of the merchant's wallet; only to those addresses which are used
+to receive customer's payments, and not for example the change
+addresses that are generated when the merchant spends money.
+Hierarchical deterministic wallets allow such selective sharing by
+supporting multiple keypair chains, derived from a single root.</p> <h2 id="specification-key-derivation-specification-key-derivation"><a href="#specification-key-derivation-specification-key-derivation" class="header-anchor">#</a> Specification: Key derivation {#specification_key_derivation}</h2> <h3 id="conventions"><a href="#conventions" class="header-anchor">#</a> Conventions</h3> <p>In the rest of this text we will assume the public key cryptography used
+in Bitcoin, namely elliptic curve cryptography using the field and curve
+parameters defined by secp256k1 (http://www.secg.org/sec2-v2.pdf).
+Variables below are either:</p> <ul><li>Integers modulo the order of the curve (referred to as n).</li> <li>Coordinates of points on the curve.</li> <li>Byte sequences.</li></ul> <p>Addition (+) of two coordinate pair is defined as application of the EC
+group operation. Concatenation (||) is the operation of appending one
+byte sequence onto another.</p> <p>As standard conversion functions, we assume:</p> <ul><li>point(p): returns the coordinate pair resulting from EC point
+multiplication (repeated application of the EC group operation) of
+the secp256k1 base point with the integer p.</li> <li>ser~32~(i): serialize a 32-bit unsigned integer i as a 4-byte
+sequence, most significant byte first.</li> <li>ser~256~(p): serializes the integer p as a 32-byte sequence, most
+significant byte first.</li> <li>ser~P~(P): serializes the coordinate pair P = (x,y) as a byte
+sequence using SEC1's compressed form: (0x02 or 0x03) ||
+ser~256~(x), where the header byte depends on the parity of the
+omitted y coordinate.</li> <li>parse~256~(p): interprets a 32-byte sequence as a 256-bit number,
+most significant byte first.</li></ul> <h3 id="extended-keys-extended-keys"><a href="#extended-keys-extended-keys" class="header-anchor">#</a> Extended keys {#extended_keys}</h3> <p>In what follows, we will define a function that derives a number of
+child keys from a parent key. In order to prevent these from depending
+solely on the key itself, we extend both private and public keys first
+with an extra 256 bits of entropy. This extension, called the chain
+code, is identical for corresponding private and public keys, and
+consists of 32 bytes.</p> <p>We represent an extended private key as (k, c), with k the normal
+private key, and c the chain code. An extended public key is represented
+as (K, c), with K = point(k) and c the chain code.</p> <p>Each extended key has 2^31^ normal child keys, and 2^31^ hardened child
+keys. Each of these child keys has an index. The normal child keys use
+indices 0 through 2^31^-1. The hardened child keys use indices 2^31^
+through 2^32^-1. To ease notation for hardened key indices, a number
+i~H~ represents i+2^31^.</p> <h3 id="child-key-derivation-ckd-functions-child-key-derivation-ckd-functions"><a href="#child-key-derivation-ckd-functions-child-key-derivation-ckd-functions" class="header-anchor">#</a> Child key derivation (CKD) functions {#child_key_derivation_ckd_functions}</h3> <p>Given a parent extended key and an index i, it is possible to compute
+the corresponding child extended key. The algorithm to do so depends on
+whether the child is a hardened key or not (or, equivalently, whether i
+≥ 2^31^), and whether we're talking about private or public keys.</p> <h4 id="private-parent-key-→-private-child-key-private-parent-key-private-child-key"><a href="#private-parent-key-→-private-child-key-private-parent-key-private-child-key" class="header-anchor">#</a> Private parent key → private child key {#private_parent_key_private_child_key}</h4> <p>The function CKDpriv((k~par~, c~par~), i) → (k~i~, c~i~) computes a
+child extended private key from the parent extended private key:</p> <ul><li>Check whether i ≥ 2^31^ (whether the child is a hardened key).
+<ul><li>If so (hardened child): let I = HMAC-SHA512(Key = c~par~, Data =
+0x00 || ser~256~(k~par~) || ser~32~(i)). (Note: The 0x00
+pads the private key to make it 33 bytes long.)</li> <li>If not (normal child): let I = HMAC-SHA512(Key = c~par~, Data =
+ser~P~(point(k~par~)) || ser~32~(i)).</li></ul></li> <li>Split I into two 32-byte sequences, I~L~ and I~R~.</li> <li>The returned child key k~i~ is parse~256~(I~L~) + k~par~ (mod n).</li> <li>The returned chain code c~i~ is I~R~.</li> <li>In case parse~256~(I~L~) ≥ n or k~i~ = 0, the resulting key is
+invalid, and one should proceed with the next value for i. (Note:
+this has probability lower than 1 in 2^127^.)</li></ul> <p>The HMAC-SHA512 function is specified in <a href="http://tools.ietf.org/html/rfc4231" target="_blank" rel="noopener noreferrer">RFC
+4231<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <h4 id="public-parent-key-→-public-child-key-public-parent-key-public-child-key"><a href="#public-parent-key-→-public-child-key-public-parent-key-public-child-key" class="header-anchor">#</a> Public parent key → public child key {#public_parent_key_public_child_key}</h4> <p>The function CKDpub((K~par~, c~par~), i) → (K~i~, c~i~) computes a child
+extended public key from the parent extended public key. It is only
+defined for non-hardened child keys.</p> <ul><li>Check whether i ≥ 2^31^ (whether the child is a hardened key).
+<ul><li>If so (hardened child): return failure</li> <li>If not (normal child): let I = HMAC-SHA512(Key = c~par~, Data =
+ser~P~(K~par~) || ser~32~(i)).</li></ul></li> <li>Split I into two 32-byte sequences, I~L~ and I~R~.</li> <li>The returned child key K~i~ is point(parse~256~(I~L~)) + K~par~.</li> <li>The returned chain code c~i~ is I~R~.</li> <li>In case parse~256~(I~L~) ≥ n or K~i~ is the point at infinity, the
+resulting key is invalid, and one should proceed with the next value
+for i.</li></ul> <h4 id="private-parent-key-→-public-child-key-private-parent-key-public-child-key"><a href="#private-parent-key-→-public-child-key-private-parent-key-public-child-key" class="header-anchor">#</a> Private parent key → public child key {#private_parent_key_public_child_key}</h4> <p>The function N((k, c)) → (K, c) computes the extended public key
+corresponding to an extended private key (the &quot;neutered&quot; version, as
+it removes the ability to sign transactions).</p> <ul><li>The returned key K is point(k).</li> <li>The returned chain code c is just the passed chain code.</li></ul> <p>To compute the public child key of a parent private key:</p> <ul><li>N(CKDpriv((k~par~, c~par~), i)) (works always).</li> <li>CKDpub(N(k~par~, c~par~), i) (works only for non-hardened child
+keys).</li></ul> <p>The fact that they are equivalent is what makes non-hardened keys useful
+(one can derive child public keys of a given parent key without knowing
+any private key), and also what distinguishes them from hardened keys.
+The reason for not always using non-hardened keys (which are more
+useful) is security; see further for more information.</p> <h4 id="public-parent-key-→-private-child-key-public-parent-key-private-child-key"><a href="#public-parent-key-→-private-child-key-public-parent-key-private-child-key" class="header-anchor">#</a> Public parent key → private child key {#public_parent_key_private_child_key}</h4> <p>This is not possible.</p> <h3 id="the-key-tree-the-key-tree"><a href="#the-key-tree-the-key-tree" class="header-anchor">#</a> The key tree {#the_key_tree}</h3> <p>The next step is cascading several CKD constructions to build a tree. We
+start with one root, the master extended key m. By evaluating
+CKDpriv(m,i) for several values of i, we get a number of level-1 derived
+nodes. As each of these is again an extended key, CKDpriv can be applied
+to those as well.</p> <p>To shorten notation, we will write CKDpriv(CKDpriv(CKDpriv(m,3~H~),2),5)
+as m/3~H~/2/5. Equivalently for public keys, we write
+CKDpub(CKDpub(CKDpub(M,3),2),5) as M/3/2/5. This results in the
+following identities:</p> <ul><li>N(m/a/b/c) = N(m/a/b)/c = N(m/a)/b/c = N(m)/a/b/c = M/a/b/c.</li> <li>N(m/a~H~/b/c) = N(m/a~H~/b)/c = N(m/a~H~)/b/c.</li></ul> <p>However, N(m/a~H~) cannot be rewritten as N(m)/a~H~, as the latter is
+not possible.</p> <p>Each leaf node in the tree corresponds to an actual key, while the
+internal nodes correspond to the collections of keys that descend from
+them. The chain codes of the leaf nodes are ignored, and only their
+embedded private or public key is relevant. Because of this
+construction, knowing an extended private key allows reconstruction of
+all descendant private keys and public keys, and knowing an extended
+public keys allows reconstruction of all descendant non-hardened public
+keys.</p> <h3 id="key-identifiers-key-identifiers"><a href="#key-identifiers-key-identifiers" class="header-anchor">#</a> Key identifiers {#key_identifiers}</h3> <p>Extended keys can be identified by the Hash160 (RIPEMD160 after SHA256)
+of the serialized ECDSA public key K, ignoring the chain code. This
+corresponds exactly to the data used in traditional Bitcoin addresses.
+It is not advised to represent this data in base58 format though, as it
+may be interpreted as an address that way (and wallet software is not
+required to accept payment to the chain key itself).</p> <p>The first 32 bits of the identifier are called the key fingerprint.</p> <h3 id="serialization-format-serialization-format"><a href="#serialization-format-serialization-format" class="header-anchor">#</a> Serialization format {#serialization_format}</h3> <p>Extended public and private keys are serialized as follows:</p> <ul><li>4 byte: version bytes (mainnet: 0x0488B21E public, 0x0488ADE4
+private; testnet: 0x043587CF public, 0x04358394 private)</li> <li>1 byte: depth: 0x00 for master nodes, 0x01 for level-1 derived keys,
+....</li> <li>4 bytes: the fingerprint of the parent's key (0x00000000 if master
+key)</li> <li>4 bytes: child number. This is ser~32~(i) for i in x~i~ = x~par~/i,
+with x~i~ the key being serialized. (0x00000000 if master key)</li> <li>32 bytes: the chain code</li> <li>33 bytes: the public key or private key data (ser~P~(K) for public
+keys, 0x00 || ser~256~(k) for private keys)</li></ul> <p>This 78 byte structure can be encoded like other Bitcoin data in Base58,
+by first adding 32 checksum bits (derived from the double SHA-256
+checksum), and then converting to the Base58 representation. This
+results in a Base58-encoded string of up to 112 characters. Because of
+the choice of the version bytes, the Base58 representation will start
+with &quot;xprv&quot; or &quot;xpub&quot; on mainnet, &quot;tprv&quot; or &quot;tpub&quot; on testnet.</p> <p>Note that the fingerprint of the parent only serves as a fast way to
+detect parent and child nodes in software, and software must be willing
+to deal with collisions. Internally, the full 160-bit identifier could
+be used.</p> <p>When importing a serialized extended public key, implementations must
+verify whether the X coordinate in the public key data corresponds to a
+point on the curve. If not, the extended public key is invalid.</p> <h3 id="master-key-generation-master-key-generation"><a href="#master-key-generation-master-key-generation" class="header-anchor">#</a> Master key generation {#master_key_generation}</h3> <p>The total number of possible extended keypairs is almost 2^512^, but the
+produced keys are only 256 bits long, and offer about half of that in
+terms of security. Therefore, master keys are not generated directly,
+but instead from a potentially short seed value.</p> <ul><li>Generate a seed byte sequence S of a chosen length (between 128 and
+512 bits; 256 bits is advised) from a (P)RNG.</li> <li>Calculate I = HMAC-SHA512(Key = &quot;Bitcoin seed&quot;, Data = S)</li> <li>Split I into two 32-byte sequences, I~L~ and I~R~.</li> <li>Use parse~256~(I~L~) as master secret key, and I~R~ as master chain
+code.</li></ul> <p>In case I~L~ is 0 or ≥n, the master key is invalid.</p> <p><img src="bip-0032/derivation.png"></p> <h2 id="specification-wallet-structure-specification-wallet-structure"><a href="#specification-wallet-structure-specification-wallet-structure" class="header-anchor">#</a> Specification: Wallet structure {#specification_wallet_structure}</h2> <p>The previous sections specified key trees and their nodes. The next step
+is imposing a wallet structure on this tree. The layout defined in this
+section is a default only, though clients are encouraged to mimic it for
+compatibility, even if not all features are supported.</p> <h3 id="the-default-wallet-layout-the-default-wallet-layout"><a href="#the-default-wallet-layout-the-default-wallet-layout" class="header-anchor">#</a> The default wallet layout {#the_default_wallet_layout}</h3> <p>An HDW is organized as several 'accounts'. Accounts are numbered, the
+default account (&quot;&quot;) being number 0. Clients are not required to
+support more than one account - if not, they only use the default
+account.</p> <p>Each account is composed of two keypair chains: an internal and an
+external one. The external keychain is used to generate new public
+addresses, while the internal keychain is used for all other operations
+(change addresses, generation addresses, ..., anything that doesn't
+need to be communicated). Clients that do not support separate keychains
+for these should use the external one for everything.</p> <ul><li>m/i~H~/0/k corresponds to the k'th keypair of the external chain of
+account number i of the HDW derived from master m.</li> <li>m/i~H~/1/k corresponds to the k'th keypair of the internal chain of
+account number i of the HDW derived from master m.</li></ul> <h3 id="use-cases-use-cases"><a href="#use-cases-use-cases" class="header-anchor">#</a> Use cases {#use_cases}</h3> <h4 id="full-wallet-sharing-m-full-wallet-sharing-m"><a href="#full-wallet-sharing-m-full-wallet-sharing-m" class="header-anchor">#</a> Full wallet sharing: m {#full_wallet_sharing_m}</h4> <p>In cases where two systems need to access a single shared wallet, and
+both need to be able to perform spendings, one needs to share the master
+private extended key. Nodes can keep a pool of N look-ahead keys cached
+for external chains, to watch for incoming payments. The look-ahead for
+internal chains can be very small, as no gaps are to be expected here.
+An extra look-ahead could be active for the first unused account's
+chains - triggering the creation of a new account when used. Note that
+the name of the account will still need to be entered manually and
+cannot be synchronized via the block chain.</p> <h4 id="audits-n-m-audits-nm"><a href="#audits-n-m-audits-nm" class="header-anchor">#</a> Audits: N(m/*) {#audits_nm}</h4> <p>In case an auditor needs full access to the list of incoming and
+outgoing payments, one can share all account public extended keys. This
+will allow the auditor to see all transactions from and to the wallet,
+in all accounts, but not a single secret key.</p> <h4 id="per-office-balances-m-i-h-per-office-balances-mih"><a href="#per-office-balances-m-i-h-per-office-balances-mih" class="header-anchor">#</a> Per-office balances: m/i~H~ {#per_office_balances_mih}</h4> <p>When a business has several independent offices, they can all use
+wallets derived from a single master. This will allow the headquarters
+to maintain a super-wallet that sees all incoming and outgoing
+transactions of all offices, and even permit moving money between the
+offices.</p> <h4 id="recurrent-business-to-business-transactions-n-m-i-h-0-recurrent-business-to-business-transactions-nmih0"><a href="#recurrent-business-to-business-transactions-n-m-i-h-0-recurrent-business-to-business-transactions-nmih0" class="header-anchor">#</a> Recurrent business-to-business transactions: N(m/i~H~/0) {#recurrent_business_to_business_transactions_nmih0}</h4> <p>In case two business partners often transfer money, one can use the
+extended public key for the external chain of a specific account (M/i
+h/0) as a sort of &quot;super address&quot;, allowing frequent transactions that
+cannot (easily) be associated, but without needing to request a new
+address for each payment. Such a mechanism could also be used by mining
+pool operators as variable payout address.</p> <h4 id="unsecure-money-receiver-n-m-i-h-0-unsecure-money-receiver-nmih0"><a href="#unsecure-money-receiver-n-m-i-h-0-unsecure-money-receiver-nmih0" class="header-anchor">#</a> Unsecure money receiver: N(m/i~H~/0) {#unsecure_money_receiver_nmih0}</h4> <p>When an unsecure webserver is used to run an e-commerce site, it needs
+to know public addresses that are used to receive payments. The
+webserver only needs to know the public extended key of the external
+chain of a single account. This means someone illegally obtaining access
+to the webserver can at most see all incoming payments but will not be
+able to steal the money, will not (trivially) be able to distinguish
+outgoing transactions, nor be able to see payments received by other
+webservers if there are several.</p> <h2 id="compatibility"><a href="#compatibility" class="header-anchor">#</a> Compatibility</h2> <p>To comply with this standard, a client must at least be able to import
+an extended public or private key, to give access to its direct
+descendants as wallet keys. The wallet structure
+(master/account/chain/subchain) presented in the second part of the
+specification is advisory only, but is suggested as a minimal structure
+for easy compatibility - even when no separate accounts or distinction
+between internal and external chains is made. However, implementations
+may deviate from it for specific needs; more complex applications may
+call for a more complex tree structure.</p> <h2 id="security"><a href="#security" class="header-anchor">#</a> Security</h2> <p>In addition to the expectations from the EC public-key cryptography
+itself:</p> <ul><li>Given a public key K, an attacker cannot find the corresponding
+private key more efficiently than by solving the EC discrete
+logarithm problem (assumed to require 2^128^ group operations).</li></ul> <p>the intended security properties of this standard are:</p> <ul><li>Given a child extended private key (k~i~,c~i~) and the integer i, an
+attacker cannot find the parent private key k~par~ more efficiently
+than a 2^256^ brute force of HMAC-SHA512.</li> <li>Given any number (2 ≤ N ≤ 2^32^-1) of (index, extended private key)
+tuples (i~j~,(k~i~j~~,c~i~j~~)), with distinct i~j~'s, determining
+whether they are derived from a common parent extended private key
+(i.e., whether there exists a (k~par~,c~par~) such that for each j
+in (0..N-1) CKDpriv((k~par~,c~par~),i~j~)=(k~i~j~~,c~i~j~~)), cannot
+be done more efficiently than a 2^256^ brute force of HMAC-SHA512.</li></ul> <p>Note however that the following properties does not exist:</p> <ul><li>Given a parent extended public key (K~par~,c~par~) and a child
+public key (K~i~), it is hard to find i.</li> <li>Given a parent extended public key (K~par~,c~par~) and a
+non-hardened child private key (k~i~), it is hard to find k~par~.</li></ul> <h3 id="implications"><a href="#implications" class="header-anchor">#</a> Implications</h3> <p>Private and public keys must be kept safe as usual. Leaking a private
+key means access to coins - leaking a public key can mean loss of
+privacy.</p> <p>Somewhat more care must be taken regarding extended keys, as these
+correspond to an entire (sub)tree of keys.</p> <p>One weakness that may not be immediately obvious, is that knowledge of a
+parent extended public key plus any non-hardened private key descending
+from it is equivalent to knowing the parent extended private key (and
+thus every private and public key descending from it). This means that
+extended public keys must be treated more carefully than regular public
+keys. It is also the reason for the existence of hardened keys, and why
+they are used for the account level in the tree. This way, a leak of
+account-specific (or below) private key never risks compromising the
+master or other accounts.</p> <h2 id="test-vectors-test-vectors"><a href="#test-vectors-test-vectors" class="header-anchor">#</a> Test Vectors {#test_vectors}</h2> <h3 id="test-vector-1-test-vector-1"><a href="#test-vector-1-test-vector-1" class="header-anchor">#</a> Test vector 1 {#test_vector_1}</h3> <p>Seed (hex): 000102030405060708090a0b0c0d0e0f</p> <ul><li>Chain m
+<ul><li>ext pub:
+xpub661MyMwAqRbcFtXgS5sYJABqqG9YLmC4Q1Rdap9gSE8NqtwybGhePY2gZ29ESFjqJoCu1Rupje8YtGqsefD265TMg7usUDFdp6W1EGMcet8</li> <li>ext prv:
+xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi</li></ul></li> <li>Chain m/0~H~
+<ul><li>ext pub:
+xpub68Gmy5EdvgibQVfPdqkBBCHxA5htiqg55crXYuXoQRKfDBFA1WEjWgP6LHhwBZeNK1VTsfTFUHCdrfp1bgwQ9xv5ski8PX9rL2dZXvgGDnw</li> <li>ext prv:
+xprv9uHRZZhk6KAJC1avXpDAp4MDc3sQKNxDiPvvkX8Br5ngLNv1TxvUxt4cV1rGL5hj6KCesnDYUhd7oWgT11eZG7XnxHrnYeSvkzY7d2bhkJ7</li></ul></li> <li>Chain m/0~H~/1
+<ul><li>ext pub:
+xpub6ASuArnXKPbfEwhqN6e3mwBcDTgzisQN1wXN9BJcM47sSikHjJf3UFHKkNAWbWMiGj7Wf5uMash7SyYq527Hqck2AxYysAA7xmALppuCkwQ</li> <li>ext prv:
+xprv9wTYmMFdV23N2TdNG573QoEsfRrWKQgWeibmLntzniatZvR9BmLnvSxqu53Kw1UmYPxLgboyZQaXwTCg8MSY3H2EU4pWcQDnRnrVA1xe8fs</li></ul></li> <li>Chain m/0~H~/1/2~H~
+<ul><li>ext pub:
+xpub6D4BDPcP2GT577Vvch3R8wDkScZWzQzMMUm3PWbmWvVJrZwQY4VUNgqFJPMM3No2dFDFGTsxxpG5uJh7n7epu4trkrX7x7DogT5Uv6fcLW5</li> <li>ext prv:
+xprv9z4pot5VBttmtdRTWfWQmoH1taj2axGVzFqSb8C9xaxKymcFzXBDptWmT7FwuEzG3ryjH4ktypQSAewRiNMjANTtpgP4mLTj34bhnZX7UiM</li></ul></li> <li>Chain m/0~H~/1/2~H~/2
+<ul><li>ext pub:
+xpub6FHa3pjLCk84BayeJxFW2SP4XRrFd1JYnxeLeU8EqN3vDfZmbqBqaGJAyiLjTAwm6ZLRQUMv1ZACTj37sR62cfN7fe5JnJ7dh8zL4fiyLHV</li> <li>ext prv:
+xprvA2JDeKCSNNZky6uBCviVfJSKyQ1mDYahRjijr5idH2WwLsEd4Hsb2Tyh8RfQMuPh7f7RtyzTtdrbdqqsunu5Mm3wDvUAKRHSC34sJ7in334</li></ul></li> <li>Chain m/0~H~/1/2~H~/2/1000000000
+<ul><li>ext pub:
+xpub6H1LXWLaKsWFhvm6RVpEL9P4KfRZSW7abD2ttkWP3SSQvnyA8FSVqNTEcYFgJS2UaFcxupHiYkro49S8yGasTvXEYBVPamhGW6cFJodrTHy</li> <li>ext prv:
+xprvA41z7zogVVwxVSgdKUHDy1SKmdb533PjDz7J6N6mV6uS3ze1ai8FHa8kmHScGpWmj4WggLyQjgPie1rFSruoUihUZREPSL39UNdE3BBDu76</li></ul></li></ul> <h3 id="test-vector-2-test-vector-2"><a href="#test-vector-2-test-vector-2" class="header-anchor">#</a> Test vector 2 {#test_vector_2}</h3> <p>Seed (hex):
+fffcf9f6f3f0edeae7e4e1dedbd8d5d2cfccc9c6c3c0bdbab7b4b1aeaba8a5a29f9c999693908d8a8784817e7b7875726f6c696663605d5a5754514e4b484542</p> <ul><li>Chain m
+<ul><li>ext pub:
+xpub661MyMwAqRbcFW31YEwpkMuc5THy2PSt5bDMsktWQcFF8syAmRUapSCGu8ED9W6oDMSgv6Zz8idoc4a6mr8BDzTJY47LJhkJ8UB7WEGuduB</li> <li>ext prv:
+xprv9s21ZrQH143K31xYSDQpPDxsXRTUcvj2iNHm5NUtrGiGG5e2DtALGdso3pGz6ssrdK4PFmM8NSpSBHNqPqm55Qn3LqFtT2emdEXVYsCzC2U</li></ul></li> <li>Chain m/0
+<ul><li>ext pub:
+xpub69H7F5d8KSRgmmdJg2KhpAK8SR3DjMwAdkxj3ZuxV27CprR9LgpeyGmXUbC6wb7ERfvrnKZjXoUmmDznezpbZb7ap6r1D3tgFxHmwMkQTPH</li> <li>ext prv:
+xprv9vHkqa6EV4sPZHYqZznhT2NPtPCjKuDKGY38FBWLvgaDx45zo9WQRUT3dKYnjwih2yJD9mkrocEZXo1ex8G81dwSM1fwqWpWkeS3v86pgKt</li></ul></li> <li>Chain m/0/2147483647~H~
+<ul><li>ext pub:
+xpub6ASAVgeehLbnwdqV6UKMHVzgqAG8Gr6riv3Fxxpj8ksbH9ebxaEyBLZ85ySDhKiLDBrQSARLq1uNRts8RuJiHjaDMBU4Zn9h8LZNnBC5y4a</li> <li>ext prv:
+xprv9wSp6B7kry3Vj9m1zSnLvN3xH8RdsPP1Mh7fAaR7aRLcQMKTR2vidYEeEg2mUCTAwCd6vnxVrcjfy2kRgVsFawNzmjuHc2YmYRmagcEPdU9</li></ul></li> <li>Chain m/0/2147483647~H~/1
+<ul><li>ext pub:
+xpub6DF8uhdarytz3FWdA8TvFSvvAh8dP3283MY7p2V4SeE2wyWmG5mg5EwVvmdMVCQcoNJxGoWaU9DCWh89LojfZ537wTfunKau47EL2dhHKon</li> <li>ext prv:
+xprv9zFnWC6h2cLgpmSA46vutJzBcfJ8yaJGg8cX1e5StJh45BBciYTRXSd25UEPVuesF9yog62tGAQtHjXajPPdbRCHuWS6T8XA2ECKADdw4Ef</li></ul></li> <li>Chain m/0/2147483647~H~/1/2147483646~H~
+<ul><li>ext pub:
+xpub6ERApfZwUNrhLCkDtcHTcxd75RbzS1ed54G1LkBUHQVHQKqhMkhgbmJbZRkrgZw4koxb5JaHWkY4ALHY2grBGRjaDMzQLcgJvLJuZZvRcEL</li> <li>ext prv:
+xprvA1RpRA33e1JQ7ifknakTFpgNXPmW2YvmhqLQYMmrj4xJXXWYpDPS3xz7iAxn8L39njGVyuoseXzU6rcxFLJ8HFsTjSyQbLYnMpCqE2VbFWc</li></ul></li> <li>Chain m/0/2147483647~H~/1/2147483646~H~/2
+<ul><li>ext pub:
+xpub6FnCn6nSzZAw5Tw7cgR9bi15UV96gLZhjDstkXXxvCLsUXBGXPdSnLFbdpq8p9HmGsApME5hQTZ3emM2rnY5agb9rXpVGyy3bdW6EEgAtqt</li> <li>ext prv:
+xprvA2nrNbFZABcdryreWet9Ea4LvTJcGsqrMzxHx98MMrotbir7yrKCEXw7nadnHM8Dq38EGfSh6dqA9QWTyefMLEcBYJUuekgW4BYPJcr9E7j</li></ul></li></ul> <h3 id="test-vector-3-test-vector-3"><a href="#test-vector-3-test-vector-3" class="header-anchor">#</a> Test vector 3 {#test_vector_3}</h3> <p>These vectors test for the retention of leading zeros. See
+<a href="https://github.com/bitpay/bitcore-lib/issues/47" target="_blank" rel="noopener noreferrer">bitpay/bitcore-lib#47<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+and
+<a href="https://github.com/iancoleman/bip39/issues/58" target="_blank" rel="noopener noreferrer">iancoleman/bip39#58<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+for more information.</p> <p>Seed (hex):
+4b381541583be4423346c643850da4b320e46a87ae3d2a4e6da11eba819cd4acba45d239319ac14f863b8d5ab5a0d0c64d2e8a1e7d1457df2e5a3c51c73235be</p> <ul><li>Chain m
+<ul><li>ext pub:
+xpub661MyMwAqRbcEZVB4dScxMAdx6d4nFc9nvyvH3v4gJL378CSRZiYmhRoP7mBy6gSPSCYk6SzXPTf3ND1cZAceL7SfJ1Z3GC8vBgp2epUt13</li> <li>ext prv:
+xprv9s21ZrQH143K25QhxbucbDDuQ4naNntJRi4KUfWT7xo4EKsHt2QJDu7KXp1A3u7Bi1j8ph3EGsZ9Xvz9dGuVrtHHs7pXeTzjuxBrCmmhgC6</li></ul></li> <li>Chain m/0~H~
+<ul><li>ext pub:
+xpub68NZiKmJWnxxS6aaHmn81bvJeTESw724CRDs6HbuccFQN9Ku14VQrADWgqbhhTHBaohPX4CjNLf9fq9MYo6oDaPPLPxSb7gwQN3ih19Zm4Y</li> <li>ext prv:
+xprv9uPDJpEQgRQfDcW7BkF7eTya6RPxXeJCqCJGHuCJ4GiRVLzkTXBAJMu2qaMWPrS7AANYqdq6vcBcBUdJCVVFceUvJFjaPdGZ2y9WACViL4L</li></ul></li></ul> <h2 id="acknowledgements"><a href="#acknowledgements" class="header-anchor">#</a> Acknowledgements</h2> <ul><li>Gregory Maxwell for the original idea of type-2 deterministic
+wallets, and many discussions about it.</li> <li>Alan Reiner for the implementation of this scheme in Armory, and the
+suggestions that followed from that.</li> <li>Eric Lombrozo for reviewing and revising this BIP.</li> <li>Mike Caldwell for the version bytes to obtain human-recognizable
+Base58 strings.</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bitcoindocs/bips/16.html" class="prev">
+        16
+      </a></span> <span class="next"><a href="/bitcoindocs/bips/39.html">
+        39
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bitcoindocs/assets/js/app.c31d8641.js" defer></script><script src="/bitcoindocs/assets/js/2.b78a9106.js" defer></script><script src="/bitcoindocs/assets/js/81.b70d3d0d.js" defer></script>
+  </body>
+</html>

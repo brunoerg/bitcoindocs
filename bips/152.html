@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>152 | Bitcoin Docs</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bitcoin.png">
+    <link rel="mask-icon" href="bitcoin.png" color="#3a0839">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="bitcoin.png">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#ff7e00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css" as="style"><link rel="preload" href="/bitcoindocs/assets/js/app.c31d8641.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/2.b78a9106.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/59.01f56552.js" as="script"><link rel="prefetch" href="/bitcoindocs/assets/js/10.68a64a6d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/100.bd554273.js"><link rel="prefetch" href="/bitcoindocs/assets/js/101.df38dcc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/102.3bf2a9d4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/103.d879654a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/104.fcff9e3b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/105.324f3006.js"><link rel="prefetch" href="/bitcoindocs/assets/js/106.b8b3ca20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/107.4a9863c3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/108.e93a5196.js"><link rel="prefetch" href="/bitcoindocs/assets/js/109.e770824e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/11.f67301bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/110.72ba2ba4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/111.a33eb12f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/112.ecf1c295.js"><link rel="prefetch" href="/bitcoindocs/assets/js/113.85f94e5b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/114.c79655f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/115.3940b629.js"><link rel="prefetch" href="/bitcoindocs/assets/js/116.9ead4ccc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/117.d4b75110.js"><link rel="prefetch" href="/bitcoindocs/assets/js/118.87575c0c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/119.65af5cbd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/12.fc1e786f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/120.99826b18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/121.608c453c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/122.b24765eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/123.64680142.js"><link rel="prefetch" href="/bitcoindocs/assets/js/124.4b4f9bc2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/125.0e07a49d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/126.be3bae0f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/127.3d041c50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/128.5feda1e3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/129.307399ad.js"><link rel="prefetch" href="/bitcoindocs/assets/js/13.47ba1b02.js"><link rel="prefetch" href="/bitcoindocs/assets/js/130.0659f005.js"><link rel="prefetch" href="/bitcoindocs/assets/js/131.69a612f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/132.b51e17e2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/133.7bb492d9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/134.0f7e8787.js"><link rel="prefetch" href="/bitcoindocs/assets/js/135.e2504a16.js"><link rel="prefetch" href="/bitcoindocs/assets/js/136.8b6c7216.js"><link rel="prefetch" href="/bitcoindocs/assets/js/137.e38fc5b2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/138.095843e4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/139.4a5e77fb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/14.42b93c7a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/140.f517d934.js"><link rel="prefetch" href="/bitcoindocs/assets/js/141.7a6497c0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/142.8ae1c029.js"><link rel="prefetch" href="/bitcoindocs/assets/js/143.2fadb8ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/144.a64d8f22.js"><link rel="prefetch" href="/bitcoindocs/assets/js/145.1b1fa851.js"><link rel="prefetch" href="/bitcoindocs/assets/js/146.a59efe37.js"><link rel="prefetch" href="/bitcoindocs/assets/js/147.a0a8fc92.js"><link rel="prefetch" href="/bitcoindocs/assets/js/148.e177254d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/149.88223d18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/15.cdd298ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/150.c07e2220.js"><link rel="prefetch" href="/bitcoindocs/assets/js/151.843c50f7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/152.4f34674a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/153.c2ba1434.js"><link rel="prefetch" href="/bitcoindocs/assets/js/154.dec4842c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/155.ecd7b99f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/156.55d078d3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/157.44501232.js"><link rel="prefetch" href="/bitcoindocs/assets/js/158.79220932.js"><link rel="prefetch" href="/bitcoindocs/assets/js/159.33765ed3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/16.4c7eeecf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/160.ea470a70.js"><link rel="prefetch" href="/bitcoindocs/assets/js/161.2dc38d81.js"><link rel="prefetch" href="/bitcoindocs/assets/js/162.a27303c6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/163.31e293c1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/164.fca747d6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/165.52456cdd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/166.c2464f79.js"><link rel="prefetch" href="/bitcoindocs/assets/js/167.25467097.js"><link rel="prefetch" href="/bitcoindocs/assets/js/168.92664946.js"><link rel="prefetch" href="/bitcoindocs/assets/js/169.df73d115.js"><link rel="prefetch" href="/bitcoindocs/assets/js/17.b107683f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/170.08fb6e7e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/171.ba749017.js"><link rel="prefetch" href="/bitcoindocs/assets/js/172.c92581cb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/173.1fce2c58.js"><link rel="prefetch" href="/bitcoindocs/assets/js/174.34c08943.js"><link rel="prefetch" href="/bitcoindocs/assets/js/175.0f3c7a0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/176.36c2e712.js"><link rel="prefetch" href="/bitcoindocs/assets/js/177.15027195.js"><link rel="prefetch" href="/bitcoindocs/assets/js/178.a42c47f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/179.e9af4276.js"><link rel="prefetch" href="/bitcoindocs/assets/js/18.608ae665.js"><link rel="prefetch" href="/bitcoindocs/assets/js/180.48a51584.js"><link rel="prefetch" href="/bitcoindocs/assets/js/181.cc255bc5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/182.64362e5e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/183.256b3077.js"><link rel="prefetch" href="/bitcoindocs/assets/js/184.3139561e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/185.5af948dd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/19.8b76fc9c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/20.122a4ef0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/21.1f8a8820.js"><link rel="prefetch" href="/bitcoindocs/assets/js/22.eb68688b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/23.9e751fd9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/24.72ecb396.js"><link rel="prefetch" href="/bitcoindocs/assets/js/25.ad100f49.js"><link rel="prefetch" href="/bitcoindocs/assets/js/26.654fcf2f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/27.fdb46ea9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/28.b28d1103.js"><link rel="prefetch" href="/bitcoindocs/assets/js/29.979a7705.js"><link rel="prefetch" href="/bitcoindocs/assets/js/3.0ccb3eb1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/30.27ab6b09.js"><link rel="prefetch" href="/bitcoindocs/assets/js/31.0b51055d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/32.e5d3f476.js"><link rel="prefetch" href="/bitcoindocs/assets/js/33.5325af50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/34.6cc1e8e6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/35.4f93edf4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/36.56c4b763.js"><link rel="prefetch" href="/bitcoindocs/assets/js/37.d7fc3cc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/38.ba47e0be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/39.a4948230.js"><link rel="prefetch" href="/bitcoindocs/assets/js/4.f750dbd8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/40.13f04ebc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/41.efba2874.js"><link rel="prefetch" href="/bitcoindocs/assets/js/42.71cd6fcf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/43.3dd10508.js"><link rel="prefetch" href="/bitcoindocs/assets/js/44.0e0f5018.js"><link rel="prefetch" href="/bitcoindocs/assets/js/45.4e467a20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/46.fbc682be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/47.79e3cde6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/48.36d1a4f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/49.5c861a4e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/5.8f3d1a69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/50.0c7609ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/51.6497b8ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/52.6fef223e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/53.dc5dd169.js"><link rel="prefetch" href="/bitcoindocs/assets/js/54.560108ca.js"><link rel="prefetch" href="/bitcoindocs/assets/js/55.a09c65a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/56.f7f7c539.js"><link rel="prefetch" href="/bitcoindocs/assets/js/57.3b3dfb34.js"><link rel="prefetch" href="/bitcoindocs/assets/js/58.1048b51d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/6.ea542132.js"><link rel="prefetch" href="/bitcoindocs/assets/js/60.1e424058.js"><link rel="prefetch" href="/bitcoindocs/assets/js/61.6d4493b3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/62.849c30d7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/63.0c6aaa64.js"><link rel="prefetch" href="/bitcoindocs/assets/js/64.0d99b925.js"><link rel="prefetch" href="/bitcoindocs/assets/js/65.d60db57e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/66.c6c02735.js"><link rel="prefetch" href="/bitcoindocs/assets/js/67.c0c64c59.js"><link rel="prefetch" href="/bitcoindocs/assets/js/68.99f833eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/69.88769157.js"><link rel="prefetch" href="/bitcoindocs/assets/js/7.474d9a1c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/70.0a746051.js"><link rel="prefetch" href="/bitcoindocs/assets/js/71.9847fc9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/72.8e04fa9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/73.772916a2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/74.9663297b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/75.66154da0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/76.358626cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/77.8eafda69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/78.782695f1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/79.99523f6b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/8.7a9d23a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/80.2c556ea8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/81.b70d3d0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/82.f0c621cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/83.13117f68.js"><link rel="prefetch" href="/bitcoindocs/assets/js/84.2361b62a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/85.e8f23ad0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/86.eab303cd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/87.a547f760.js"><link rel="prefetch" href="/bitcoindocs/assets/js/88.3c748686.js"><link rel="prefetch" href="/bitcoindocs/assets/js/89.6b7de962.js"><link rel="prefetch" href="/bitcoindocs/assets/js/9.6e1ca0bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/90.0907331e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/91.fe47eeeb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/92.f4c67fe3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/93.efdc2e47.js"><link rel="prefetch" href="/bitcoindocs/assets/js/94.b7862723.js"><link rel="prefetch" href="/bitcoindocs/assets/js/95.06e410a5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/96.0cc67031.js"><link rel="prefetch" href="/bitcoindocs/assets/js/97.b9460d90.js"><link rel="prefetch" href="/bitcoindocs/assets/js/98.0689894c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/99.f18fe9ac.js">
+    <link rel="stylesheet" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bitcoindocs/" class="home-link router-link-active"><!----> <span class="site-name">Bitcoin Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>BIPs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bitcoindocs/bips/" aria-current="page" class="sidebar-link">Bitcoin Improvement Proposals</a></li><li><a href="/bitcoindocs/bips/1.html" class="sidebar-link">1</a></li><li><a href="/bitcoindocs/bips/2.html" class="sidebar-link">2</a></li><li><a href="/bitcoindocs/bips/8.html" class="sidebar-link">8</a></li><li><a href="/bitcoindocs/bips/9.html" class="sidebar-link">9</a></li><li><a href="/bitcoindocs/bips/16.html" class="sidebar-link">16</a></li><li><a href="/bitcoindocs/bips/32.html" class="sidebar-link">32</a></li><li><a href="/bitcoindocs/bips/39.html" class="sidebar-link">39</a></li><li><a href="/bitcoindocs/bips/42.html" class="sidebar-link">42</a></li><li><a href="/bitcoindocs/bips/43.html" class="sidebar-link">43</a></li><li><a href="/bitcoindocs/bips/44.html" class="sidebar-link">44</a></li><li><a href="/bitcoindocs/bips/45.html" class="sidebar-link">45</a></li><li><a href="/bitcoindocs/bips/47.html" class="sidebar-link">47</a></li><li><a href="/bitcoindocs/bips/49.html" class="sidebar-link">49</a></li><li><a href="/bitcoindocs/bips/50.html" class="sidebar-link">50</a></li><li><a href="/bitcoindocs/bips/60.html" class="sidebar-link">60</a></li><li><a href="/bitcoindocs/bips/61.html" class="sidebar-link">61</a></li><li><a href="/bitcoindocs/bips/62.html" class="sidebar-link">62</a></li><li><a href="/bitcoindocs/bips/64.html" class="sidebar-link">64</a></li><li><a href="/bitcoindocs/bips/65.html" class="sidebar-link">65</a></li><li><a href="/bitcoindocs/bips/66.html" class="sidebar-link">66</a></li><li><a href="/bitcoindocs/bips/67.html" class="sidebar-link">67</a></li><li><a href="/bitcoindocs/bips/68.html" class="sidebar-link">68</a></li><li><a href="/bitcoindocs/bips/69.html" class="sidebar-link">69</a></li><li><a href="/bitcoindocs/bips/70.html" class="sidebar-link">70</a></li><li><a href="/bitcoindocs/bips/71.html" class="sidebar-link">71</a></li><li><a href="/bitcoindocs/bips/72.html" class="sidebar-link">72</a></li><li><a href="/bitcoindocs/bips/73.html" class="sidebar-link">73</a></li><li><a href="/bitcoindocs/bips/74.html" class="sidebar-link">74</a></li><li><a href="/bitcoindocs/bips/75.html" class="sidebar-link">75</a></li><li><a href="/bitcoindocs/bips/78.html" class="sidebar-link">78</a></li><li><a href="/bitcoindocs/bips/79.html" class="sidebar-link">79</a></li><li><a href="/bitcoindocs/bips/80.html" class="sidebar-link">80</a></li><li><a href="/bitcoindocs/bips/81.html" class="sidebar-link">81</a></li><li><a href="/bitcoindocs/bips/83.html" class="sidebar-link">83</a></li><li><a href="/bitcoindocs/bips/84.html" class="sidebar-link">84</a></li><li><a href="/bitcoindocs/bips/85.html" class="sidebar-link">85</a></li><li><a href="/bitcoindocs/bips/90.html" class="sidebar-link">90</a></li><li><a href="/bitcoindocs/bips/91.html" class="sidebar-link">91</a></li><li><a href="/bitcoindocs/bips/98.html" class="sidebar-link">98</a></li><li><a href="/bitcoindocs/bips/99.html" class="sidebar-link">99</a></li><li><a href="/bitcoindocs/bips/100.html" class="sidebar-link">100</a></li><li><a href="/bitcoindocs/bips/101.html" class="sidebar-link">101</a></li><li><a href="/bitcoindocs/bips/102.html" class="sidebar-link">102</a></li><li><a href="/bitcoindocs/bips/103.html" class="sidebar-link">103</a></li><li><a href="/bitcoindocs/bips/104.html" class="sidebar-link">104</a></li><li><a href="/bitcoindocs/bips/105.html" class="sidebar-link">105</a></li><li><a href="/bitcoindocs/bips/106.html" class="sidebar-link">106</a></li><li><a href="/bitcoindocs/bips/107.html" class="sidebar-link">107</a></li><li><a href="/bitcoindocs/bips/109.html" class="sidebar-link">109</a></li><li><a href="/bitcoindocs/bips/111.html" class="sidebar-link">111</a></li><li><a href="/bitcoindocs/bips/112.html" class="sidebar-link">112</a></li><li><a href="/bitcoindocs/bips/113.html" class="sidebar-link">113</a></li><li><a href="/bitcoindocs/bips/114.html" class="sidebar-link">114</a></li><li><a href="/bitcoindocs/bips/115.html" class="sidebar-link">115</a></li><li><a href="/bitcoindocs/bips/116.html" class="sidebar-link">116</a></li><li><a href="/bitcoindocs/bips/117.html" class="sidebar-link">117</a></li><li><a href="/bitcoindocs/bips/118.html" class="sidebar-link">118</a></li><li><a href="/bitcoindocs/bips/119.html" class="sidebar-link">119</a></li><li><a href="/bitcoindocs/bips/120.html" class="sidebar-link">120</a></li><li><a href="/bitcoindocs/bips/121.html" class="sidebar-link">121</a></li><li><a href="/bitcoindocs/bips/122.html" class="sidebar-link">122</a></li><li><a href="/bitcoindocs/bips/123.html" class="sidebar-link">123</a></li><li><a href="/bitcoindocs/bips/124.html" class="sidebar-link">124</a></li><li><a href="/bitcoindocs/bips/125.html" class="sidebar-link">125</a></li><li><a href="/bitcoindocs/bips/126.html" class="sidebar-link">126</a></li><li><a href="/bitcoindocs/bips/127.html" class="sidebar-link">127</a></li><li><a href="/bitcoindocs/bips/130.html" class="sidebar-link">130</a></li><li><a href="/bitcoindocs/bips/131.html" class="sidebar-link">131</a></li><li><a href="/bitcoindocs/bips/132.html" class="sidebar-link">132</a></li><li><a href="/bitcoindocs/bips/133.html" class="sidebar-link">133</a></li><li><a href="/bitcoindocs/bips/134.html" class="sidebar-link">134</a></li><li><a href="/bitcoindocs/bips/135.html" class="sidebar-link">135</a></li><li><a href="/bitcoindocs/bips/136.html" class="sidebar-link">136</a></li><li><a href="/bitcoindocs/bips/137.html" class="sidebar-link">137</a></li><li><a href="/bitcoindocs/bips/140.html" class="sidebar-link">140</a></li><li><a href="/bitcoindocs/bips/141.html" class="sidebar-link">141</a></li><li><a href="/bitcoindocs/bips/142.html" class="sidebar-link">142</a></li><li><a href="/bitcoindocs/bips/143.html" class="sidebar-link">143</a></li><li><a href="/bitcoindocs/bips/144.html" class="sidebar-link">144</a></li><li><a href="/bitcoindocs/bips/145.html" class="sidebar-link">145</a></li><li><a href="/bitcoindocs/bips/146.html" class="sidebar-link">146</a></li><li><a href="/bitcoindocs/bips/147.html" class="sidebar-link">147</a></li><li><a href="/bitcoindocs/bips/148.html" class="sidebar-link">148</a></li><li><a href="/bitcoindocs/bips/149.html" class="sidebar-link">149</a></li><li><a href="/bitcoindocs/bips/150.html" class="sidebar-link">150</a></li><li><a href="/bitcoindocs/bips/151.html" class="sidebar-link">151</a></li><li><a href="/bitcoindocs/bips/152.html" aria-current="page" class="active sidebar-link">152</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#abstract" class="sidebar-link">Abstract</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#motivation" class="sidebar-link">Motivation</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#specification-for-version-1-specification-for-version-1" class="sidebar-link">Specification for version 1 {#specificationforversion_1}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#protocol-versioning-protocol-versioning" class="sidebar-link">Protocol Versioning {#protocol_versioning}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#specification-for-version-2-specification-for-version-2" class="sidebar-link">Specification for version 2 {#specificationforversion_2}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#implementation-notes-implementation-notes" class="sidebar-link">Implementation Notes {#implementation_notes}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#justification" class="sidebar-link">Justification</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#backward-compatibility-backward-compatibility" class="sidebar-link">Backward compatibility {#backward_compatibility}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#implementation" class="sidebar-link">Implementation</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#acknowledgements" class="sidebar-link">Acknowledgements</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/152.html#copyright" class="sidebar-link">Copyright</a></li></ul></li><li><a href="/bitcoindocs/bips/154.html" class="sidebar-link">154</a></li><li><a href="/bitcoindocs/bips/155.html" class="sidebar-link">155</a></li><li><a href="/bitcoindocs/bips/156.html" class="sidebar-link">156</a></li><li><a href="/bitcoindocs/bips/157.html" class="sidebar-link">157</a></li><li><a href="/bitcoindocs/bips/158.html" class="sidebar-link">158</a></li><li><a href="/bitcoindocs/bips/159.html" class="sidebar-link">159</a></li><li><a href="/bitcoindocs/bips/171.html" class="sidebar-link">171</a></li><li><a href="/bitcoindocs/bips/173.html" class="sidebar-link">173</a></li><li><a href="/bitcoindocs/bips/174.html" class="sidebar-link">174</a></li><li><a href="/bitcoindocs/bips/175.html" class="sidebar-link">175</a></li><li><a href="/bitcoindocs/bips/176.html" class="sidebar-link">176</a></li><li><a href="/bitcoindocs/bips/178.html" class="sidebar-link">178</a></li><li><a href="/bitcoindocs/bips/179.html" class="sidebar-link">179</a></li><li><a href="/bitcoindocs/bips/180.html" class="sidebar-link">180</a></li><li><a href="/bitcoindocs/bips/197.html" class="sidebar-link">197</a></li><li><a href="/bitcoindocs/bips/199.html" class="sidebar-link">199</a></li><li><a href="/bitcoindocs/bips/300.html" class="sidebar-link">300</a></li><li><a href="/bitcoindocs/bips/301.html" class="sidebar-link">301</a></li><li><a href="/bitcoindocs/bips/310.html" class="sidebar-link">310</a></li><li><a href="/bitcoindocs/bips/320.html" class="sidebar-link">320</a></li><li><a href="/bitcoindocs/bips/322.html" class="sidebar-link">322</a></li><li><a href="/bitcoindocs/bips/325.html" class="sidebar-link">325</a></li><li><a href="/bitcoindocs/bips/339.html" class="sidebar-link">339</a></li><li><a href="/bitcoindocs/bips/340.html" class="sidebar-link">340</a></li><li><a href="/bitcoindocs/bips/341.html" class="sidebar-link">341</a></li><li><a href="/bitcoindocs/bips/342.html" class="sidebar-link">342</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_152"><a href="#_152" class="header-anchor">#</a> 152</h1> <div class="language- extra-class"><pre><code>  BIP: 152
+  Layer: Peer Services
+  Title: Compact Block Relay
+  Author: Matt Corallo &lt;bip152@bluematt.me&gt;
+  Comments-Summary: Unanimously Recommended for implementation
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0152
+  Status: Final
+  Type: Standards Track
+  Created: 2016-04-27
+  License: PD
+</code></pre></div><h2 id="abstract"><a href="#abstract" class="header-anchor">#</a> Abstract</h2> <p>Compact blocks on the wire as a way to save bandwidth for nodes on the
+P2P network.</p> <p>The key words &quot;MUST&quot;, &quot;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL
+NOT&quot;, &quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;, &quot;MAY&quot;, and
+&quot;OPTIONAL&quot; in this document are to be interpreted as described in RFC
+2119.</p> <h2 id="motivation"><a href="#motivation" class="header-anchor">#</a> Motivation</h2> <p>Historically, the Bitcoin P2P protocol has not been very bandwidth
+efficient for block relay. Every transaction in a block is included when
+relayed, even though a large number of the transactions in a given block
+are already available to nodes before the block is relayed. This causes
+moderate inbound bandwidth spikes for nodes when receiving blocks, but
+can cause very significant outbound bandwidth spikes for some nodes
+which receive a block before their peers. When such spikes occur, buffer
+bloat can make consumer-grade internet connections temporarily unusable,
+and can delay the relay of blocks to remote peers who may choose to wait
+instead of redundantly requesting the same block from other, less
+congested, peers.</p> <p>Thus, decreasing the bandwidth used during block relay is very useful
+for many individuals running nodes.</p> <p>While the goal of this work is explicitly not to reduce block transfer
+latency, it does, as a side effect reduce block transfer latencies in
+some rather significant ways. Additionally, this work forms a foundation
+for future work explicitly targeting low-latency block transfer.</p> <h2 id="specification-for-version-1-specification-for-version-1"><a href="#specification-for-version-1-specification-for-version-1" class="header-anchor">#</a> Specification for version 1 {#specification_for_version_1}</h2> <h3 id="intended-protocol-flow-intended-protocol-flow"><a href="#intended-protocol-flow-intended-protocol-flow" class="header-anchor">#</a> Intended Protocol Flow {#intended_protocol_flow}</h3> <p><code>&lt;img src=bip-0152/protocol-flow.png&gt;</code> <code>&lt;/img&gt;</code></p> <p>The protocol is intended to be used in two ways, depending on the peers
+and bandwidth available, as discussed
+<a href="#Implementation_Notes" title="wikilink">later</a>. The &quot;high-bandwidth&quot; mode,
+which nodes may only enable for a few of their peers, is enabled by
+setting the first boolean to 1 in a <code>sendcmpct</code> message. In this mode,
+peers send new block announcements with the short transaction IDs
+already (via a <code>cmpctblock</code> message), possibly even before fully
+validating the block (as indicated by the grey box in the image above).
+In some cases no further round-trip is needed, and the receiver can
+reconstruct the block and process it as usual immediately. When some
+transactions were not available from local sources (ie mempool), a
+<code>getblocktxn</code>/<code>blocktxn</code> roundtrip is necessary, bringing the best-case
+latency to the same 1.5*RTT minimum time that nodes take today, though
+with significantly less bandwidth usage.</p> <p>The &quot;low-bandwidth&quot; mode is enabled by setting the first boolean to 0
+in a <code>sendcmpct</code> message. In this mode, peers send new block
+announcements with the usual inv/headers announcements (as per BIP130,
+and after fully validating the block). The receiving peer may then
+request the block using a MSG_CMPCT_BLOCK <code>getdata</code> request, which will
+receive a response of the header and short transaction IDs. In some
+cases no further round-trip is needed, and the receiver can reconstruct
+the block and process it as usual, taking the same 1.5*RTT minimum time
+that nodes take today, though with significantly less bandwidth usage.
+When some transactions were not available from local sources (ie
+mempool), a <code>getblocktxn</code>/<code>blocktxn</code> roundtrip is necessary, bringing
+the latency to at least 2.5*RTT in this case, again with significantly
+less bandwidth usage than today. Because TCP often exhibits worse
+transfer latency for larger data sizes (as a multiple of RTT), total
+latency is expected to be reduced even when the full 2.5*RTT transfer
+mechanism is used.</p> <h3 id="new-data-structures-new-data-structures"><a href="#new-data-structures-new-data-structures" class="header-anchor">#</a> New data structures {#new_data_structures}</h3> <p>Several new data structures are added to the P2P network to relay
+compact blocks: PrefilledTransaction, HeaderAndShortIDs,
+BlockTransactionsRequest, and BlockTransactions.</p> <p>For the purposes of this section, CompactSize refers to the
+variable-length integer encoding used across the existing P2P protocol
+to encode array lengths, among other things, in 1, 3, 5 or 9 bytes. Only
+CompactSize encodings which are minimally-encoded (ie the shortest
+length possible) are used by this spec. Any other CompactSize encodings
+are left with undefined behavior.</p> <p>Several uses of CompactSize below are &quot;differentially encoded&quot;. For
+these, instead of using raw indexes, the number encoded is the
+difference between the current index and the previous index, minus one.
+For example, a first index of 0 implies a real index of 0, a second
+index of 0 thereafter refers to a real index of 1, etc.</p> <h4 id="prefilledtransaction"><a href="#prefilledtransaction" class="header-anchor">#</a> PrefilledTransaction</h4> <p>A PrefilledTransaction structure is used in HeaderAndShortIDs to provide
+a list of a few transactions explicitly.</p> <hr> <p>Field Name   Type          Size         Encoding                                                                             Purpose
+index        CompactSize   1, 3 bytes   Compact Size, differentially encoded since the last PrefilledTransaction in a list   The index into the block at which this transaction is
+tx           Transaction   variable     As encoded in &quot;tx&quot; messages sent in response to getdata MSG_TX                     The transaction which is in the block at index index.</p> <hr> <h4 id="headerandshortids"><a href="#headerandshortids" class="header-anchor">#</a> HeaderAndShortIDs</h4> <p>A HeaderAndShortIDs structure is used to relay a block header, the short
+transactions IDs used for matching already-available transactions, and a
+select few transactions which we expect a peer may be missing.</p> <hr> <p>Field Name            Type                            Size                                 Encoding                                                                            Purpose
+header                Block header                    80 bytes                             First 80 bytes of the block as defined by the encoding used by &quot;block&quot; messages   The header of the block being provided
+nonce                 uint64_t                        8 bytes                              Little Endian                                                                       A nonce for use in short transaction ID calculations
+shortids_length       CompactSize                     1 or 3 bytes                         As used to encode array lengths elsewhere<br>
+shortids              List of 6-byte integers         6*shortids_length bytes             Little Endian                                                                       The short transaction IDs calculated from the transactions which were not provided explicitly in prefilledtxn
+prefilledtxn_length   CompactSize                     1 or 3 bytes                         As used to encode array lengths elsewhere<br>
+prefilledtxn          List of PrefilledTransactions   variable size*prefilledtxn_length   As defined by PrefilledTransaction definition, above                                Used to provide the coinbase transaction and a select few which we expect a peer may be missing</p> <hr> <h4 id="blocktransactionsrequest"><a href="#blocktransactionsrequest" class="header-anchor">#</a> BlockTransactionsRequest</h4> <p>A BlockTransactionsRequest structure is used to list transaction indexes
+in a block being requested.</p> <hr> <p>Field Name       Type                   Size                           Encoding                                                                 Purpose
+blockhash        Binary blob            32 bytes                       The output from a double-SHA256 of the block header, as used elsewhere   The blockhash of the block which the transactions being requested are in
+indexes_length   CompactSize            1 or 3 bytes                   As used to encode array lengths elsewhere<br>
+indexes          List of CompactSizes   1 or 3 bytes*indexes_length   Differentially encoded                                                   The indexes of the transactions being requested in the block</p> <hr> <h4 id="blocktransactions"><a href="#blocktransactions" class="header-anchor">#</a> BlockTransactions</h4> <p>A BlockTransactions structure is used to provide some of the
+transactions in a block, as requested.</p> <hr> <p>Field Name            Type                   Size           Encoding                                                                 Purpose
+blockhash             Binary blob            32 bytes       The output from a double-SHA256 of the block header, as used elsewhere   The blockhash of the block which the transactions being provided are in
+transactions_length   CompactSize            1 or 3 bytes   As used to encode array lengths elsewhere<br>
+transactions          List of Transactions   variable       As encoded in &quot;tx&quot; messages in response to getdata MSG_TX              The transactions provided</p> <hr> <h4 id="short-transaction-ids-short-transaction-ids"><a href="#short-transaction-ids-short-transaction-ids" class="header-anchor">#</a> Short transaction IDs {#short_transaction_ids}</h4> <p>Short transaction IDs are used to represent a transaction without
+sending a full 256-bit hash. They are calculated by:</p> <ol><li>single-SHA256 hashing the block header with the nonce appended (in
+little-endian)</li> <li>Running SipHash-2-4 with the input being the transaction ID and the
+keys (k0/k1) set to the first two little-endian 64-bit integers from
+the above hash, respectively.</li> <li>Dropping the 2 most significant bytes from the SipHash output to
+make it 6 bytes.</li></ol> <h3 id="new-messages-new-messages"><a href="#new-messages-new-messages" class="header-anchor">#</a> New messages {#new_messages}</h3> <p>A new inv type (MSG_CMPCT_BLOCK == 4) and several new protocol messages
+are added: sendcmpct, cmpctblock, getblocktxn, and blocktxn.</p> <h4 id="sendcmpct"><a href="#sendcmpct" class="header-anchor">#</a> sendcmpct</h4> <ol><li>The sendcmpct message is defined as a message containing a 1-byte
+integer followed by a 8-byte integer where pchCommand ==
+&quot;sendcmpct&quot;.</li> <li>The first integer SHALL be interpreted as a boolean (and MUST have a
+value of either 1 or 0)</li> <li>The second integer SHALL be interpreted as a little-endian version
+number. Nodes sending a sendcmpct message MUST currently set this
+value to 1.</li> <li>Upon receipt of a &quot;sendcmpct&quot; message with the first and second
+integers set to 1, the node SHOULD announce new blocks by sending a
+cmpctblock message.</li> <li>Upon receipt of a &quot;sendcmpct&quot; message with the first integer set
+to 0, the node SHOULD NOT announce new blocks by sending a
+cmpctblock message, but SHOULD announce new blocks by sending invs
+or headers, as defined by BIP130.</li> <li>Upon receipt of a &quot;sendcmpct&quot; message with the second integer set
+to something other than 1, nodes MUST treat the peer as if they had
+not received the message (as it indicates the peer will provide an
+unexpected encoding in cmpctblock, and/or other, messages). This
+allows future versions to send duplicate sendcmpct messages with
+different versions as a part of a version handshake for future
+versions. See Protocol Versioning section, below, for more info on
+the specifics of the version-negotiation mechanics.</li> <li>Nodes SHOULD check for a protocol version of &gt;= 70014 before
+sending sendcmpct messages.</li> <li>Nodes MUST NOT send a request for a MSG_CMPCT_BLOCK object to a peer
+before having received a sendcmpct message from that peer.</li> <li>Nodes MUST NOT request a MSG_CMPCT_BLOCK object before having sent
+all sendcmpct messages to that peer which they intend to send, as
+the peer cannot know what version protocol to use in the response.</li></ol> <h4 id="msg-cmpct-block"><a href="#msg-cmpct-block" class="header-anchor">#</a> MSG_CMPCT_BLOCK</h4> <ol><li>getdata messages may now contain requests for MSG_CMPCT_BLOCK
+objects.</li> <li>Upon receipt of a getdata containing a request for a MSG_CMPCT_BLOCK
+object with the hash of a block which was recently announced and is
+close to the tip of the best chain of the receiver and after having
+sent the requesting peer a sendcmpct message, nodes MUST respond
+with a cmpctblock message containing appropriate data representing
+the block being requested.</li> <li>Upon receipt of a getdata containing a request for a MSG_CMPCT_BLOCK
+object for which a cmpctblock message is not sent in response, a
+block message containing the requested block in non-compact form
+MUST be sent.</li> <li>MSG_CMPCT_BLOCK inv objects MUST NOT appear anywhere except for in
+getdata messages.</li></ol> <h4 id="cmpctblock"><a href="#cmpctblock" class="header-anchor">#</a> cmpctblock</h4> <ol><li>The cmpctblock message is defined as a message containing a
+serialized HeaderAndShortIDs message and pchCommand ==
+&quot;cmpctblock&quot;.</li> <li>Upon receipt of a cmpctblock message after sending a sendcmpct
+message, nodes SHOULD calculate the short transaction ID for each
+unconfirmed transaction they have available (ie in their mempool)
+and compare each to each short transaction ID in the cmpctblock
+message.</li> <li>After finding already-available transactions, nodes which do not
+have all transactions available to reconstruct the full block SHOULD
+request the missing transactions using a getblocktxn message.</li> <li>A node MUST NOT send a cmpctblock message unless they are able to
+respond to a getblocktxn message which requests every transaction in
+the block.</li> <li>A node MUST NOT send a cmpctblock message without having validated
+that the header properly commits to each transaction in the block,
+and properly builds on top of the existing, fully-validated chain
+with a valid proof-of-work either as a part of the current most-work
+valid chain, or building directly on top of it. A node MAY send a
+cmpctblock before validating that each transaction in the block
+validly spends existing UTXO set entries.</li></ol> <h4 id="getblocktxn"><a href="#getblocktxn" class="header-anchor">#</a> getblocktxn</h4> <ol><li>The getblocktxn message is defined as a message containing a
+serialized BlockTransactionsRequest message and pchCommand ==
+&quot;getblocktxn&quot;.</li> <li>Upon receipt of a properly-formatted getblocktxn message, nodes
+which recently provided the sender of such a message a cmpctblock
+for the block hash identified in this message MUST respond with
+either an appropriate blocktxn message, or a full block message. A
+blocktxn response MUST contain exactly and only each transaction
+which is present in the appropriate block at the index specified in
+the getblocktxn indexes list, in the order requested.</li></ol> <h4 id="blocktxn"><a href="#blocktxn" class="header-anchor">#</a> blocktxn</h4> <ol><li>The blocktxn message is defined as a message containing a serialized
+BlockTransactions message and pchCommand == &quot;blocktxn&quot;.</li> <li>Upon receipt of a properly-formatted requested blocktxn message,
+nodes SHOULD attempt to reconstruct the full block by:
+<ol><li>Taking the prefilledtxn transactions from the original
+cmpctblock and placing them in the marked positions.</li> <li>For each short transaction ID from the original cmpctblock, in
+order, find the corresponding transaction either from the
+blocktxn message or from other sources and place it in the first
+available position in the block.</li></ol></li> <li>Once the block has been reconstructed, it shall be processed as
+normal, keeping in mind that short transaction IDs are expected to
+occasionally collide, and that nodes MUST NOT be penalized for such
+collisions, wherever they appear.</li></ol> <h2 id="protocol-versioning-protocol-versioning"><a href="#protocol-versioning-protocol-versioning" class="header-anchor">#</a> Protocol Versioning {#protocol_versioning}</h2> <ol><li>The protocol version negotiation allows two nodes to agree on the
+versions of compact blocks which they will exchange. As it is only
+in a single field, it does not allow a node to support a specific
+version in only one direction (sending or receiving).</li> <li>Upon connection establishment, a node SHOULD send a burst of
+sendcmpct messages containing every version of compact block
+encodings for which they are willing to support sending cmpctblock
+and blocktxn messages, and receiving getblocktxn messages. These
+messages SHOULD be ordered in the order of the priority which the
+node wishes to receive cmpctblock/blocktxn messages, with the
+highest-priority version sendcmpct message sent first.</li> <li>The encoding version used to send a cmpctblock or blocktxn message
+or to receive a getblocktxn message MUST be the second integer
+(version number) in the first sendcmpct message received for which a
+sendcmpct message with the same version number was sent.</li> <li>Nodes MUST NOT send a sendcmpct message which contains a version
+number other than the version number which has been negotiated for
+receiving cmpctblock/blocktxn messages after sending a request for a
+MSG_CMPCT_BLOCK object, sending a cmpctblock, getblocktxn, blocktxn,
+or pong message.</li> <li>As a node must send all sendcmpct messages which contain a novel
+version announcement before any other compact block-related
+messages, it is possible to determine which version of compact
+blocks will be used for each object received. It is, however, not
+possible to know which version will be used to encode the response
+to a request for a compact block object before any
+MSG_CMPCT_BLOCK-containing getdata, cmpctblock, getblocktxn,
+blocktxn, or ping/pong messages have been exchanged.</li> <li>Thus, if a node wishes to determine exactly which version of compact
+blocks will be used before requesting a compact block object, it
+must send all of its sendcmpct version announcements, followed by a
+ping, and wait for the pong response to ensure it has received all
+sendcmpctblock version announcement messages from the remote peer.
+Nodes can, obviously, however, determine that the version used will
+be at least a certain version (in their priority order) after having
+received a sendcmpct message from the remote peer containing that
+version as the second integer.</li></ol> <h3 id="sample-version-implementation-sample-version-implementation"><a href="#sample-version-implementation-sample-version-implementation" class="header-anchor">#</a> Sample Version Implementation {#sample_version_implementation}</h3> <ol><li>By way of example, an implementation of the above protocol might
+look like the following.</li> <li>Upon exchanging version/verack messages, a node immediately sends
+its list of sendcmpct announcements to the other side, with the
+version which it wants to receive sent first.</li> <li>Upon receiving the first sendcmpct announcement with a protocol
+version which is understood from the remote peer, a node will &quot;lock
+in&quot; the compact block encoding version which will be used to encode
+compact blocks to that peer.</li> <li>The node then sets the current receive-protocol-version in use on
+the connection to that version, and uses it to decode new compact
+block messages.</li> <li>Upon receiving subsequent sendcmpct announcements with a protocol
+version which is understood from the remote peer (ie a version which
+has been announced using a sendcmpct in the other direction), a node
+will check if that protocol version is higher-receive-priority than
+the current receive-protocol-version in use on the connection, and
+switch to that version for decoding new compact block messages
+received.</li> <li>A node might wish to keep a flag for each peer which indicates
+compact block version negotiation is complete, which can be set upon
+receiving any compact block-related, or pong message.</li> <li>The above implementation requires only a compile-time list of
+supported versions in some static priority order, two version fields
+per peer, and an optional negotiation-complete boolean per-peer.</li></ol> <h2 id="specification-for-version-2-specification-for-version-2"><a href="#specification-for-version-2-specification-for-version-2" class="header-anchor">#</a> Specification for version 2 {#specification_for_version_2}</h2> <p>Compact blocks version 2 is almost identical to version 1, but supports
+segregated witness transactions (BIP 141 and BIP 144). The changes are:</p> <ol><li>The second integer (version number) inside sendcmpct is 2 instead of
+1 (see Protocol Versioning section, above).</li> <li>Transactions inside cmpctblock messages (both those used as direct
+announcement and those in response to getdata) and in blocktxn
+should include witness data, using the same format as responses to
+getdata MSG_WITNESS_TX, specified in BIP144.</li> <li>Short transaction IDs sent to us in cmpctblock messages, and sent by
+us in getblocktxn messages, are computed using the same process as
+in version 1, but using the wtxid as defined in BIP 141 instead of
+the txid. Note that, though a node normally SHOULD, if a node does
+not include (ie must then include the short ID for) the coinbase
+transaction, it must be computed by encoding the transaction in
+witness format as defined by BIP 141.</li> <li>Upon receipt of a getdata containing a request for a MSG_CMPCT_BLOCK
+object for which a cmpctblock message is not sent in response, the
+block message containing the requested block in non-compact form
+MUST be encoded with witnesses (as is sent in reply to a
+MSG_WITNESS_BLOCK getdata) if the protocol version used to encode
+the cmpctblock message would have been 2, and encoded without
+witnesses (as is sent in response to a MSG_BLOCK getdata) if the
+protocol version used to encode the cmpctblock message would have
+been 1.</li></ol> <h2 id="implementation-notes-implementation-notes"><a href="#implementation-notes-implementation-notes" class="header-anchor">#</a> Implementation Notes {#implementation_notes}</h2> <ol><li><p>For nodes which have sufficient inbound bandwidth, sending a
+sendcmpct message with the first integer set to 1 to up to 3 peers
+is RECOMMENDED. If possible, it is RECOMMENDED that those peers be
+selected based on their past performance in providing blocks quickly
+(eg the three peers which provided the highest number of the recent
+N blocks the quickest), allowing nodes to receive blocks which come
+from those peers in only 0.5*RTT.</p></li> <li><p>Nodes MUST NOT send such sendcmpct messages to more than three
+peers, as it encourages wasting outbound bandwidth across the
+network.</p></li> <li><p>All nodes SHOULD send a sendcmpct message to all appropriate peers.
+This will reduce their outbound bandwidth usage by allowing their
+peers to request compact blocks instead of full blocks.</p></li> <li><p>Nodes with limited inbound bandwidth SHOULD request blocks using
+MSG_CMPCT_BLOCK/getblocktxn requests, when possible. While this
+increases worst-case message round-trips, it is expected to reduce
+overall transfer latency as TCP is more likely to exhibit poor
+throughput on low-bandwidth nodes.</p></li> <li><p>Nodes sending cmpctblock messages SHOULD limit prefilledtxn to 10KB
+of transactions. When in doubt, nodes SHOULD only include the
+coinbase transaction in prefilledtxn.</p></li> <li><p>Nodes MAY pick one nonce per block they wish to send, and only build
+a cmpctblock message once for all peers which they wish to send a
+given block to. Nodes SHOULD NOT use the same nonce across multiple
+different blocks.</p></li> <li><p>Nodes MAY impose additional requirements on when they announce new
+blocks by sending cmpctblock messages. For example, nodes with
+limited outbound bandwidth MAY choose to announce new blocks using
+inv/header messages (as per BIP130) to conserve outbound bandwidth.</p></li> <li><p>Note that the MSG_CMPCT_BLOCK section does not require that nodes
+respond to MSG_CMPCT_BLOCK getdata requests for blocks which they
+did not recently announce. This allows nodes to calculate cmpctblock
+messages at announce-time instead of at request-time. Blocks which
+are requested with a MSG_CMPCT_BLOCK getdata, but which are not
+responded to with a cmpctblock message MUST be responded to with a
+block message, allowing nodes to request all blocks using
+MSG_CMPCT_BLOCK getdatas and rely on their peer to pick an
+appropriate response.</p></li> <li><p>While the current version sends transactions with the same encodings
+as are used in tx messages and elsewhere in the protocol, the
+version field in sendcmpct is intended to allow this to change in
+the future. For this reason, it is recommended that the code used to
+decode PrefilledTransaction and BlockTransactions messages be
+prepared to take a different transaction encoding, if and when the
+version field in sendcmpct changes in a future BIP.</p></li> <li><p>Any undefined behavior in this spec may cause failure to transfer
+block to, peer disconnection by, or self-destruction by the
+receiving node. A node receiving non-minimally-encoded CompactSize
+encodings should make a best-effort to eat the sender's cat.</p></li></ol> <h3 id="pre-validation-relay-and-consistency-considerations-pre-validation-relay-and-consistency-considerations"><a href="#pre-validation-relay-and-consistency-considerations-pre-validation-relay-and-consistency-considerations" class="header-anchor">#</a> Pre-Validation Relay and Consistency Considerations {#pre_validation_relay_and_consistency_considerations}</h3> <ol><li><p>As high-bandwidth mode permits relaying of CMPCTBLOCK messages prior
+to full validation (requiring only that the block header is valid
+before relay), nodes SHOULD NOT ban a peer for announcing a new
+block with a CMPCTBLOCK message that is invalid, but has a valid
+header. For avoidance of doubt, nodes SHOULD bump their peer-to-peer
+protocol version to 70015 or higher to signal that they will not ban
+or punish a peer for announcing compact blocks prior to full
+validation, and nodes SHOULD NOT announce a CMPCTBLOCK to a peer
+with a version number below 70015 before fully validating the block.</p></li> <li><p>SPV nodes which implement this spec must consider the implications
+of accepting blocks which were not validated by the node which
+provided them. Especially SPV nodes which allow users to select a
+&quot;trusted full node&quot; to sync from may wish to avoid implementing
+this spec in high-bandwidth mode.</p></li> <li><p>Note that this spec does not change the requirement that nodes only
+relay information about blocks which they have fully validated in
+response to GETDATA/GETHEADERS/GETBLOCKS/etc requests. Nodes which
+announce using CMPCTBLOCK message and then receive a request for
+associated block data SHOULD ensure that messages do not go
+unresponded to, and that the appropriate data is provided after the
+block has been validated, subject to standard message-response
+ordering requirements. Note that no requirement is added that the
+node respond to the request with the new block included in eg
+GETHEADERS or GETBLOCKS messages, but the node SHOULD re-announce
+the block using the associated announcement methods after validation
+has completed if it is not included in the original response. On the
+other hand, nodes SHOULD delay responding to GETDATA requests for
+the block until validation has completed, stalling all message
+processing for the associated peer. REJECT messages are not
+considered &quot;responses&quot; for the purpose of this section.</p></li> <li><p>As a result of the above requirements, implementors may wish to
+consider the potential for the introduction of delays in responses
+while remote peers validate blocks, avoiding delay-causing requests
+where possible.</p></li></ol> <h2 id="justification"><a href="#justification" class="header-anchor">#</a> Justification</h2> <h4 id="protocol-design-protocol-design"><a href="#protocol-design-protocol-design" class="header-anchor">#</a> Protocol design {#protocol_design}</h4> <p>There have been many proposals to save wire bytes when relaying blocks.
+Many of them have a two-fold goal of reducing block relay time and thus
+rely on the use of significant processing power in order to avoid
+introducing additional worst-case RTTs. Because this work is not focused
+primarily on reducing block relay time, its design is much simpler (ie
+does not rely on set reconciliation protocols). Still, in testing at the
+time of writing, nodes are able to relay blocks without the extra
+getblocktxn/blocktxn RTT around 90% of the time. With a smart
+compact-block-announcement policy, it is thus expected that this work
+might allow blocks to be relayed between nodes in 0.5*RTT instead of
+1.5*RTT at least 75% of the time.</p> <h4 id="short-transaction-id-calculation-short-transaction-id-calculation"><a href="#short-transaction-id-calculation-short-transaction-id-calculation" class="header-anchor">#</a> Short transaction ID calculation {#short_transaction_id_calculation}</h4> <p>There are several design goals for the Short ID calculation:</p> <ul><li><strong>Performance</strong> The sender needs to compute short IDs for all block
+transactions, and the receiver for all mempool transactions they are
+being compared to. As we're easily talking about several thousand
+transactions, sub-microsecond processing per-transactions is needed.</li> <li><strong>Space</strong> cmpctblock messages are never optional in this protocol,
+and contain a short ID for each non-prefilled transaction in the
+block. Thus, the size of short IDs is directly proportional to the
+maximum bandwidth savings possible.</li> <li><strong>Collision resistance</strong> It should be hard for network participants
+to create transactions that cause collisions. If an attacker were
+able to cause such collisions, filling mempools (and, thus, blocks)
+with them would cause poor network propagation of new (or
+non-attacker, in the case of a miner) blocks.</li></ul> <p>SipHash is a secure, fast, and simple 64-bit MAC designed for network
+traffic authentication and collision-resistant hash tables. We truncate
+the output from SipHash-2-4 to 48 bits (see next section) in order to
+minimize space. The resulting 48-bit hash is certainly not large enough
+to avoid intentionally created individual collisons, but by using the
+block hash as a key to SipHash, an attacker cannot predict what keys
+will be used once their transactions are actually included in a relayed
+block. We mix in a per-connection 64-bit nonce to obtain independent
+short IDs on every connection, so that even block creators cannot
+control where collisions occur, and random collisions only ever affect a
+small number of connections at any given time. The mixing is done using
+SHA256(block_header || nonce), which is slow compared to SipHash, but
+only done once per block. It also adds the ability for nodes to choose
+the nonce in a better than random way to minimize collisions, though
+that is not necessary for correct behaviour. Conversely, nodes can also
+abuse this ability to increase their ability to introduce collisions in
+the blocks they relay themselves. However, they can already cause more
+problems by simply refusing to relay blocks. That is inevitable, and
+this design only seeks to prevent network-wide misbehavior.</p> <h4 id="random-collision-probabilty-random-collision-probabilty"><a href="#random-collision-probabilty-random-collision-probabilty" class="header-anchor">#</a> Random collision probabilty {#random_collision_probabilty}</h4> <p>Thanks to the block-header-based SipHash keys, we can assume that the
+only collisions on links between honest nodes are random ones.</p> <p>For each of the <em>t</em> block transactions, the receiver will compare its
+received short ID with that of a set of <em>m</em> mempool transactions. We
+assume that each of those <em>t</em> has a chance <em>r</em> to be included in that
+set of <em>m</em>. If we use <em>B</em> bits short IDs, for each comparison between a
+received short ID and a mempool transaction, there is a chance of *P = 1</p> <ul><li>1 / 2^B* that a mismatch is detected as such.</li></ul> <p>When comparing a given block transaction to the whole set of mempool
+transactions, there are 5 cases to distinguish:</p> <ol><li>The receiver has exactly one match, which is the correct one. This
+has chance <em>r * P^(m - 1)</em>.</li> <li>The receiver has no matches. This has chance <em>(1 - r) * P^m</em>.</li> <li>The receiver has at least two matches, one of which is correct. This
+has chance <em>r * (1 - P^(m - 1))</em>.</li> <li>The receiver has at least two matches, both of which are incorrect.
+This has chance <em>(1 - r) * (1 - P^m - m * (1 - P) * P^(m -
+1))</em>.</li> <li>The receiver has exactly one match, but an incorrect one. This has
+chance <em>(1 - r) * m * (1 - P) * P^(m - 1)</em>.</li></ol> <p>(note that these 5 numbers always add up to 100%)</p> <p>In case 1, we're good. In cases 2, 3, or 4, we request the full
+transaction because we know we're uncertain. Only in case 5, we fail to
+reconstruct. The chance that case 5 does not occur in any of the <em>t</em>
+transactions in a block is <em>(1 - (1 - r) * m * (1 - P) * P^(m -
+1))^t</em>. This expression is well approximated by *1 - (1 - r) * m * (1</p> <ul><li>P) * t* = <em>1 - (1 - r) * m * t / 2^B</em>. Thus, if we want only one
+in F block transmissions between honest nodes to fail under the
+conservative <em>r = 0</em> assumption, we need <em>log2(F * m * t)</em> bits hash
+functions.</li></ul> <p>This means that <em>B = 48</em> bits short IDs suffice for blocks with up to <em>t
+= 10000</em> transactions, mempools up to <em>m = 100000</em> transactions, with
+failure to reconstruct at most one in <em>F = 281474</em> blocks. Since failure
+to reconstruct just means we fall back to normal inv/header based relay,
+it isn't necessary to avoid such failure completely. It just needs to
+be sufficiently rare they have a lower impact than random transmission
+failures (for example, network disconnection, node overloaded, ...).</p> <h4 id="separate-version-for-segregated-witness-separate-version-for-segregated-witness"><a href="#separate-version-for-segregated-witness-separate-version-for-segregated-witness" class="header-anchor">#</a> Separate version for segregated witness {#separate_version_for_segregated_witness}</h4> <p>The changes to transaction and block relay in BIP 144 introduce separate
+MSG_FILTERED_ versions of messages in getdata, allowing a receiver to
+choose individually where witness data is wanted.</p> <p>This method is not useful for compact blocks because `cmpctblock`
+blocks can be sent unsolicitedly in high-bandwidth mode, so we need to
+negotiate at least whether those should include witness data up front.
+There is little use for a validating node that only sometimes processes
+witness data, so we may as well use that negotiation for everything and
+turn it into a separate protocol version. We also need a means to
+distinguish different versions of the same transaction with different
+witnesses for correct reconstruction, so this also forces us to use
+wtxids instead of txids for short IDs everywhere in that case.</p> <h2 id="backward-compatibility-backward-compatibility"><a href="#backward-compatibility-backward-compatibility" class="header-anchor">#</a> Backward compatibility {#backward_compatibility}</h2> <p>Older clients remain fully compatible and interoperable after this
+change.</p> <h2 id="implementation"><a href="#implementation" class="header-anchor">#</a> Implementation</h2> <p><a href="https://github.com/bitcoin/bitcoin/pull/8068" target="_blank" rel="noopener noreferrer">https://github.com/bitcoin/bitcoin/pull/8068<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> for version 1.
+<a href="https://github.com/bitcoin/bitcoin/pull/8393" target="_blank" rel="noopener noreferrer">https://github.com/bitcoin/bitcoin/pull/8393<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> for version 2.</p> <h2 id="acknowledgements"><a href="#acknowledgements" class="header-anchor">#</a> Acknowledgements</h2> <p>Thanks to Gregory Maxwell for the initial suggestion as well as a lot of
+back-and-forth design and significant testing. Thanks to Nicolas Dorier
+for the protocol flow diagram.</p> <h2 id="copyright"><a href="#copyright" class="header-anchor">#</a> Copyright</h2> <p>This document is placed in the public domain.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bitcoindocs/bips/151.html" class="prev">
+        151
+      </a></span> <span class="next"><a href="/bitcoindocs/bips/154.html">
+        154
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bitcoindocs/assets/js/app.c31d8641.js" defer></script><script src="/bitcoindocs/assets/js/2.b78a9106.js" defer></script><script src="/bitcoindocs/assets/js/59.01f56552.js" defer></script>
+  </body>
+</html>

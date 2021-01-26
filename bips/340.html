@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>340 | Bitcoin Docs</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bitcoin.png">
+    <link rel="mask-icon" href="bitcoin.png" color="#3a0839">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="bitcoin.png">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#ff7e00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css" as="style"><link rel="preload" href="/bitcoindocs/assets/js/app.c31d8641.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/2.b78a9106.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/86.eab303cd.js" as="script"><link rel="prefetch" href="/bitcoindocs/assets/js/10.68a64a6d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/100.bd554273.js"><link rel="prefetch" href="/bitcoindocs/assets/js/101.df38dcc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/102.3bf2a9d4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/103.d879654a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/104.fcff9e3b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/105.324f3006.js"><link rel="prefetch" href="/bitcoindocs/assets/js/106.b8b3ca20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/107.4a9863c3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/108.e93a5196.js"><link rel="prefetch" href="/bitcoindocs/assets/js/109.e770824e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/11.f67301bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/110.72ba2ba4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/111.a33eb12f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/112.ecf1c295.js"><link rel="prefetch" href="/bitcoindocs/assets/js/113.85f94e5b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/114.c79655f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/115.3940b629.js"><link rel="prefetch" href="/bitcoindocs/assets/js/116.9ead4ccc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/117.d4b75110.js"><link rel="prefetch" href="/bitcoindocs/assets/js/118.87575c0c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/119.65af5cbd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/12.fc1e786f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/120.99826b18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/121.608c453c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/122.b24765eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/123.64680142.js"><link rel="prefetch" href="/bitcoindocs/assets/js/124.4b4f9bc2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/125.0e07a49d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/126.be3bae0f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/127.3d041c50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/128.5feda1e3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/129.307399ad.js"><link rel="prefetch" href="/bitcoindocs/assets/js/13.47ba1b02.js"><link rel="prefetch" href="/bitcoindocs/assets/js/130.0659f005.js"><link rel="prefetch" href="/bitcoindocs/assets/js/131.69a612f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/132.b51e17e2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/133.7bb492d9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/134.0f7e8787.js"><link rel="prefetch" href="/bitcoindocs/assets/js/135.e2504a16.js"><link rel="prefetch" href="/bitcoindocs/assets/js/136.8b6c7216.js"><link rel="prefetch" href="/bitcoindocs/assets/js/137.e38fc5b2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/138.095843e4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/139.4a5e77fb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/14.42b93c7a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/140.f517d934.js"><link rel="prefetch" href="/bitcoindocs/assets/js/141.7a6497c0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/142.8ae1c029.js"><link rel="prefetch" href="/bitcoindocs/assets/js/143.2fadb8ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/144.a64d8f22.js"><link rel="prefetch" href="/bitcoindocs/assets/js/145.1b1fa851.js"><link rel="prefetch" href="/bitcoindocs/assets/js/146.a59efe37.js"><link rel="prefetch" href="/bitcoindocs/assets/js/147.a0a8fc92.js"><link rel="prefetch" href="/bitcoindocs/assets/js/148.e177254d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/149.88223d18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/15.cdd298ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/150.c07e2220.js"><link rel="prefetch" href="/bitcoindocs/assets/js/151.843c50f7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/152.4f34674a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/153.c2ba1434.js"><link rel="prefetch" href="/bitcoindocs/assets/js/154.dec4842c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/155.ecd7b99f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/156.55d078d3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/157.44501232.js"><link rel="prefetch" href="/bitcoindocs/assets/js/158.79220932.js"><link rel="prefetch" href="/bitcoindocs/assets/js/159.33765ed3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/16.4c7eeecf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/160.ea470a70.js"><link rel="prefetch" href="/bitcoindocs/assets/js/161.2dc38d81.js"><link rel="prefetch" href="/bitcoindocs/assets/js/162.a27303c6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/163.31e293c1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/164.fca747d6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/165.52456cdd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/166.c2464f79.js"><link rel="prefetch" href="/bitcoindocs/assets/js/167.25467097.js"><link rel="prefetch" href="/bitcoindocs/assets/js/168.92664946.js"><link rel="prefetch" href="/bitcoindocs/assets/js/169.df73d115.js"><link rel="prefetch" href="/bitcoindocs/assets/js/17.b107683f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/170.08fb6e7e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/171.ba749017.js"><link rel="prefetch" href="/bitcoindocs/assets/js/172.c92581cb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/173.1fce2c58.js"><link rel="prefetch" href="/bitcoindocs/assets/js/174.34c08943.js"><link rel="prefetch" href="/bitcoindocs/assets/js/175.0f3c7a0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/176.36c2e712.js"><link rel="prefetch" href="/bitcoindocs/assets/js/177.15027195.js"><link rel="prefetch" href="/bitcoindocs/assets/js/178.a42c47f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/179.e9af4276.js"><link rel="prefetch" href="/bitcoindocs/assets/js/18.608ae665.js"><link rel="prefetch" href="/bitcoindocs/assets/js/180.48a51584.js"><link rel="prefetch" href="/bitcoindocs/assets/js/181.cc255bc5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/182.64362e5e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/183.256b3077.js"><link rel="prefetch" href="/bitcoindocs/assets/js/184.3139561e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/185.5af948dd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/19.8b76fc9c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/20.122a4ef0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/21.1f8a8820.js"><link rel="prefetch" href="/bitcoindocs/assets/js/22.eb68688b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/23.9e751fd9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/24.72ecb396.js"><link rel="prefetch" href="/bitcoindocs/assets/js/25.ad100f49.js"><link rel="prefetch" href="/bitcoindocs/assets/js/26.654fcf2f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/27.fdb46ea9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/28.b28d1103.js"><link rel="prefetch" href="/bitcoindocs/assets/js/29.979a7705.js"><link rel="prefetch" href="/bitcoindocs/assets/js/3.0ccb3eb1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/30.27ab6b09.js"><link rel="prefetch" href="/bitcoindocs/assets/js/31.0b51055d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/32.e5d3f476.js"><link rel="prefetch" href="/bitcoindocs/assets/js/33.5325af50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/34.6cc1e8e6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/35.4f93edf4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/36.56c4b763.js"><link rel="prefetch" href="/bitcoindocs/assets/js/37.d7fc3cc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/38.ba47e0be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/39.a4948230.js"><link rel="prefetch" href="/bitcoindocs/assets/js/4.f750dbd8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/40.13f04ebc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/41.efba2874.js"><link rel="prefetch" href="/bitcoindocs/assets/js/42.71cd6fcf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/43.3dd10508.js"><link rel="prefetch" href="/bitcoindocs/assets/js/44.0e0f5018.js"><link rel="prefetch" href="/bitcoindocs/assets/js/45.4e467a20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/46.fbc682be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/47.79e3cde6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/48.36d1a4f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/49.5c861a4e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/5.8f3d1a69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/50.0c7609ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/51.6497b8ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/52.6fef223e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/53.dc5dd169.js"><link rel="prefetch" href="/bitcoindocs/assets/js/54.560108ca.js"><link rel="prefetch" href="/bitcoindocs/assets/js/55.a09c65a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/56.f7f7c539.js"><link rel="prefetch" href="/bitcoindocs/assets/js/57.3b3dfb34.js"><link rel="prefetch" href="/bitcoindocs/assets/js/58.1048b51d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/59.01f56552.js"><link rel="prefetch" href="/bitcoindocs/assets/js/6.ea542132.js"><link rel="prefetch" href="/bitcoindocs/assets/js/60.1e424058.js"><link rel="prefetch" href="/bitcoindocs/assets/js/61.6d4493b3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/62.849c30d7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/63.0c6aaa64.js"><link rel="prefetch" href="/bitcoindocs/assets/js/64.0d99b925.js"><link rel="prefetch" href="/bitcoindocs/assets/js/65.d60db57e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/66.c6c02735.js"><link rel="prefetch" href="/bitcoindocs/assets/js/67.c0c64c59.js"><link rel="prefetch" href="/bitcoindocs/assets/js/68.99f833eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/69.88769157.js"><link rel="prefetch" href="/bitcoindocs/assets/js/7.474d9a1c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/70.0a746051.js"><link rel="prefetch" href="/bitcoindocs/assets/js/71.9847fc9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/72.8e04fa9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/73.772916a2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/74.9663297b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/75.66154da0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/76.358626cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/77.8eafda69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/78.782695f1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/79.99523f6b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/8.7a9d23a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/80.2c556ea8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/81.b70d3d0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/82.f0c621cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/83.13117f68.js"><link rel="prefetch" href="/bitcoindocs/assets/js/84.2361b62a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/85.e8f23ad0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/87.a547f760.js"><link rel="prefetch" href="/bitcoindocs/assets/js/88.3c748686.js"><link rel="prefetch" href="/bitcoindocs/assets/js/89.6b7de962.js"><link rel="prefetch" href="/bitcoindocs/assets/js/9.6e1ca0bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/90.0907331e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/91.fe47eeeb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/92.f4c67fe3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/93.efdc2e47.js"><link rel="prefetch" href="/bitcoindocs/assets/js/94.b7862723.js"><link rel="prefetch" href="/bitcoindocs/assets/js/95.06e410a5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/96.0cc67031.js"><link rel="prefetch" href="/bitcoindocs/assets/js/97.b9460d90.js"><link rel="prefetch" href="/bitcoindocs/assets/js/98.0689894c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/99.f18fe9ac.js">
+    <link rel="stylesheet" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bitcoindocs/" class="home-link router-link-active"><!----> <span class="site-name">Bitcoin Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>BIPs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bitcoindocs/bips/" aria-current="page" class="sidebar-link">Bitcoin Improvement Proposals</a></li><li><a href="/bitcoindocs/bips/1.html" class="sidebar-link">1</a></li><li><a href="/bitcoindocs/bips/2.html" class="sidebar-link">2</a></li><li><a href="/bitcoindocs/bips/8.html" class="sidebar-link">8</a></li><li><a href="/bitcoindocs/bips/9.html" class="sidebar-link">9</a></li><li><a href="/bitcoindocs/bips/16.html" class="sidebar-link">16</a></li><li><a href="/bitcoindocs/bips/32.html" class="sidebar-link">32</a></li><li><a href="/bitcoindocs/bips/39.html" class="sidebar-link">39</a></li><li><a href="/bitcoindocs/bips/42.html" class="sidebar-link">42</a></li><li><a href="/bitcoindocs/bips/43.html" class="sidebar-link">43</a></li><li><a href="/bitcoindocs/bips/44.html" class="sidebar-link">44</a></li><li><a href="/bitcoindocs/bips/45.html" class="sidebar-link">45</a></li><li><a href="/bitcoindocs/bips/47.html" class="sidebar-link">47</a></li><li><a href="/bitcoindocs/bips/49.html" class="sidebar-link">49</a></li><li><a href="/bitcoindocs/bips/50.html" class="sidebar-link">50</a></li><li><a href="/bitcoindocs/bips/60.html" class="sidebar-link">60</a></li><li><a href="/bitcoindocs/bips/61.html" class="sidebar-link">61</a></li><li><a href="/bitcoindocs/bips/62.html" class="sidebar-link">62</a></li><li><a href="/bitcoindocs/bips/64.html" class="sidebar-link">64</a></li><li><a href="/bitcoindocs/bips/65.html" class="sidebar-link">65</a></li><li><a href="/bitcoindocs/bips/66.html" class="sidebar-link">66</a></li><li><a href="/bitcoindocs/bips/67.html" class="sidebar-link">67</a></li><li><a href="/bitcoindocs/bips/68.html" class="sidebar-link">68</a></li><li><a href="/bitcoindocs/bips/69.html" class="sidebar-link">69</a></li><li><a href="/bitcoindocs/bips/70.html" class="sidebar-link">70</a></li><li><a href="/bitcoindocs/bips/71.html" class="sidebar-link">71</a></li><li><a href="/bitcoindocs/bips/72.html" class="sidebar-link">72</a></li><li><a href="/bitcoindocs/bips/73.html" class="sidebar-link">73</a></li><li><a href="/bitcoindocs/bips/74.html" class="sidebar-link">74</a></li><li><a href="/bitcoindocs/bips/75.html" class="sidebar-link">75</a></li><li><a href="/bitcoindocs/bips/78.html" class="sidebar-link">78</a></li><li><a href="/bitcoindocs/bips/79.html" class="sidebar-link">79</a></li><li><a href="/bitcoindocs/bips/80.html" class="sidebar-link">80</a></li><li><a href="/bitcoindocs/bips/81.html" class="sidebar-link">81</a></li><li><a href="/bitcoindocs/bips/83.html" class="sidebar-link">83</a></li><li><a href="/bitcoindocs/bips/84.html" class="sidebar-link">84</a></li><li><a href="/bitcoindocs/bips/85.html" class="sidebar-link">85</a></li><li><a href="/bitcoindocs/bips/90.html" class="sidebar-link">90</a></li><li><a href="/bitcoindocs/bips/91.html" class="sidebar-link">91</a></li><li><a href="/bitcoindocs/bips/98.html" class="sidebar-link">98</a></li><li><a href="/bitcoindocs/bips/99.html" class="sidebar-link">99</a></li><li><a href="/bitcoindocs/bips/100.html" class="sidebar-link">100</a></li><li><a href="/bitcoindocs/bips/101.html" class="sidebar-link">101</a></li><li><a href="/bitcoindocs/bips/102.html" class="sidebar-link">102</a></li><li><a href="/bitcoindocs/bips/103.html" class="sidebar-link">103</a></li><li><a href="/bitcoindocs/bips/104.html" class="sidebar-link">104</a></li><li><a href="/bitcoindocs/bips/105.html" class="sidebar-link">105</a></li><li><a href="/bitcoindocs/bips/106.html" class="sidebar-link">106</a></li><li><a href="/bitcoindocs/bips/107.html" class="sidebar-link">107</a></li><li><a href="/bitcoindocs/bips/109.html" class="sidebar-link">109</a></li><li><a href="/bitcoindocs/bips/111.html" class="sidebar-link">111</a></li><li><a href="/bitcoindocs/bips/112.html" class="sidebar-link">112</a></li><li><a href="/bitcoindocs/bips/113.html" class="sidebar-link">113</a></li><li><a href="/bitcoindocs/bips/114.html" class="sidebar-link">114</a></li><li><a href="/bitcoindocs/bips/115.html" class="sidebar-link">115</a></li><li><a href="/bitcoindocs/bips/116.html" class="sidebar-link">116</a></li><li><a href="/bitcoindocs/bips/117.html" class="sidebar-link">117</a></li><li><a href="/bitcoindocs/bips/118.html" class="sidebar-link">118</a></li><li><a href="/bitcoindocs/bips/119.html" class="sidebar-link">119</a></li><li><a href="/bitcoindocs/bips/120.html" class="sidebar-link">120</a></li><li><a href="/bitcoindocs/bips/121.html" class="sidebar-link">121</a></li><li><a href="/bitcoindocs/bips/122.html" class="sidebar-link">122</a></li><li><a href="/bitcoindocs/bips/123.html" class="sidebar-link">123</a></li><li><a href="/bitcoindocs/bips/124.html" class="sidebar-link">124</a></li><li><a href="/bitcoindocs/bips/125.html" class="sidebar-link">125</a></li><li><a href="/bitcoindocs/bips/126.html" class="sidebar-link">126</a></li><li><a href="/bitcoindocs/bips/127.html" class="sidebar-link">127</a></li><li><a href="/bitcoindocs/bips/130.html" class="sidebar-link">130</a></li><li><a href="/bitcoindocs/bips/131.html" class="sidebar-link">131</a></li><li><a href="/bitcoindocs/bips/132.html" class="sidebar-link">132</a></li><li><a href="/bitcoindocs/bips/133.html" class="sidebar-link">133</a></li><li><a href="/bitcoindocs/bips/134.html" class="sidebar-link">134</a></li><li><a href="/bitcoindocs/bips/135.html" class="sidebar-link">135</a></li><li><a href="/bitcoindocs/bips/136.html" class="sidebar-link">136</a></li><li><a href="/bitcoindocs/bips/137.html" class="sidebar-link">137</a></li><li><a href="/bitcoindocs/bips/140.html" class="sidebar-link">140</a></li><li><a href="/bitcoindocs/bips/141.html" class="sidebar-link">141</a></li><li><a href="/bitcoindocs/bips/142.html" class="sidebar-link">142</a></li><li><a href="/bitcoindocs/bips/143.html" class="sidebar-link">143</a></li><li><a href="/bitcoindocs/bips/144.html" class="sidebar-link">144</a></li><li><a href="/bitcoindocs/bips/145.html" class="sidebar-link">145</a></li><li><a href="/bitcoindocs/bips/146.html" class="sidebar-link">146</a></li><li><a href="/bitcoindocs/bips/147.html" class="sidebar-link">147</a></li><li><a href="/bitcoindocs/bips/148.html" class="sidebar-link">148</a></li><li><a href="/bitcoindocs/bips/149.html" class="sidebar-link">149</a></li><li><a href="/bitcoindocs/bips/150.html" class="sidebar-link">150</a></li><li><a href="/bitcoindocs/bips/151.html" class="sidebar-link">151</a></li><li><a href="/bitcoindocs/bips/152.html" class="sidebar-link">152</a></li><li><a href="/bitcoindocs/bips/154.html" class="sidebar-link">154</a></li><li><a href="/bitcoindocs/bips/155.html" class="sidebar-link">155</a></li><li><a href="/bitcoindocs/bips/156.html" class="sidebar-link">156</a></li><li><a href="/bitcoindocs/bips/157.html" class="sidebar-link">157</a></li><li><a href="/bitcoindocs/bips/158.html" class="sidebar-link">158</a></li><li><a href="/bitcoindocs/bips/159.html" class="sidebar-link">159</a></li><li><a href="/bitcoindocs/bips/171.html" class="sidebar-link">171</a></li><li><a href="/bitcoindocs/bips/173.html" class="sidebar-link">173</a></li><li><a href="/bitcoindocs/bips/174.html" class="sidebar-link">174</a></li><li><a href="/bitcoindocs/bips/175.html" class="sidebar-link">175</a></li><li><a href="/bitcoindocs/bips/176.html" class="sidebar-link">176</a></li><li><a href="/bitcoindocs/bips/178.html" class="sidebar-link">178</a></li><li><a href="/bitcoindocs/bips/179.html" class="sidebar-link">179</a></li><li><a href="/bitcoindocs/bips/180.html" class="sidebar-link">180</a></li><li><a href="/bitcoindocs/bips/197.html" class="sidebar-link">197</a></li><li><a href="/bitcoindocs/bips/199.html" class="sidebar-link">199</a></li><li><a href="/bitcoindocs/bips/300.html" class="sidebar-link">300</a></li><li><a href="/bitcoindocs/bips/301.html" class="sidebar-link">301</a></li><li><a href="/bitcoindocs/bips/310.html" class="sidebar-link">310</a></li><li><a href="/bitcoindocs/bips/320.html" class="sidebar-link">320</a></li><li><a href="/bitcoindocs/bips/322.html" class="sidebar-link">322</a></li><li><a href="/bitcoindocs/bips/325.html" class="sidebar-link">325</a></li><li><a href="/bitcoindocs/bips/339.html" class="sidebar-link">339</a></li><li><a href="/bitcoindocs/bips/340.html" aria-current="page" class="active sidebar-link">340</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/340.html#introduction" class="sidebar-link">Introduction</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/340.html#description" class="sidebar-link">Description</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/340.html#applications" class="sidebar-link">Applications</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/340.html#test-vectors-and-reference-code-test-vectors-and-reference-code" class="sidebar-link">Test Vectors and Reference Code {#testvectorsandreferencecode}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/340.html#footnotes" class="sidebar-link">Footnotes</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/340.html#acknowledgements" class="sidebar-link">Acknowledgements</a></li></ul></li><li><a href="/bitcoindocs/bips/341.html" class="sidebar-link">341</a></li><li><a href="/bitcoindocs/bips/342.html" class="sidebar-link">342</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_340"><a href="#_340" class="header-anchor">#</a> 340</h1> <div class="language- extra-class"><pre><code>  BIP: 340
+  Title: Schnorr Signatures for secp256k1
+  Author: Pieter Wuille &lt;pieter.wuille@gmail.com&gt;
+          Jonas Nick &lt;jonasd.nick@gmail.com&gt;
+          Tim Ruffing &lt;crypto@timruffing.de&gt;
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0340
+  Status: Draft
+  Type: Standards Track
+  License: BSD-2-Clause
+  Created: 2020-01-19
+  Post-History: 2018-07-06: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2018-July/016203.html [bitcoin-dev] Schnorr signatures BIP
+</code></pre></div><h2 id="introduction"><a href="#introduction" class="header-anchor">#</a> Introduction</h2> <h3 id="abstract"><a href="#abstract" class="header-anchor">#</a> Abstract</h3> <p>This document proposes a standard for 64-byte Schnorr signatures over
+the elliptic curve <em>secp256k1</em>.</p> <h3 id="copyright"><a href="#copyright" class="header-anchor">#</a> Copyright</h3> <p>This document is licensed under the 2-clause BSD license.</p> <h3 id="motivation"><a href="#motivation" class="header-anchor">#</a> Motivation</h3> <p>Bitcoin has traditionally used
+<a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm" target="_blank" rel="noopener noreferrer">ECDSA<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+signatures over the <a href="https://www.secg.org/sec2-v2.pdf" target="_blank" rel="noopener noreferrer">secp256k1 curve<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+with <a href="https://en.wikipedia.org/wiki/SHA-2" target="_blank" rel="noopener noreferrer">SHA256<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> hashes for
+authenticating transactions. These are
+<a href="https://www.secg.org/sec1-v2.pdf" target="_blank" rel="noopener noreferrer">standardized<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, but have a number of
+downsides compared to <a href="http://publikationen.ub.uni-frankfurt.de/opus4/files/4280/schnorr.pdf" target="_blank" rel="noopener noreferrer">Schnorr
+signatures<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+over the same curve:</p> <ul><li><strong>Provable security</strong>: Schnorr signatures are provably secure. In
+more detail, they are <em>strongly unforgeable under chosen message
+attack (SUF-CMA)</em>[^1] <a href="https://www.di.ens.fr/~pointche/Documents/Papers/2000_joc.pdf" target="_blank" rel="noopener noreferrer">in the random oracle model assuming the
+hardness of the elliptic curve discrete logarithm problem
+(ECDLP)<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+and <a href="http://www.neven.org/papers/schnorr.pdf" target="_blank" rel="noopener noreferrer">in the generic group model assuming variants of preimage and
+second preimage resistance of the used hash
+function<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>[^2]. In contrast,
+the <a href="https://nbn-resolving.de/urn:nbn:de:hbz:294-60803" target="_blank" rel="noopener noreferrer">best known results for the provable security of
+ECDSA<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> rely on
+stronger assumptions.</li> <li><strong>Non-malleability</strong>: The SUF-CMA security of Schnorr signatures
+implies that they are non-malleable. On the other hand, ECDSA
+signatures are inherently malleable[^3]; a third party without
+access to the secret key can alter an existing valid signature for a
+given public key and message into another signature that is valid
+for the same key and message. This issue is discussed in
+<a href="bip-0062.mediawiki" title="wikilink">BIP62</a> and
+<a href="bip-0146.mediawiki" title="wikilink">BIP146</a>.</li> <li><strong>Linearity</strong>: Schnorr signatures provide a simple and efficient
+method that enables multiple collaborating parties to produce a
+signature that is valid for the sum of their public keys. This is
+the building block for various higher-level constructions that
+improve efficiency and privacy, such as multisignatures and others
+(see Applications below).</li></ul> <p>For all these advantages, there are virtually no disadvantages, apart
+from not being standardized. This document seeks to change that. As we
+propose a new standard, a number of improvements not specific to Schnorr
+signatures can be made:</p> <ul><li><strong>Signature encoding</strong>: Instead of using
+<a href="https://en.wikipedia.org/wiki/X.690#DER_encoding" target="_blank" rel="noopener noreferrer">DER<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>-encoding for
+signatures (which are variable size, and up to 72 bytes), we can use
+a simple fixed 64-byte format.</li> <li><strong>Public key encoding</strong>: Instead of using
+<a href="https://www.secg.org/sec1-v2.pdf" target="_blank" rel="noopener noreferrer"><em>compressed</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 33-byte encodings
+of elliptic curve points which are common in Bitcoin today, public
+keys in this proposal are encoded as 32 bytes.</li> <li><strong>Batch verification</strong>: The specific formulation of ECDSA signatures
+that is standardized cannot be verified more efficiently in batch
+compared to individually, unless additional witness data is added.
+Changing the signature scheme offers an opportunity to address this.</li> <li><strong>Completely specified</strong>: To be safe for usage in consensus systems,
+the verification algorithm must be completely specified at the byte
+level. This guarantees that nobody can construct a signature that is
+valid to some verifiers but not all. This is traditionally not a
+requirement for digital signature schemes, and the lack of exact
+specification for the DER parsing of ECDSA signatures has caused
+problems for Bitcoin <a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-July/009697.html" target="_blank" rel="noopener noreferrer">in the
+past<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>,
+needing <a href="bip-0066.mediawiki" title="wikilink">BIP66</a> to address it. In
+this document we aim to meet this property by design. For batch
+verification, which is inherently non-deterministic as the verifier
+can choose their batches, this property implies that the outcome of
+verification may only differ from individual verifications with
+negligible probability, even to an attacker who intentionally tries
+to make batch- and non-batch verification differ.</li></ul> <p>By reusing the same curve and hash function as Bitcoin uses for ECDSA,
+we are able to retain existing mechanisms for choosing secret and public
+keys, and we avoid introducing new assumptions about the security of
+elliptic curves and hash functions.</p> <h2 id="description"><a href="#description" class="header-anchor">#</a> Description</h2> <p>We first build up the algebraic formulation of the signature scheme by
+going through the design choices. Afterwards, we specify the exact
+encodings and operations.</p> <h3 id="design"><a href="#design" class="header-anchor">#</a> Design</h3> <p><strong>Schnorr signature variant</strong> Elliptic Curve Schnorr signatures for
+message <em>m</em> and public key <em>P</em> generally involve a point <em>R</em>, integers
+<em>e</em> and <em>s</em> picked by the signer, and the base point <em>G</em> which satisfy
+<em>e = hash(R || m)</em> and <em>s⋅G = R + e⋅P</em>. Two formulations exist,
+depending on whether the signer reveals <em>e</em> or <em>R</em>:</p> <ol><li>Signatures are pairs <em>(e, s)</em> that satisfy <em>e = hash(s⋅G - e⋅P
+|| m)</em>. This variant avoids minor complexity introduced by the
+encoding of the point <em>R</em> in the signature (see paragraphs
+&quot;Encoding R and public key point P&quot; and &quot;Implicit Y coordinates&quot;
+further below in this subsection). Moreover, revealing <em>e</em> instead
+of <em>R</em> allows for potentially shorter signatures: Whereas an
+encoding of <em>R</em> inherently needs about 32 bytes, the hash <em>e</em> can be
+tuned to be shorter than 32 bytes, and <a href="http://www.neven.org/papers/schnorr.pdf" target="_blank" rel="noopener noreferrer">a short hash of only 16
+bytes suffices to provide SUF-CMA security at the target security
+level of 128 bits<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.
+However, a major drawback of this optimization is that finding
+collisions in a short hash function is easy. This complicates the
+implementation of secure signing protocols in scenarios in which a
+group of mutually distrusting signers work together to produce a
+single joint signature (see Applications below). In these scenarios,
+which are not captured by the SUF-CMA model due its assumption of a
+single honest signer, a promising attack strategy for malicious
+co-signers is to find a collision in the hash function in order to
+obtain a valid signature on a message that an honest co-signer did
+not intend to sign.</li> <li>Signatures are pairs <em>(R, s)</em> that satisfy <em>s⋅G = R + hash(R ||
+m)⋅P</em>. This supports batch verification, as there are no elliptic
+curve operations inside the hashes. Batch verification enables
+significant speedups.</li></ol> <p><img src="bip-0340/speedup-batch.png" alt="This graph shows the ratio between the time it takes to verify nsignatures individually and to verify a batch of n signatures. Thisratio goes up logarithmically with the number of signatures, or in otherwords: the total time to verify n signatures grows with O(n / logn)." title="This graph shows the ratio between the time it takes to verify n signatures individually and to verify a batch of n signatures. This ratio goes up logarithmically with the number of signatures, or in other words: the total time to verify n signatures grows with O(n / log n)."></p> <p>Since we would like to avoid the fragility that comes with short hashes,
+the <em>e</em> variant does not provide significant advantages. We choose the
+<em>R</em>-option, which supports batch verification.</p> <p><strong>Key prefixing</strong> Using the verification rule above directly makes
+Schnorr signatures vulnerable to &quot;related-key attacks&quot; in which a
+third party can convert a signature <em>(R, s)</em> for public key <em>P</em> into a
+signature <em>(R, s + a⋅hash(R || m))</em> for public key <em>P + a⋅G</em> and the
+same message <em>m</em>, for any given additive tweak <em>a</em> to the signing key.
+This would render signatures insecure when keys are generated using
+<a href="bip-0032.mediawiki#public-parent-key--public-child-key" title="wikilink">BIP32's unhardened
+derivation</a>
+and other methods that rely on additive tweaks to existing keys such as
+Taproot.</p> <p>To protect against these attacks, we choose <em>key prefixed</em>[^4] Schnorr
+signatures which means that the public key is prefixed to the message in
+the challenge hash input. This changes the equation to <em>s⋅G = R + hash(R
+|| P || m)⋅P</em>. <a href="https://eprint.iacr.org/2015/1135.pdf" target="_blank" rel="noopener noreferrer">It can be
+shown<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> that key prefixing
+protects against related-key attacks with additive tweaks. In general,
+key prefixing increases robustness in multi-user settings, e.g., it
+seems to be a requirement for proving the MuSig multisignature scheme
+secure (see Applications below).</p> <p>We note that key prefixing is not strictly necessary for transaction
+signatures as used in Bitcoin currently, because signed transactions
+indirectly commit to the public keys already, i.e., <em>m</em> contains a
+commitment to <em>pk</em>. However, this indirect commitment should not be
+relied upon because it may change with proposals such as SIGHASH_NOINPUT
+(<a href="bip-0118.mediawiki" title="wikilink">BIP118</a>), and would render the
+signature scheme unsuitable for other purposes than signing
+transactions, e.g., <a href="https://bitcoin.org/en/developer-reference#signmessage" target="_blank" rel="noopener noreferrer">signing ordinary
+messages<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p><strong>Encoding R and public key point P</strong> There exist several possibilities
+for encoding elliptic curve points:</p> <ol><li>Encoding the full X and Y coordinates of <em>P</em> and <em>R</em>, resulting in a
+64-byte public key and a 96-byte signature.</li> <li>Encoding the full X coordinate and one bit of the Y coordinate to
+determine one of the two possible Y coordinates. This would result
+in 33-byte public keys and 65-byte signatures.</li> <li>Encoding only the X coordinate, resulting in 32-byte public keys and
+64-byte signatures.</li></ol> <p>Using the first option would be slightly more efficient for verification
+(around 10%), but we prioritize compactness, and therefore choose option
+3.</p> <p><strong>Implicit Y coordinates</strong> In order to support efficient verification
+and batch verification, the Y coordinate of <em>P</em> and of <em>R</em> cannot be
+ambiguous (every valid X coordinate has two possible Y coordinates). We
+have a choice between several options for symmetry breaking:</p> <ol><li>Implicitly choosing the Y coordinate that is in the lower half.</li> <li>Implicitly choosing the Y coordinate that is even[^5].</li> <li>Implicitly choosing the Y coordinate that is a quadratic residue
+(i.e. has a square root modulo <em>p</em>).</li></ol> <p>The second option offers the greatest compatibility with existing key
+generation systems, where the standard 33-byte compressed public key
+format consists of a byte indicating the oddness of the Y coordinate,
+plus the full X coordinate. To avoid gratuitous incompatibilities, we
+pick that option for <em>P</em>, and thus our X-only public keys become
+equivalent to a compressed public key that is the X-only key prefixed by
+the byte 0x02. For consistency, the same is done for <em>R</em>[^6].</p> <p>Despite halving the size of the set of valid public keys, implicit Y
+coordinates are not a reduction in security. Informally, if a fast
+algorithm existed to compute the discrete logarithm of an X-only public
+key, then it could also be used to compute the discrete logarithm of a
+full public key: apply it to the X coordinate, and then optionally
+negate the result. This shows that breaking an X-only public key can be
+at most a small constant term faster than breaking a full one.[^7].</p> <p><strong>Tagged Hashes</strong> Cryptographic hash functions are used for multiple
+purposes in the specification below and in Bitcoin in general. To make
+sure hashes used in one context can't be reinterpreted in another one,
+hash functions can be tweaked with a context-dependent tag name, in such
+a way that collisions across contexts can be assumed to be infeasible.
+Such collisions obviously can not be ruled out completely, but only for
+schemes using tagging with a unique name. As for other schemes
+collisions are at least less likely with tagging than without.</p> <p>For example, without tagged hashing a BIP340 signature could also be
+valid for a signature scheme where the only difference is that the
+arguments to the hash function are reordered. Worse, if the BIP340 nonce
+derivation function was copied or independently created, then the nonce
+could be accidentally reused in the other scheme leaking the secret key.</p> <p>This proposal suggests to include the tag by prefixing the hashed data
+with <em>SHA256(tag) || SHA256(tag)</em>. Because this is a 64-byte long
+context-specific constant and the <em>SHA256</em> block size is also 64 bytes,
+optimized implementations are possible (identical to SHA256 itself, but
+with a modified initial state). Using SHA256 of the tag name itself is
+reasonably simple and efficient for implementations that don't choose
+to use the optimization.</p> <p><strong>Final scheme</strong> As a result, our final scheme ends up using public key
+<em>pk</em> which is the X coordinate of a point <em>P</em> on the curve whose Y
+coordinate is even and signatures <em>(r,s)</em> where <em>r</em> is the X coordinate
+of a point <em>R</em> whose Y coordinate is even. The signature satisfies <em>s⋅G
+= R + tagged_hash(r || pk || m)⋅P</em>.</p> <h3 id="specification"><a href="#specification" class="header-anchor">#</a> Specification</h3> <p>The following conventions are used, with constants as defined for
+<a href="https://www.secg.org/sec2-v2.pdf" target="_blank" rel="noopener noreferrer">secp256k1<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. We note that adapting
+this specification to other elliptic curves is not straightforward and
+can result in an insecure scheme[^8].</p> <ul><li>Lowercase variables represent integers or byte arrays.
+<ul><li>The constant <em>p</em> refers to the field size,
+<em>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F</em>.</li> <li>The constant <em>n</em> refers to the curve order,
+<em>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141</em>.</li></ul></li> <li>Uppercase variables refer to points on the curve with equation <em>y^2^
+= x^3^ + 7</em> over the integers modulo <em>p</em>.
+<ul><li><em>is_infinite(P)</em> returns whether or not <em>P</em> is the point at
+infinity.</li> <li><em>x(P)</em> and <em>y(P)</em> are integers in the range <em>0..p-1</em> and refer
+to the X and Y coordinates of a point <em>P</em> (assuming it is not
+infinity).</li> <li>The constant <em>G</em> refers to the base point, for which <em>x(G) =
+0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798</em>
+and <em>y(G) =
+0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8</em>.</li> <li>Addition of points refers to the usual <a href="https://en.wikipedia.org/wiki/Elliptic_curve#The_group_law" target="_blank" rel="noopener noreferrer">elliptic curve group
+operation<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</li> <li><a href="https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication" target="_blank" rel="noopener noreferrer">Multiplication (⋅) of an integer and a
+point<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+refers to the repeated application of the group operation.</li></ul></li> <li>Functions and operations:
+<ul><li><em>||</em> refers to byte array concatenation.</li> <li>The function <em>x[i:j]</em>, where <em>x</em> is a byte array and <em>i, j ≥
+0</em>, returns a <em>(j - i)</em>-byte array with a copy of the <em>i</em>-th
+byte (inclusive) to the <em>j</em>-th byte (exclusive) of <em>x</em>.</li> <li>The function <em>bytes(x)</em>, where <em>x</em> is an integer, returns the
+32-byte encoding of <em>x</em>, most significant byte first.</li> <li>The function <em>bytes(P)</em>, where <em>P</em> is a point, returns
+<em>bytes(x(P))</em>.</li> <li>The function <em>int(x)</em>, where <em>x</em> is a 32-byte array, returns the
+256-bit unsigned integer whose most significant byte first
+encoding is <em>x</em>.</li> <li>The function <em>has_even_y(P)</em>, where <em>P</em> is a point for which
+<em>not is_infinite(P)</em>, returns <em>y(P) mod 2 = 0</em>.</li> <li>The function <em>lift_x(x)</em>, where <em>x</em> is an integer in range
+<em>0..p-1</em>, returns the point <em>P</em> for which <em>x(P) =
+x</em><code>&lt;ref&gt;</code></li></ul></li></ul> <p><code>Given a candidate X coordinate</code><em><code>x</code></em><code>in the range</code><em><code>0..p-1</code></em><code>, there exist either exactly two or exactly zero valid Y coordinates. If no valid Y coordinate exists, then</code><em><code>x</code></em><code>is not a valid X coordinate either, i.e., no point</code><em><code>P</code></em><code>exists for which</code><em><code>x(P)`` ``=`` ``x</code></em><code>. The valid Y coordinates for a given candidate</code><em><code>x</code></em><code>are the square roots of</code><em><code>c`` ``=`` ``x</code>^<code>3</code>^<code>``+`` ``7`` ``mod`` ``p</code></em><code>and they can be computed as</code><em><code>y`` ``=`` ``±c</code>^<code>(p+1)/4</code>^<code>``mod`` ``p</code></em><code>(see</code><a href="https://en.wikipedia.org/wiki/Quadratic_residue#Prime_or_prime_power_modulus" target="_blank" rel="noopener noreferrer"><code>Quadratic`` ``residue</code><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a><code>) if they exist, which can be checked by squaring and comparing with</code><em><code>c</code></em><code>. &lt;/ref&gt;</code> <code>and</code><em><code>has_even_y(P)</code></em><code>, or fails if no such point exists. The function</code><em><code>lift_x(x)</code></em><code>is equivalent to the following pseudocode:</code></p> <ul><li><ul><li>Let <em>c = x^3^ + 7 mod p</em>.</li> <li>Let <em>y = c^(p+1)/4^ mod p</em>.</li> <li>Fail if <em>c ≠ y^2^ mod p</em>.</li> <li>Return the unique point <em>P</em> such that <em>x(P) = x</em> and <em>y(P) = y</em>
+if <em>y mod 2 = 0</em> or <em>y(P) = p-y</em> otherwise.</li></ul></li> <li><ul><li>The function <em>hash~tag~(x)</em> where <em>tag</em> is a UTF-8 encoded tag
+name and <em>x</em> is a byte array returns the 32-byte hash
+<em>SHA256(SHA256(tag) || SHA256(tag) || x)</em>.</li></ul></li></ul> <h4 id="public-key-generation-public-key-generation"><a href="#public-key-generation-public-key-generation" class="header-anchor">#</a> Public Key Generation {#public_key_generation}</h4> <p>Input:</p> <ul><li>The secret key <em>sk</em>: a 32-byte array, freshly generated uniformly at
+random</li></ul> <p>The algorithm <em>PubKey(sk)</em> is defined as:</p> <ul><li>Let <em>d' = int(sk)</em>.</li> <li>Fail if <em>d' = 0</em> or <em>d' ≥ n</em>.</li> <li>Return <em>bytes(d'⋅G)</em>.</li></ul> <p>Note that we use a very different public key format (32 bytes) than the
+ones used by existing systems (which typically use elliptic curve points
+as public keys, or 33-byte or 65-byte encodings of them). A side effect
+is that <em>PubKey(sk) = PubKey(bytes(n - int(sk))</em>, so every public key
+has two corresponding secret keys.</p> <h4 id="public-key-conversion-public-key-conversion"><a href="#public-key-conversion-public-key-conversion" class="header-anchor">#</a> Public Key Conversion {#public_key_conversion}</h4> <p>As an alternative to generating keys randomly, it is also possible and
+safe to repurpose existing key generation algorithms for ECDSA in a
+compatible way. The secret keys constructed by such an algorithm can be
+used as <em>sk</em> directly. The public keys constructed by such an algorithm
+(assuming they use the 33-byte compressed encoding) need to be converted
+by dropping the first byte. Specifically,
+<a href="bip-0032.mediawiki" title="wikilink">BIP32</a> and schemes built on top of it
+remain usable.</p> <h4 id="default-signing-default-signing"><a href="#default-signing-default-signing" class="header-anchor">#</a> Default Signing {#default_signing}</h4> <p>Input:</p> <ul><li>The secret key <em>sk</em>: a 32-byte array</li> <li>The message <em>m</em>: a 32-byte array</li> <li>Auxiliary random data <em>a</em>: a 32-byte array</li></ul> <p>The algorithm <em>Sign(sk, m)</em> is defined as:</p> <ul><li>Let <em>d' = int(sk)</em></li> <li>Fail if <em>d' = 0</em> or <em>d' ≥ n</em></li> <li>Let <em>P = d'⋅G</em></li> <li>Let ''d = d' '' if <em>has_even_y(P)</em>, otherwise let ''d = n -
+d' ''.</li> <li>Let <em>t</em> be the byte-wise xor of <em>bytes(d)</em> and
+<em>hash~BIP0340/aux~(a)</em>[^9].</li> <li>Let <em>rand = hash~BIP0340/nonce~(t || bytes(P) || m)</em>[^10].</li> <li>Let <em>k' = int(rand) mod n</em>[^11].</li> <li>Fail if <em>k' = 0</em>.</li> <li>Let <em>R = k'⋅G</em>.</li> <li>Let ''k = k' '' if <em>has_even_y(R)</em>, otherwise let ''k = n -
+k' ''.</li> <li>Let <em>e = int(hash~BIP0340/challenge~(bytes(R) || bytes(P) || m))
+mod n</em>.</li> <li>Let <em>sig = bytes(R) || bytes((k + ed) mod n)</em>.</li> <li>If <em>Verify(bytes(P), m, sig)</em> (see below) returns failure,
+abort[^12].</li> <li>Return the signature <em>sig</em>.</li></ul> <p>The auxiliary random data should be set to fresh randomness generated at
+signing time, resulting in what is called a <em>synthetic nonce</em>. Using 32
+bytes of randomness is optimal. If obtaining randomness is expensive, 16
+random bytes can be padded with 16 null bytes to obtain a 32-byte array.
+If randomness is not available at all at signing time, a simple counter
+wide enough to not repeat in practice (e.g., 64 bits or wider) and
+padded with null bytes to a 32 byte-array can be used, or even the
+constant array with 32 null bytes. Using any non-repeating value
+increases protection against <a href="https://moderncrypto.org/mail-archive/curves/2017/000925.html" target="_blank" rel="noopener noreferrer">fault injection
+attacks<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.
+Using unpredictable randomness additionally increases protection against
+other side-channel attacks, and is <strong>recommended whenever available</strong>.
+Note that while this means the resulting nonce is not deterministic, the
+randomness is only supplemental to security. The normal security
+properties (excluding side-channel attacks) do not depend on the quality
+of the signing-time RNG.</p> <h4 id="alternative-signing-alternative-signing"><a href="#alternative-signing-alternative-signing" class="header-anchor">#</a> Alternative Signing {#alternative_signing}</h4> <p>It should be noted that various alternative signing algorithms can be
+used to produce equally valid signatures. The 32-byte <em>rand</em> value may
+be generated in other ways, producing a different but still valid
+signature (in other words, this is not a <em>unique</em> signature scheme).
+<strong>No matter which method is used to generate the <em>rand</em> value, the value
+must be a fresh uniformly random 32-byte string which is not even
+partially predictable for the attacker.</strong> For nonces without randomness
+this implies that the same inputs must not be presented in another
+context. This can be most reliably accomplished by not reusing the same
+private key across different signing schemes. For example, if the <em>rand</em>
+value was computed as per RFC6979 and the same secret key is used in
+deterministic ECDSA with RFC6979, the signatures can leak the secret key
+through nonce reuse.</p> <p><strong>Nonce exfiltration protection</strong> It is possible to strengthen the nonce
+generation algorithm using a second device. In this case, the second
+device contributes randomness which the actual signer provably
+incorporates into its nonce. This prevents certain attacks where the
+signer device is compromised and intentionally tries to leak the secret
+key through its nonce selection.</p> <p><strong>Multisignatures</strong> This signature scheme is compatible with various
+types of multisignature and threshold schemes such as
+<a href="https://eprint.iacr.org/2018/068" target="_blank" rel="noopener noreferrer">MuSig<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, where a single public key
+requires holders of multiple secret keys to participate in signing (see
+Applications below). <strong>It is important to note that multisignature
+signing schemes in general are insecure with the <em>rand</em> generation from
+the default signing algorithm above (or any other deterministic
+method).</strong></p> <p><strong>Precomputed public key data</strong> For many uses the compressed 33-byte
+encoding of the public key corresponding to the secret key may already
+be known, making it easy to evaluate <em>has_even_y(P)</em> and <em>bytes(P)</em>. As
+such, having signers supply this directly may be more efficient than
+recalculating the public key from the secret key. However, if this
+optimization is used and additionally the signature verification at the
+end of the signing algorithm is dropped for increased efficiency,
+signers must ensure the public key is correctly calculated and not taken
+from untrusted sources.</p> <h4 id="verification"><a href="#verification" class="header-anchor">#</a> Verification</h4> <p>Input:</p> <ul><li>The public key <em>pk</em>: a 32-byte array</li> <li>The message <em>m</em>: a 32-byte array</li> <li>A signature <em>sig</em>: a 64-byte array</li></ul> <p>The algorithm <em>Verify(pk, m, sig)</em> is defined as:</p> <ul><li>Let <em>P = lift_x(int(pk))</em>; fail if that fails.</li> <li>Let <em>r = int(sig[0:32])</em>; fail if <em>r ≥ p</em>.</li> <li>Let <em>s = int(sig[32:64])</em>; fail if <em>s ≥ n</em>.</li> <li>Let <em>e = int(hash~BIP0340/challenge~(bytes(r) || bytes(P) || m))
+mod n</em>.</li> <li>Let <em>R = s⋅G - e⋅P</em>.</li> <li>Fail if <em>is_infinite(R)</em>.</li> <li>Fail if <em>not has_even_y(R)</em>.</li> <li>Fail if <em>x(R) ≠ r</em>.</li> <li>Return success iff no failure occurred before reaching this point.</li></ul> <p>For every valid secret key <em>sk</em> and message <em>m</em>,
+<em>Verify(PubKey(sk),m,Sign(sk,m))</em> will succeed.</p> <p>Note that the correctness of verification relies on the fact that
+<em>lift_x</em> always returns a point with an even Y coordinate. A
+hypothetical verification algorithm that treats points as public keys,
+and takes the point <em>P</em> directly as input would fail any time a point
+with odd Y is used. While it is possible to correct for this by negating
+points with odd Y coordinate before further processing, this would
+result in a scheme where every (message, signature) pair is valid for
+two public keys (a type of malleability that exists for ECDSA as well,
+but we don't wish to retain). We avoid these problems by treating just
+the X coordinate as public key.</p> <h4 id="batch-verification-batch-verification"><a href="#batch-verification-batch-verification" class="header-anchor">#</a> Batch Verification {#batch_verification}</h4> <p>Input:</p> <ul><li>The number <em>u</em> of signatures</li> <li>The public keys <em>pk~1..u~</em>: <em>u</em> 32-byte arrays</li> <li>The messages <em>m~1..u~</em>: <em>u</em> 32-byte arrays</li> <li>The signatures <em>sig~1..u~</em>: <em>u</em> 64-byte arrays</li></ul> <p>The algorithm <em>BatchVerify(pk~1..u~, m~1..u~, sig~1..u~)</em> is defined as:</p> <ul><li>Generate <em>u-1</em> random integers <em>a~2...u~</em> in the range <em>1...n-1</em>.
+They are generated deterministically using a
+<a href="https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator" target="_blank" rel="noopener noreferrer">CSPRNG<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+seeded by a cryptographic hash of all inputs of the algorithm, i.e.
+<em>seed = seed_hash(pk~1~..pk~u~ || m~1~..m~u~ || sig~1~..sig~u~
+)</em>. A safe choice is to instantiate <em>seed_hash</em> with SHA256 and use
+<a href="https://tools.ietf.org/html/rfc8439" target="_blank" rel="noopener noreferrer">ChaCha20<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> with key <em>seed</em> as a
+CSPRNG to generate 256-bit integers, skipping integers not in the
+range <em>1...n-1</em>.</li> <li>For <em>i = 1 .. u</em>:
+<ul><li>Let <em>P~i~ = lift_x(int(pk~i~))</em>; fail if it fails.</li> <li>Let <em>r~i~ = int(sig~i~[0:32])</em>; fail if <em>r~i~ ≥ p</em>.</li> <li>Let <em>s~i~ = int(sig~i~[32:64])</em>; fail if <em>s~i~ ≥ n</em>.</li> <li>Let <em>e~i~ = int(hash~BIP0340/challenge~(bytes(r~i~) ||
+bytes(P~i~) || m~i~)) mod n</em>.</li> <li>Let <em>R~i~ = lift_x(r~i~)</em>; fail if <em>lift_x(r~i~)</em> fails.</li></ul></li> <li>Fail if <em>(s~1~ + a~2~s~2~ + ... + a~u~s~u~)⋅G ≠ R~1~ + a~2~⋅R~2~ +
+... + a~u~⋅R~u~ + e~1~⋅P~1~ + (a~2~e~2~)⋅P~2~ + ... +
+(a~u~e~u~)⋅P~u~</em>.</li> <li>Return success iff no failure occurred before reaching this point.</li></ul> <p>If all individual signatures are valid (i.e., <em>Verify</em> would return
+success for them), <em>BatchVerify</em> will always return success. If at least
+one signature is invalid, <em>BatchVerify</em> will return success with at most
+a negligible probability.</p> <h2 id="applications"><a href="#applications" class="header-anchor">#</a> Applications</h2> <p>There are several interesting applications beyond simple signatures.
+While recent academic papers claim that they are also possible with
+ECDSA, consensus support for Schnorr signature verification would
+significantly simplify the constructions.</p> <h3 id="multisignatures-and-threshold-signatures-multisignatures-and-threshold-signatures"><a href="#multisignatures-and-threshold-signatures-multisignatures-and-threshold-signatures" class="header-anchor">#</a> Multisignatures and Threshold Signatures {#multisignatures_and_threshold_signatures}</h3> <p>By means of an interactive scheme such as
+<a href="https://eprint.iacr.org/2018/068" target="_blank" rel="noopener noreferrer">MuSig<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, participants can aggregate
+their public keys into a single public key which they can jointly sign
+for. This allows <em>n</em>-of-<em>n</em> multisignatures which, from a verifier's
+perspective, are no different from ordinary signatures, giving improved
+privacy and efficiency versus <em>CHECKMULTISIG</em> or other means.</p> <p>Moreover, Schnorr signatures are compatible with <a href="https://web.archive.org/web/20031003232851/http://www.research.ibm.com/security/dkg.ps" target="_blank" rel="noopener noreferrer">distributed key
+generation<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>,
+which enables interactive threshold signatures schemes, e.g., the
+schemes described by <a href="http://cacr.uwaterloo.ca/techreports/2001/corr2001-13.ps" target="_blank" rel="noopener noreferrer">Stinson and Strobl
+(2001)<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> or
+<a href="https://web.archive.org/web/20060911151529/http://theory.lcs.mit.edu/~stasio/Papers/gjkr03.pdf" target="_blank" rel="noopener noreferrer">Gennaro, Jarecki and Krawczyk
+(2003)<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.
+These protocols make it possible to realize <em>k</em>-of-<em>n</em> threshold
+signatures, which ensure that any subset of size <em>k</em> of the set of <em>n</em>
+signers can sign but no subset of size less than <em>k</em> can produce a valid
+Schnorr signature. However, the practicality of the existing schemes is
+limited: most schemes in the literature have been proven secure only for
+the case <em>k-1 &lt; n/2</em>, are not secure when used concurrently in multiple
+sessions, or require a reliable broadcast mechanism to be secure.
+Further research is necessary to improve this situation.</p> <h3 id="adaptor-signatures-adaptor-signatures"><a href="#adaptor-signatures-adaptor-signatures" class="header-anchor">#</a> Adaptor Signatures {#adaptor_signatures}</h3> <p><a href="https://download.wpsoftware.net/bitcoin/wizardry/mw-slides/2018-05-18-l2/slides.pdf" target="_blank" rel="noopener noreferrer">Adaptor
+signatures<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+can be produced by a signer by offsetting his public nonce with a known
+point <em>T = t⋅G</em>, but not offsetting his secret nonce. A correct
+signature (or partial signature, as individual signers' contributions
+to a multisignature are called) on the same message with same nonce will
+then be equal to the adaptor signature offset by <em>t</em>, meaning that
+learning <em>t</em> is equivalent to learning a correct signature. This can be
+used to enable atomic swaps or even <a href="https://eprint.iacr.org/2018/472" target="_blank" rel="noopener noreferrer">general payment
+channels<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> in which the atomicity of
+disjoint transactions is ensured using the signatures themselves, rather
+than Bitcoin script support. The resulting transactions will appear to
+verifiers to be no different from ordinary single-signer transactions,
+except perhaps for the inclusion of locktime refund logic.</p> <p>Adaptor signatures, beyond the efficiency and privacy benefits of
+encoding script semantics into constant-sized signatures, have
+additional benefits over traditional hash-based payment channels.
+Specifically, the secret values <em>t</em> may be reblinded between hops,
+allowing long chains of transactions to be made atomic while even the
+participants cannot identify which transactions are part of the chain.
+Also, because the secret values are chosen at signing time, rather than
+key generation time, existing outputs may be repurposed for different
+applications without recourse to the blockchain, even multiple times.</p> <h3 id="blind-signatures-blind-signatures"><a href="#blind-signatures-blind-signatures" class="header-anchor">#</a> Blind Signatures {#blind_signatures}</h3> <p>A blind signature protocol is an interactive protocol that enables a
+signer to sign a message at the behest of another party without learning
+any information about the signed message or the signature. Schnorr
+signatures admit a very <a href="https://www.math.uni-frankfurt.de/~dmst/research/papers/schnorr.blind_sigs_attack.2001.pdf" target="_blank" rel="noopener noreferrer">simple blind signature
+scheme<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+which is however insecure because it's vulnerable to <a href="https://www.iacr.org/archive/crypto2002/24420288/24420288.pdf" target="_blank" rel="noopener noreferrer">Wagner's
+attack<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.
+A known mitigation is to let the signer abort a signing session with a
+certain probability, and the resulting scheme can be <a href="https://eprint.iacr.org/2019/877" target="_blank" rel="noopener noreferrer">proven secure
+under non-standard cryptographic
+assumptions<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p>Blind Schnorr signatures could for example be used in <a href="https://github.com/ElementsProject/scriptless-scripts/blob/master/md/partially-blind-swap.md" target="_blank" rel="noopener noreferrer">Partially Blind
+Atomic
+Swaps<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>,
+a construction to enable transferring of coins, mediated by an untrusted
+escrow agent, without connecting the transactors in the public
+blockchain transaction graph.</p> <h2 id="test-vectors-and-reference-code-test-vectors-and-reference-code"><a href="#test-vectors-and-reference-code-test-vectors-and-reference-code" class="header-anchor">#</a> Test Vectors and Reference Code {#test_vectors_and_reference_code}</h2> <p>For development and testing purposes, we provide a <a href="bip-0340/test-vectors.csv" title="wikilink">collection of test
+vectors in CSV format</a> and a
+naive, highly inefficient, and non-constant time <a href="bip-0340/reference.py" title="wikilink">pure Python 3.7
+reference implementation of the signing and verification
+algorithm</a>. The reference
+implementation is for demonstration purposes only and not to be used in
+production environments.</p> <h2 id="footnotes"><a href="#footnotes" class="header-anchor">#</a> Footnotes</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;references /&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="acknowledgements"><a href="#acknowledgements" class="header-anchor">#</a> Acknowledgements</h2> <p>This document is the result of many discussions around Schnorr based
+signatures over the years, and had input from Johnson Lau, Greg Maxwell,
+Andrew Poelstra, Rusty Russell, and Anthony Towns. The authors further
+wish to thank all those who provided valuable feedback and reviews,
+including the participants of the <a href="https://github.com/ajtowns/taproot-review" target="_blank" rel="noopener noreferrer">structured
+reviews<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p>[^1]: Informally, this means that without knowledge of the secret key
+but given valid signatures of arbitrary messages, it is not possible
+to come up with further valid signatures.</p> <p>[^2]: A detailed security proof in the random oracle model, which
+essentially restates <a href="https://www.di.ens.fr/~pointche/Documents/Papers/2000_joc.pdf" target="_blank" rel="noopener noreferrer">the original security proof by Pointcheval and
+Stern<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+more explicitly, can be found in <a href="https://eprint.iacr.org/2016/191" target="_blank" rel="noopener noreferrer">a paper by Kiltz, Masny and
+Pan<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. All these security proofs
+assume a variant of Schnorr signatures that use <em>(e,s)</em> instead of
+<em>(R,s)</em> (see Design above). Since we use a unique encoding of <em>R</em>,
+there is an efficiently computable bijection that maps <em>(R,s)</em> to
+<em>(e,s)</em>, which allows to convert a successful SUF-CMA attacker for
+the <em>(e,s)</em> variant to a successful SUF-CMA attacker for the <em>(R,s)</em>
+variant (and vice-versa). Furthermore, the proofs consider a variant
+of Schnorr signatures without key prefixing (see Design above), but
+it can be verified that the proofs are also correct for the variant
+with key prefixing. As a result, all the aforementioned security
+proofs apply to the variant of Schnorr signatures proposed in this
+document.</p> <p>[^3]: If <em>(r,s)</em> is a valid ECDSA signature for a given message and key,
+then <em>(r,n-s)</em> is also valid for the same message and key. If ECDSA
+is restricted to only permit one of the two variants (as Bitcoin
+does through a policy rule on the network), it can be
+<a href="https://nbn-resolving.de/urn:nbn:de:hbz:294-60803" target="_blank" rel="noopener noreferrer">proven<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+non-malleable under stronger than usual assumptions.</p> <p>[^4]: A limitation of committing to the public key (rather than to a
+short hash of it, or not at all) is that it removes the ability for
+public key recovery or verifying signatures against a short public
+key hash. These constructions are generally incompatible with batch
+verification.</p> <p>[^5]: Since <em>p</em> is odd, negation modulo <em>p</em> will map even numbers to odd
+numbers and the other way around. This means that for a valid X
+coordinate, one of the corresponding Y coordinates will be even, and
+the other will be odd.</p> <p>[^6]: An earlier version of this draft used the third option instead,
+based on a belief that this would in general trade signing
+efficiency for verification efficiency. When using Jacobian
+coordinates, a common optimization in ECC implementations, it is
+possible to determine if a Y coordinate is a quadratic residue by
+computing the Legendre symbol, without converting to affine
+coordinates first (which needs a modular inversion). As modular
+inverses and Legendre symbols have similar
+<a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2020-August/018081.html" target="_blank" rel="noopener noreferrer">performance<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+in practice, this trade-off is not worth it.</p> <p>[^7]: This can be formalized by a simple reduction that reduces an
+attack on Schnorr signatures with implicit Y coordinates to an
+attack to Schnorr signatures with explicit Y coordinates. The
+reduction works by reencoding public keys and negating the result of
+the hash function, which is modeled as random oracle, whenever the
+challenge public key has an explicit Y coordinate that is odd. A
+proof sketch can be found
+<a href="https://medium.com/blockstream/reducing-bitcoin-transaction-sizes-with-x-only-pubkeys-f86476af05d7" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p>[^8]: Among other pitfalls, using the specification with a curve whose
+order is not close to the size of the range of the nonce derivation
+function is insecure.</p> <p>[^9]: The auxiliary random data is hashed (with a unique tag) as a
+precaution against situations where the randomness may be correlated
+with the private key itself. It is xored with the private key
+(rather than combined with it in a hash) to reduce the number of
+operations exposed to the actual secret key.</p> <p>[^10]: Including the <a href="https://moderncrypto.org/mail-archive/curves/2020/001012.html" target="_blank" rel="noopener noreferrer">public key as input to the nonce
+hash<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+helps ensure the robustness of the signing algorithm by preventing
+leakage of the secret key if the calculation of the public key <em>P</em>
+is performed incorrectly or maliciously, for example if it is left
+to the caller for performance reasons.</p> <p>[^11]: Note that in general, taking a uniformly random 256-bit integer
+modulo the curve order will produce an unacceptably biased result.
+However, for the secp256k1 curve, the order is sufficiently close to
+<em>2^256^</em> that this bias is not observable (<em>1 - n / 2^256^</em> is
+around <em>1.27 * 2^-128^</em>).</p> <p>[^12]: Verifying the signature before leaving the signer prevents random
+or attacker provoked computation errors. This prevents publishing
+invalid signatures which may leak information about the secret key.
+It is recommended, but can be omitted if the computation cost is
+prohibitive.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bitcoindocs/bips/339.html" class="prev">
+        339
+      </a></span> <span class="next"><a href="/bitcoindocs/bips/341.html">
+        341
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bitcoindocs/assets/js/app.c31d8641.js" defer></script><script src="/bitcoindocs/assets/js/2.b78a9106.js" defer></script><script src="/bitcoindocs/assets/js/86.eab303cd.js" defer></script>
+  </body>
+</html>

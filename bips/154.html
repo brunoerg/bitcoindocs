@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>154 | Bitcoin Docs</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bitcoin.png">
+    <link rel="mask-icon" href="bitcoin.png" color="#3a0839">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="bitcoin.png">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#ff7e00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css" as="style"><link rel="preload" href="/bitcoindocs/assets/js/app.c31d8641.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/2.b78a9106.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/60.1e424058.js" as="script"><link rel="prefetch" href="/bitcoindocs/assets/js/10.68a64a6d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/100.bd554273.js"><link rel="prefetch" href="/bitcoindocs/assets/js/101.df38dcc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/102.3bf2a9d4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/103.d879654a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/104.fcff9e3b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/105.324f3006.js"><link rel="prefetch" href="/bitcoindocs/assets/js/106.b8b3ca20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/107.4a9863c3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/108.e93a5196.js"><link rel="prefetch" href="/bitcoindocs/assets/js/109.e770824e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/11.f67301bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/110.72ba2ba4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/111.a33eb12f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/112.ecf1c295.js"><link rel="prefetch" href="/bitcoindocs/assets/js/113.85f94e5b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/114.c79655f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/115.3940b629.js"><link rel="prefetch" href="/bitcoindocs/assets/js/116.9ead4ccc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/117.d4b75110.js"><link rel="prefetch" href="/bitcoindocs/assets/js/118.87575c0c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/119.65af5cbd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/12.fc1e786f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/120.99826b18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/121.608c453c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/122.b24765eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/123.64680142.js"><link rel="prefetch" href="/bitcoindocs/assets/js/124.4b4f9bc2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/125.0e07a49d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/126.be3bae0f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/127.3d041c50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/128.5feda1e3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/129.307399ad.js"><link rel="prefetch" href="/bitcoindocs/assets/js/13.47ba1b02.js"><link rel="prefetch" href="/bitcoindocs/assets/js/130.0659f005.js"><link rel="prefetch" href="/bitcoindocs/assets/js/131.69a612f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/132.b51e17e2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/133.7bb492d9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/134.0f7e8787.js"><link rel="prefetch" href="/bitcoindocs/assets/js/135.e2504a16.js"><link rel="prefetch" href="/bitcoindocs/assets/js/136.8b6c7216.js"><link rel="prefetch" href="/bitcoindocs/assets/js/137.e38fc5b2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/138.095843e4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/139.4a5e77fb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/14.42b93c7a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/140.f517d934.js"><link rel="prefetch" href="/bitcoindocs/assets/js/141.7a6497c0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/142.8ae1c029.js"><link rel="prefetch" href="/bitcoindocs/assets/js/143.2fadb8ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/144.a64d8f22.js"><link rel="prefetch" href="/bitcoindocs/assets/js/145.1b1fa851.js"><link rel="prefetch" href="/bitcoindocs/assets/js/146.a59efe37.js"><link rel="prefetch" href="/bitcoindocs/assets/js/147.a0a8fc92.js"><link rel="prefetch" href="/bitcoindocs/assets/js/148.e177254d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/149.88223d18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/15.cdd298ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/150.c07e2220.js"><link rel="prefetch" href="/bitcoindocs/assets/js/151.843c50f7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/152.4f34674a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/153.c2ba1434.js"><link rel="prefetch" href="/bitcoindocs/assets/js/154.dec4842c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/155.ecd7b99f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/156.55d078d3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/157.44501232.js"><link rel="prefetch" href="/bitcoindocs/assets/js/158.79220932.js"><link rel="prefetch" href="/bitcoindocs/assets/js/159.33765ed3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/16.4c7eeecf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/160.ea470a70.js"><link rel="prefetch" href="/bitcoindocs/assets/js/161.2dc38d81.js"><link rel="prefetch" href="/bitcoindocs/assets/js/162.a27303c6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/163.31e293c1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/164.fca747d6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/165.52456cdd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/166.c2464f79.js"><link rel="prefetch" href="/bitcoindocs/assets/js/167.25467097.js"><link rel="prefetch" href="/bitcoindocs/assets/js/168.92664946.js"><link rel="prefetch" href="/bitcoindocs/assets/js/169.df73d115.js"><link rel="prefetch" href="/bitcoindocs/assets/js/17.b107683f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/170.08fb6e7e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/171.ba749017.js"><link rel="prefetch" href="/bitcoindocs/assets/js/172.c92581cb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/173.1fce2c58.js"><link rel="prefetch" href="/bitcoindocs/assets/js/174.34c08943.js"><link rel="prefetch" href="/bitcoindocs/assets/js/175.0f3c7a0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/176.36c2e712.js"><link rel="prefetch" href="/bitcoindocs/assets/js/177.15027195.js"><link rel="prefetch" href="/bitcoindocs/assets/js/178.a42c47f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/179.e9af4276.js"><link rel="prefetch" href="/bitcoindocs/assets/js/18.608ae665.js"><link rel="prefetch" href="/bitcoindocs/assets/js/180.48a51584.js"><link rel="prefetch" href="/bitcoindocs/assets/js/181.cc255bc5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/182.64362e5e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/183.256b3077.js"><link rel="prefetch" href="/bitcoindocs/assets/js/184.3139561e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/185.5af948dd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/19.8b76fc9c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/20.122a4ef0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/21.1f8a8820.js"><link rel="prefetch" href="/bitcoindocs/assets/js/22.eb68688b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/23.9e751fd9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/24.72ecb396.js"><link rel="prefetch" href="/bitcoindocs/assets/js/25.ad100f49.js"><link rel="prefetch" href="/bitcoindocs/assets/js/26.654fcf2f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/27.fdb46ea9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/28.b28d1103.js"><link rel="prefetch" href="/bitcoindocs/assets/js/29.979a7705.js"><link rel="prefetch" href="/bitcoindocs/assets/js/3.0ccb3eb1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/30.27ab6b09.js"><link rel="prefetch" href="/bitcoindocs/assets/js/31.0b51055d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/32.e5d3f476.js"><link rel="prefetch" href="/bitcoindocs/assets/js/33.5325af50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/34.6cc1e8e6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/35.4f93edf4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/36.56c4b763.js"><link rel="prefetch" href="/bitcoindocs/assets/js/37.d7fc3cc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/38.ba47e0be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/39.a4948230.js"><link rel="prefetch" href="/bitcoindocs/assets/js/4.f750dbd8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/40.13f04ebc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/41.efba2874.js"><link rel="prefetch" href="/bitcoindocs/assets/js/42.71cd6fcf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/43.3dd10508.js"><link rel="prefetch" href="/bitcoindocs/assets/js/44.0e0f5018.js"><link rel="prefetch" href="/bitcoindocs/assets/js/45.4e467a20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/46.fbc682be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/47.79e3cde6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/48.36d1a4f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/49.5c861a4e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/5.8f3d1a69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/50.0c7609ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/51.6497b8ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/52.6fef223e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/53.dc5dd169.js"><link rel="prefetch" href="/bitcoindocs/assets/js/54.560108ca.js"><link rel="prefetch" href="/bitcoindocs/assets/js/55.a09c65a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/56.f7f7c539.js"><link rel="prefetch" href="/bitcoindocs/assets/js/57.3b3dfb34.js"><link rel="prefetch" href="/bitcoindocs/assets/js/58.1048b51d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/59.01f56552.js"><link rel="prefetch" href="/bitcoindocs/assets/js/6.ea542132.js"><link rel="prefetch" href="/bitcoindocs/assets/js/61.6d4493b3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/62.849c30d7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/63.0c6aaa64.js"><link rel="prefetch" href="/bitcoindocs/assets/js/64.0d99b925.js"><link rel="prefetch" href="/bitcoindocs/assets/js/65.d60db57e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/66.c6c02735.js"><link rel="prefetch" href="/bitcoindocs/assets/js/67.c0c64c59.js"><link rel="prefetch" href="/bitcoindocs/assets/js/68.99f833eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/69.88769157.js"><link rel="prefetch" href="/bitcoindocs/assets/js/7.474d9a1c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/70.0a746051.js"><link rel="prefetch" href="/bitcoindocs/assets/js/71.9847fc9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/72.8e04fa9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/73.772916a2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/74.9663297b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/75.66154da0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/76.358626cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/77.8eafda69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/78.782695f1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/79.99523f6b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/8.7a9d23a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/80.2c556ea8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/81.b70d3d0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/82.f0c621cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/83.13117f68.js"><link rel="prefetch" href="/bitcoindocs/assets/js/84.2361b62a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/85.e8f23ad0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/86.eab303cd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/87.a547f760.js"><link rel="prefetch" href="/bitcoindocs/assets/js/88.3c748686.js"><link rel="prefetch" href="/bitcoindocs/assets/js/89.6b7de962.js"><link rel="prefetch" href="/bitcoindocs/assets/js/9.6e1ca0bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/90.0907331e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/91.fe47eeeb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/92.f4c67fe3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/93.efdc2e47.js"><link rel="prefetch" href="/bitcoindocs/assets/js/94.b7862723.js"><link rel="prefetch" href="/bitcoindocs/assets/js/95.06e410a5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/96.0cc67031.js"><link rel="prefetch" href="/bitcoindocs/assets/js/97.b9460d90.js"><link rel="prefetch" href="/bitcoindocs/assets/js/98.0689894c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/99.f18fe9ac.js">
+    <link rel="stylesheet" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bitcoindocs/" class="home-link router-link-active"><!----> <span class="site-name">Bitcoin Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>BIPs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bitcoindocs/bips/" aria-current="page" class="sidebar-link">Bitcoin Improvement Proposals</a></li><li><a href="/bitcoindocs/bips/1.html" class="sidebar-link">1</a></li><li><a href="/bitcoindocs/bips/2.html" class="sidebar-link">2</a></li><li><a href="/bitcoindocs/bips/8.html" class="sidebar-link">8</a></li><li><a href="/bitcoindocs/bips/9.html" class="sidebar-link">9</a></li><li><a href="/bitcoindocs/bips/16.html" class="sidebar-link">16</a></li><li><a href="/bitcoindocs/bips/32.html" class="sidebar-link">32</a></li><li><a href="/bitcoindocs/bips/39.html" class="sidebar-link">39</a></li><li><a href="/bitcoindocs/bips/42.html" class="sidebar-link">42</a></li><li><a href="/bitcoindocs/bips/43.html" class="sidebar-link">43</a></li><li><a href="/bitcoindocs/bips/44.html" class="sidebar-link">44</a></li><li><a href="/bitcoindocs/bips/45.html" class="sidebar-link">45</a></li><li><a href="/bitcoindocs/bips/47.html" class="sidebar-link">47</a></li><li><a href="/bitcoindocs/bips/49.html" class="sidebar-link">49</a></li><li><a href="/bitcoindocs/bips/50.html" class="sidebar-link">50</a></li><li><a href="/bitcoindocs/bips/60.html" class="sidebar-link">60</a></li><li><a href="/bitcoindocs/bips/61.html" class="sidebar-link">61</a></li><li><a href="/bitcoindocs/bips/62.html" class="sidebar-link">62</a></li><li><a href="/bitcoindocs/bips/64.html" class="sidebar-link">64</a></li><li><a href="/bitcoindocs/bips/65.html" class="sidebar-link">65</a></li><li><a href="/bitcoindocs/bips/66.html" class="sidebar-link">66</a></li><li><a href="/bitcoindocs/bips/67.html" class="sidebar-link">67</a></li><li><a href="/bitcoindocs/bips/68.html" class="sidebar-link">68</a></li><li><a href="/bitcoindocs/bips/69.html" class="sidebar-link">69</a></li><li><a href="/bitcoindocs/bips/70.html" class="sidebar-link">70</a></li><li><a href="/bitcoindocs/bips/71.html" class="sidebar-link">71</a></li><li><a href="/bitcoindocs/bips/72.html" class="sidebar-link">72</a></li><li><a href="/bitcoindocs/bips/73.html" class="sidebar-link">73</a></li><li><a href="/bitcoindocs/bips/74.html" class="sidebar-link">74</a></li><li><a href="/bitcoindocs/bips/75.html" class="sidebar-link">75</a></li><li><a href="/bitcoindocs/bips/78.html" class="sidebar-link">78</a></li><li><a href="/bitcoindocs/bips/79.html" class="sidebar-link">79</a></li><li><a href="/bitcoindocs/bips/80.html" class="sidebar-link">80</a></li><li><a href="/bitcoindocs/bips/81.html" class="sidebar-link">81</a></li><li><a href="/bitcoindocs/bips/83.html" class="sidebar-link">83</a></li><li><a href="/bitcoindocs/bips/84.html" class="sidebar-link">84</a></li><li><a href="/bitcoindocs/bips/85.html" class="sidebar-link">85</a></li><li><a href="/bitcoindocs/bips/90.html" class="sidebar-link">90</a></li><li><a href="/bitcoindocs/bips/91.html" class="sidebar-link">91</a></li><li><a href="/bitcoindocs/bips/98.html" class="sidebar-link">98</a></li><li><a href="/bitcoindocs/bips/99.html" class="sidebar-link">99</a></li><li><a href="/bitcoindocs/bips/100.html" class="sidebar-link">100</a></li><li><a href="/bitcoindocs/bips/101.html" class="sidebar-link">101</a></li><li><a href="/bitcoindocs/bips/102.html" class="sidebar-link">102</a></li><li><a href="/bitcoindocs/bips/103.html" class="sidebar-link">103</a></li><li><a href="/bitcoindocs/bips/104.html" class="sidebar-link">104</a></li><li><a href="/bitcoindocs/bips/105.html" class="sidebar-link">105</a></li><li><a href="/bitcoindocs/bips/106.html" class="sidebar-link">106</a></li><li><a href="/bitcoindocs/bips/107.html" class="sidebar-link">107</a></li><li><a href="/bitcoindocs/bips/109.html" class="sidebar-link">109</a></li><li><a href="/bitcoindocs/bips/111.html" class="sidebar-link">111</a></li><li><a href="/bitcoindocs/bips/112.html" class="sidebar-link">112</a></li><li><a href="/bitcoindocs/bips/113.html" class="sidebar-link">113</a></li><li><a href="/bitcoindocs/bips/114.html" class="sidebar-link">114</a></li><li><a href="/bitcoindocs/bips/115.html" class="sidebar-link">115</a></li><li><a href="/bitcoindocs/bips/116.html" class="sidebar-link">116</a></li><li><a href="/bitcoindocs/bips/117.html" class="sidebar-link">117</a></li><li><a href="/bitcoindocs/bips/118.html" class="sidebar-link">118</a></li><li><a href="/bitcoindocs/bips/119.html" class="sidebar-link">119</a></li><li><a href="/bitcoindocs/bips/120.html" class="sidebar-link">120</a></li><li><a href="/bitcoindocs/bips/121.html" class="sidebar-link">121</a></li><li><a href="/bitcoindocs/bips/122.html" class="sidebar-link">122</a></li><li><a href="/bitcoindocs/bips/123.html" class="sidebar-link">123</a></li><li><a href="/bitcoindocs/bips/124.html" class="sidebar-link">124</a></li><li><a href="/bitcoindocs/bips/125.html" class="sidebar-link">125</a></li><li><a href="/bitcoindocs/bips/126.html" class="sidebar-link">126</a></li><li><a href="/bitcoindocs/bips/127.html" class="sidebar-link">127</a></li><li><a href="/bitcoindocs/bips/130.html" class="sidebar-link">130</a></li><li><a href="/bitcoindocs/bips/131.html" class="sidebar-link">131</a></li><li><a href="/bitcoindocs/bips/132.html" class="sidebar-link">132</a></li><li><a href="/bitcoindocs/bips/133.html" class="sidebar-link">133</a></li><li><a href="/bitcoindocs/bips/134.html" class="sidebar-link">134</a></li><li><a href="/bitcoindocs/bips/135.html" class="sidebar-link">135</a></li><li><a href="/bitcoindocs/bips/136.html" class="sidebar-link">136</a></li><li><a href="/bitcoindocs/bips/137.html" class="sidebar-link">137</a></li><li><a href="/bitcoindocs/bips/140.html" class="sidebar-link">140</a></li><li><a href="/bitcoindocs/bips/141.html" class="sidebar-link">141</a></li><li><a href="/bitcoindocs/bips/142.html" class="sidebar-link">142</a></li><li><a href="/bitcoindocs/bips/143.html" class="sidebar-link">143</a></li><li><a href="/bitcoindocs/bips/144.html" class="sidebar-link">144</a></li><li><a href="/bitcoindocs/bips/145.html" class="sidebar-link">145</a></li><li><a href="/bitcoindocs/bips/146.html" class="sidebar-link">146</a></li><li><a href="/bitcoindocs/bips/147.html" class="sidebar-link">147</a></li><li><a href="/bitcoindocs/bips/148.html" class="sidebar-link">148</a></li><li><a href="/bitcoindocs/bips/149.html" class="sidebar-link">149</a></li><li><a href="/bitcoindocs/bips/150.html" class="sidebar-link">150</a></li><li><a href="/bitcoindocs/bips/151.html" class="sidebar-link">151</a></li><li><a href="/bitcoindocs/bips/152.html" class="sidebar-link">152</a></li><li><a href="/bitcoindocs/bips/154.html" aria-current="page" class="active sidebar-link">154</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#abstract" class="sidebar-link">Abstract</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#definitions" class="sidebar-link">Definitions</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#motivation" class="sidebar-link">Motivation</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#specification" class="sidebar-link">Specification</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#signing-and-verifying-challenges-signing-and-verifying-challenges" class="sidebar-link">Signing and Verifying Challenges {#signingandverifying_challenges}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#difficulty-and-cost-difficulty-and-cost" class="sidebar-link">Difficulty and Cost {#difficultyandcost}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#cuckoo-cycle-cuckoo-cycle-1" class="sidebar-link">Cuckoo Cycle {#cuckoocycle1}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#compatibility" class="sidebar-link">Compatibility</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#reference-implementation-reference-implementation" class="sidebar-link">Reference implementation {#reference_implementation}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#references" class="sidebar-link">References</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#test-vectors-test-vectors" class="sidebar-link">Test vectors {#test_vectors}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/154.html#copyright" class="sidebar-link">Copyright</a></li></ul></li><li><a href="/bitcoindocs/bips/155.html" class="sidebar-link">155</a></li><li><a href="/bitcoindocs/bips/156.html" class="sidebar-link">156</a></li><li><a href="/bitcoindocs/bips/157.html" class="sidebar-link">157</a></li><li><a href="/bitcoindocs/bips/158.html" class="sidebar-link">158</a></li><li><a href="/bitcoindocs/bips/159.html" class="sidebar-link">159</a></li><li><a href="/bitcoindocs/bips/171.html" class="sidebar-link">171</a></li><li><a href="/bitcoindocs/bips/173.html" class="sidebar-link">173</a></li><li><a href="/bitcoindocs/bips/174.html" class="sidebar-link">174</a></li><li><a href="/bitcoindocs/bips/175.html" class="sidebar-link">175</a></li><li><a href="/bitcoindocs/bips/176.html" class="sidebar-link">176</a></li><li><a href="/bitcoindocs/bips/178.html" class="sidebar-link">178</a></li><li><a href="/bitcoindocs/bips/179.html" class="sidebar-link">179</a></li><li><a href="/bitcoindocs/bips/180.html" class="sidebar-link">180</a></li><li><a href="/bitcoindocs/bips/197.html" class="sidebar-link">197</a></li><li><a href="/bitcoindocs/bips/199.html" class="sidebar-link">199</a></li><li><a href="/bitcoindocs/bips/300.html" class="sidebar-link">300</a></li><li><a href="/bitcoindocs/bips/301.html" class="sidebar-link">301</a></li><li><a href="/bitcoindocs/bips/310.html" class="sidebar-link">310</a></li><li><a href="/bitcoindocs/bips/320.html" class="sidebar-link">320</a></li><li><a href="/bitcoindocs/bips/322.html" class="sidebar-link">322</a></li><li><a href="/bitcoindocs/bips/325.html" class="sidebar-link">325</a></li><li><a href="/bitcoindocs/bips/339.html" class="sidebar-link">339</a></li><li><a href="/bitcoindocs/bips/340.html" class="sidebar-link">340</a></li><li><a href="/bitcoindocs/bips/341.html" class="sidebar-link">341</a></li><li><a href="/bitcoindocs/bips/342.html" class="sidebar-link">342</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_154"><a href="#_154" class="header-anchor">#</a> 154</h1> <div class="language- extra-class"><pre><code>  BIP: 154
+  Layer: Peer Services
+  Title: Rate Limiting via peer specified challenges
+  Author: Karl-Johan Alm &lt;karljohan-alm@garage.co.jp&gt;
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0154
+  Status: Withdrawn
+  Type: Standards Track
+  Created: 2017-04-12
+  License: BSD-2-Clause
+</code></pre></div><h2 id="abstract"><a href="#abstract" class="header-anchor">#</a> Abstract</h2> <p>An anti-DoS system which provides additional service for peers which
+perform proof of work.</p> <h2 id="definitions"><a href="#definitions" class="header-anchor">#</a> Definitions</h2> <ul><li><strong>POW</strong> : a proof of work using some arbitrary algorithm, such as
+SHA256</li> <li><strong>challenge</strong> : a problem in the form of a POW specification and
+other data</li> <li><strong>solution</strong> : a set of inputs which solve a given challenge</li> <li><strong>free connection slot</strong> : an inbound connection slot that does not
+require POW</li> <li><strong>POW connection slot</strong> : an inbound connection slot that requires
+POW</li> <li><strong>SPH</strong> : Special Purpose Hardware, such as an ASIC chip</li> <li><strong>GPH</strong> : General Purpose Hardware, such as a desktop computer</li> <li><strong>Work</strong> : A measurement of optimized average resources (clock
+cycles, memory, ...) required to perform a single attempt at
+solving a given POW algorithm on GPH</li></ul> <h2 id="motivation"><a href="#motivation" class="header-anchor">#</a> Motivation</h2> <p>The Bitcoin network has a maximum number of inbound and outbound
+connections (125). It is trivial and relatively cheap to flood the
+network with connections via dummy nodes. Such an attack would result in
+(1) nodes evicting some other nodes in order to facilitate the new
+connection, and (2) nodes' ability to connect to each other being
+severely hampered. In this state, the network is vulnerable to e.g. a
+Sybil attack.</p> <p>While the network is under pressure as in the above case, nodes could
+allow incoming connections anyway by requiring that the incoming peer
+performs some form of proof of work, to prove that they are not simply
+spamming the network. This would severely ramp up the costs of a Sybil
+attack, as the attacker would now have to perform proof of work for each
+node, beyond the free slots.</p> <p>However, using the &quot;standard&quot; double-SHA256 POW algorithm in use by
+Bitcoin nodes to generate blocks means attackers can use special-purpose
+hardware to greatly accelerate the POW solving process. To counter this,
+the proof weight would have to be raised, but this would mean standard
+nodes would need to solve unacceptably costly challenges for simple
+operation. Therefore, a different proof of work which is arguably less
+sensitive to special-purpose hardware implementations is introduced. As
+this is not consensus sensitive, additional POW algorithms may be added
+in the future.</p> <h2 id="specification"><a href="#specification" class="header-anchor">#</a> Specification</h2> <p>A peer that supports Proof of Work Rate Limiting defines two maximums:</p> <ul><li>max connections, from which the maximum inbound connections is
+calculated as <code>nMaxConnections - (nMaxOutbound + nMaxFeeler)</code></li> <li>POW connection slots, which define how many of the above inbound
+connections require a POW challenge</li></ul> <p>The peer must interpret two new network peer message types, <code>challenge</code>
+and <code>solution</code>.</p> <p>In addition, the network handshake sequence must be altered slightly to
+facilitate the exchange of challenges and/or solutions:</p> <ul><li>when a node connects, it may send a <code>solution</code> message prior to the
+<code>version</code></li> <li>if it does, and
+<ul><li>the solution satisfies the local node, it is given a connection,
+but if</li> <li>the solution does not satisfy the local node (unknown, wrong,
+...), a new <code>challenge</code> is sent and the connection is closed</li></ul></li> <li>if it does not, and it is marked as needing to do POW, a <code>challenge</code>
+is sent and the connection is closed</li></ul> <p>This means nodes will be disconnected after receiving the challenge. It
+is then up to the individual nodes whether they solve the challenge and
+reconnect, or discard it and find a different peer (or wait for the peer
+to have an open free slot).</p> <h3 id="pow-identifiers-pow-identifiers"><a href="#pow-identifiers-pow-identifiers" class="header-anchor">#</a> POW Identifiers {#pow_identifiers}</h3> <p>There are two POW identifiers currently. When a new identifier is
+introduced, it should be added with an increment of 1 to the last
+identifier in the list. When an identifier is deprecated, its status
+should be changed to <code>Deprecated</code> but it should retain its place in the
+list indefinitely.</p> <p>ID   Algorithm Name   Work                             Param size   Solution size     Provably Secure   SPH Resistance   Status</p> <hr> <p>1    sha256           11k cycles                       11+ bytes    0, 4 or 8 bytes   Yes               Low              Active
+2    cuckoo-cycle     ss 28: 150G cycles / ~48M RAM   6+ bytes     168 bytes         No                High             Active</p> <h4 id="sha256"><a href="#sha256" class="header-anchor">#</a> sha256</h4> <p>Properties:</p> <p>Property               Value</p> <hr> <p>Solution probability   <code>sum((1/2)^i*(1-targetBE[i]))</code></p> <p>Challenge format:</p> <p>Range   Field Name       Data Type    Description</p> <hr> <p>0       config_length    varint       Length of configuration part; always 9
+1..4    target           uint32       Difficulty target, in the form of a compact size (like nBits in blocks).
+5       nonce_size       uint8        Size of nonce in bytes; must be 0 (no nonce), 4 (uint32) or 8 (uint64)
+6..9    nonce_offset     uint32       Location of nonce value in target
+10..    payload_length   varint       Length of the input data
+..      payload          byte array   Input data</p> <p>Solution format:</p> <p>Range   Field Name   Data Type            Description</p> <hr> <p>0..     nonce        uint32/64, or data   Nonce value that satisfies challenge; for zero-byte nonces, this is variable data that is appended to the challenge payload before hashing</p> <p>Note: SHA256 works in two &quot;modes&quot;.</p> <ol><li>One is where the task is to insert a nonce into an existing data
+block so that the hash of the data block matches a given target;
+this is the conventional block proof of work behavior.</li> <li>The other is where the whole or parts of the data chunk are given as
+input (a &quot;big nonce&quot;). In this case, the internal nonce size is
+zero bytes, and the task is simply to check whether the hash of the
+data matches the target. If it does not, there is no way to find a
+solution except by getting different input from the generator (a
+successor algorithm). This mode is used when SHA256 is a predecessor
+to another algorithm.</li></ol> <p>Additional notes:</p> <ul><li>The initial nonce value (when present) for finding a suitable digest
+should be randomized, or a challenger may deliberately pick a
+challenge with &quot;poor&quot; outcomes to fool a node into spending more
+than predicted time solving.</li></ul> <h4 id="cuckoo-cycle-cuckoo-cycle"><a href="#cuckoo-cycle-cuckoo-cycle" class="header-anchor">#</a> cuckoo-cycle {#cuckoo_cycle}</h4> <p>Properties:</p> <p>Property               Value</p> <hr> <p>Solution probability   <code>~1.0</code> for sizeshift=28, proofsize-min:-max=12:228</p> <p>Challenge format:</p> <p>Range   Field Name       Data Type    Description</p> <hr> <p>0       config_length    varint       Length of configuration part; always 5
+1       sizeshift        uint8        Size shift; must be equal to 28, but may be variable in the future
+2..3    proofsize-min    uint16       Minimum number of edges in cycle; must be even and greater than or equal to 12 (recommended: 12)
+4..5    proofsize-max    uint16       Maximum number of edges in cycle; must be even, greater than or equal to proofsize-min, and smaller than or equal to 254 (recommended: 228)
+6       payload_length   varint       Length of the input data; must be 76, but may be variable in the future
+7..     payload          byte array   Input data</p> <p>Solution format:</p> <p>Range    Field Name   Data Type      Description</p> <hr> <p>0..3     nonce        uint32         Nonce which is appended to challenge payload to form solution graph
+4..171   edges        uint32 array   42 values which identify each of the 42 edges in the cycle</p> <p>Additional notes:</p> <ul><li>The initial nonce value used for finding a graph with a suitable
+solution should be randomized, or a challenger may deliberately pick
+a challenge with &quot;poor&quot; outcomes to fool a node into spending more
+than predicted time solving.</li> <li>Further information on the recommended challenge parameters can be
+found here: <a href="http://bc-2.jp/cuckoo-profile.pdf" target="_blank" rel="noopener noreferrer">http://bc-2.jp/cuckoo-profile.pdf<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <h3 id="purpose-identifiers-purpose-identifiers"><a href="#purpose-identifiers-purpose-identifiers" class="header-anchor">#</a> Purpose Identifiers {#purpose_identifiers}</h3> <p>There is only one Purpose Identifier currently. In the future, more
+Purpose Identifiers could be added for at-DoS-risk operations, such as
+bloom filters. When a new identifier is introduced, it should be added
+with an increment of 1 to the last identifier in the list. When an
+identifier is deprecated, its status should be changed to <code>Deprecated</code>
+but it should retain its place in the list indefinitely.</p> <p>ID   Purpose Name   Description                         Status</p> <hr> <p>1    connect        Establish peer to peer connection   Active</p> <h3 id="challenges"><a href="#challenges" class="header-anchor">#</a> Challenges</h3> <p>Challenges consist of one or several chained POW identifiers with
+accompanying parameters, as well as indicators for the purpose of the
+challenge, and a signature that lets the node verify the challenge
+authenticity.</p> <p>After creating a challenge, the node signs it, delivers it to the peer,
+then discards it. When a node provides a solution to a challenge, the
+node verifies the signature and adds the challenge hash to a list of
+solved challenges along with its expiration time. This list is pruned on
+each insertion, removing any expired challenges.</p> <p>If nodes needed to keep track of unsolved challenges, an attacker could
+hypothetically swarm a node, causing a DoS by having it generate so many
+challenges that it runs out of memory and crashes. By signing and
+discarding challenges, a node only has to retain challenges that were
+solved, and which have not yet expired, effectively DoS- protecting the
+node via the challenges themselves.</p> <h3 id="the-challenge-message-type-the-challenge-message-type"><a href="#the-challenge-message-type-the-challenge-message-type" class="header-anchor">#</a> The <code>challenge</code> message type {#the_challenge_message_type}</h3> <p>A challenge consists of four parts: the POW specification, a purpose
+identifier, an expiration date, and a signature. The POW specification
+contains a list of tuples containing a POW identifier and corresponding
+POW parameters.</p> <ul><li>Each POW identifier specifies a POW algorithm (see POW Identifiers)</li> <li>The POW parameters define the inputs and requirements of the POW
+algorithm</li> <li>The purpose identifier specifies the purpose of the challenge (see
+Purpose Identifiers)</li> <li>The expiration date is a UNIX timestamp indicating when the
+challenge expires</li> <li>The signed content should contain a signature of the hash
+<code>SHA256(SHA256(pow-count || pow-id || pow-params || ... || purpose-id || expiration))</code>,
+i.e. the hash of the entire challenge except for the signature
+length and data.</li></ul> <p>Field Size   Description   Data type    Description</p> <hr> <p>1 byte       pow-count     uint8        Number of POW algorithms in the range [1..255]
+4 bytes      pow-id        uint32       The POW algorithm to solve the problem with
+?            pow-params    ?            The POW parameters and payload
+...         ...          ...         pow-id and pow-params for algorithms 2 and beyond
+4 bytes      purpose-id    uint32       The purpose of the challenge
+8 bytes      expiration    int64        Expiration UNIX timestamp
+?            sign-len      varint       The length of the signature
+?            sign          byte array   The signature data</p> <p>For POW specifications with a pow-count &gt; 1, the output of the
+succeeding POW algorithm will be appended to the input of the
+predecessor for all POW algorithms except the last one. Normally
+mid-layer (all but the last) POW algorithms have a zero-length input.
+Example implementing sha256(cuckoo-cycle):</p> <p>Range      Field Name                    Value           Comment</p> <hr> <p>0          pow-count                     2               Two POW algorithms
+1..4       pow-id                        1               sha256
+5          pow-params (config_length)    9<br>
+6..9       pow-params (target)           0x207fffff      Resulting hash must be &lt;= the compact hash 0x207fffff*
+10         pow-params (nonce_size)       0               No nonce
+11..14     pow-params (nonce_offset)     0               --
+15..18     pow-params (payload_length)   0               0 byte input (turns into 32 byte input from successor)
+19..22     pow-id                        2               cuckoo-cycle
+23         pow-params (config_length)    8<br>
+24         pow-params (sizeshift)        28<br>
+25..26     pow-params (proofsize-min)    12<br>
+27..28     pow-params (proofsize-max)    228<br>
+29         pow-params (payload_length)   76              76 byte input
+30..105    pow-params                    (random data)   A randomized challenge of 76 bytes
+106..109   purpose-id                    1               Purpose is a peer-to-peer connection
+110..117   expiration                    1491285696      Expiration is April 4 2017, 15:01:36 (JST)
+118        sign-len                      71              71 byte signature
+119..189   sign                          (signature)     Signature of above challenge</p> <p>(* Compact 0x207fffff =
+0x7fffff0000000000000000000000000000000000000000000000000000000000.)</p> <p>The above should be interpreted as SHA256(cuckoo-cycle(random data ||
+nonce)) &lt;
+0x7fffff0000000000000000000000000000000000000000000000000000000000.</p> <ul><li>Run cuckoo-cycle on random data || nonce; increment nonce until
+solution is found, then
+<ul><li>Run SHA256 on 32 byte digest from above; if less than
+0x7fffff0000000000000000000000000000000000000000000000000000000000,
+<ul><li>Mark solved.</li></ul></li></ul></li> <li>Otherwise loop back and increase nonce and continue finding
+solutions</li></ul> <h3 id="the-solution-message-type-the-solution-message-type"><a href="#the-solution-message-type-the-solution-message-type" class="header-anchor">#</a> The <code>solution</code> message type {#the_solution_message_type}</h3> <p>A solution consists of two parts: the entire challenge, and solution
+parameters:</p> <ul><li>The challenge must match the given challenge up to and including the
+signature bytes</li> <li>The solution parameters must form a valid solution to each POW step
+in the challenge</li></ul> <p>Field Size   Description   Data type    Description</p> <hr> <p>1 byte       pow-count     uint8        Number of POW algorithms in the range [1..255]
+4 bytes      pow-id        uint32       The POW algorithm used to solve the problem
+?            pow-params    ?            The input to the POW solver for the above algorithm
+...         ...          ...         pow-id and pow-params for algorithms 2 and beyond
+4 bytes      purpose-id    uint32       The purpose of the challenge
+8 bytes      expiration    int64        Expiration UNIX timestamp
+?            sign-len      varint       The length of the signature
+?            sign          byte array   The signature data
+?            solution      ?            The solution to the challenge</p> <p>Note that the solution contains the parameters for the last algorithm
+only. For each algorithm except the last one, the input is derived from
+the output of the successor. Example solution:</p> <p>Range   Name      Value     Description</p> <hr> <p>0       length    4         The input to the innermost POW is 4 bytes in length
+1..4    nonce32   0x12345   The nonce used as input is 0x12345</p> <p>The above example will provide a single nonce for the inner POW. For the
+SHA256(SHA256(challenge data || nonce32)) case, the solution would
+claim that SHA256(SHA256(challenge data || 0x00012345)) solves the
+challenge.</p> <h2 id="signing-and-verifying-challenges-signing-and-verifying-challenges"><a href="#signing-and-verifying-challenges-signing-and-verifying-challenges" class="header-anchor">#</a> Signing and Verifying Challenges {#signing_and_verifying_challenges}</h2> <p>Below is a suggestion for how to sign a challenge. The implementation
+generates a new, random key-pair at launch and uses that to sign all
+challenges until the node is shutdown.</p> <h3 id="signing-a-challenge-signing-a-challenge"><a href="#signing-a-challenge-signing-a-challenge" class="header-anchor">#</a> Signing a Challenge {#signing_a_challenge}</h3> <ol><li>(first time) Create a new random key-pair <code>key</code> and <code>pubkey</code> and
+keep these around until shutdown</li> <li>(second+ time) Fetch <code>key</code> created above</li> <li>Create a double-SHA256 <code>sighash</code> of the challenge in serialized form
+up until and including the expiration bytes</li> <li>Create a signature <code>sign</code> of <code>sighash</code> using <code>key</code></li> <li>Append <code>varint(len(sign))</code> and <code>sign</code> to challenge</li></ol> <h3 id="verifying-a-challenge-verifying-a-challenge"><a href="#verifying-a-challenge-verifying-a-challenge" class="header-anchor">#</a> Verifying a Challenge {#verifying_a_challenge}</h3> <ol><li>Fetch <code>pubkey</code> and declare failure if not defined (that means we
+never issued a challenge)</li> <li>Create a double-SHA256 <code>sighash</code> of the challenge provided with the
+solution up until and including the expiration bytes</li> <li>Verify <code>sighash</code> is not known, and add it to known hashes along with
+its expiration date for pruning purposes</li> <li>Set <code>sign</code> to the signature included in the challenge</li> <li>Verify the signature <code>sign</code> using <code>pubkey</code> and <code>sighash</code></li> <li>Check that the solution solves the challenge</li></ol> <p>Note that a list of known hashes should be kept and pruned of expired
+challenges on verification. Otherwise nodes may reuse the same solution
+repeatedly up until its expiration.</p> <h2 id="difficulty-and-cost-difficulty-and-cost"><a href="#difficulty-and-cost-difficulty-and-cost" class="header-anchor">#</a> Difficulty and Cost {#difficulty_and_cost}</h2> <h3 id="estimating-challenge-cost-estimating-challenge-cost"><a href="#estimating-challenge-cost-estimating-challenge-cost" class="header-anchor">#</a> Estimating Challenge Cost {#estimating_challenge_cost}</h3> <p>Nodes need to be able to make a judgement call on whether solving a
+given challenge is worth their efforts. If a challenge is expected to
+take so much time that it would expire before being solved (on average),
+it should be immediately discarded. Beyond this, a threshold should be
+established for nodes based on their &quot;value&quot; to the node, which is
+inversely proportional to the current number of connections as a
+function of uptime, with arbitrary modifiers (a whitelisted node or a
+node added via -addnode has a much higher threshold).</p> <p>It is hard to obtain an accurate value for <code>cycles_per_second</code>, and as
+such a fixed value of 1700000000=1.7e9 may be used.</p> <p>Given a threshold <code>t</code>, calculate the estimated work required to solve
+the challenge as follows:</p> <ol><li>Define <code>p(alg)</code> as the probability that an attempt at finding a
+solution given the algorithm <code>alg</code> succeeds</li> <li>Define <code>w(alg)</code> as the work parameter of the algorithm <code>alg</code>.</li> <li>Let <code>Wc ← 0, Wm ← 1, Wi ← 1</code></li> <li>For each proof of work <code>pow</code> in the POW specification:
+<ol><li>Let <code>p ← p(pow)</code>, <code>w ← w(pow)</code></li> <li>Update <code>Wc ← Wc + w_cycles</code>, <code>Wi ← Wi * 1/p</code>, <code>Wm ← Wm + w_ram</code></li></ol></li> <li>Let <code>eta ← (Wc * Wi) / cycles_per_second</code></li> <li>If <code>date() + eta &gt;= expiration</code>, discard challenge</li> <li>If <code>eta &gt; t</code>, discard challenge</li></ol> <p>Example:
+<code>SHA256(cuckoo-cycle(...)) &lt; 0x7fffff0000000000000000000000000000000000000000000000000000000000</code></p> <ol><li><code>p(cuckoo-cycle) = 1</code>, <code>p(sha256, 0x7fffff000...) ~= (1/2)^1 = 1/2</code></li> <li><code>w(cuckoo-cycle) = (1.5e11 cycles, 5e7 ram)</code>,
+<code>w(sha256, 0x7fffff000...) = (11e3 cycles)</code></li> <li><code>Wc = 0, Wm = 1, Wi = 1</code> <ol><li><code>p = p(cuckoo-cycle) = 1, w = w(cuckoo-cycle) = (1.5e11 cycles, 5e7 ram)</code></li> <li><code>Wc = 0 + 1.5e11 = 1.5e11</code>, <code>Wi = 1 * 1 = 1</code>,
+<code>Wm = 1 + 5e7 = 5e7</code></li> <li><code>p = p(sha256) = 1/2, w = w(sha256) = (11e3 cycles)</code></li> <li><code>Wc = 1.5e11 + 11e3 ~= 1.5e11, Wi = 1 * 2 = 2, Wm = 5e7 + 0 = 5e7</code></li></ol></li> <li><code>eta = (1.5e11 * 2) / cycles_per_second</code> = <code>7.5e10 / 1.7e9</code> = 44.1
+seconds<code>&lt;/code&gt;</code></li></ol> <p>TODO: Determine how memory impacts threshold.</p> <p>To avoid other nodes dropping our challenges due to early expiration, we
+use a fairly generous expiration based on the pressure value</p> <div class="language- extra-class"><pre><code>expiration = date() + 600 * (1 + pressure)
+</code></pre></div><p>which means the expiration is 10 minutes for the weakest challenge, and
+gradually rises to 20 minutes for the hardest one.</p> <h3 id="establishing-difficulty-parameters-establishing-difficulty-parameters"><a href="#establishing-difficulty-parameters-establishing-difficulty-parameters" class="header-anchor">#</a> Establishing Difficulty Parameters {#establishing_difficulty_parameters}</h3> <p>The difficulty setting for the network should change based on connection
+slot availability. The amount of pressure on the network in the sense of
+connection slot availability is proportional to the number of
+established connections over the number of total available connections.
+This can be locally approximated by a node to the number of local
+connections compared to the local connection maximum.</p> <p>In other words, the network pressure can be approximated by any node as
+<code>connections / max</code> and the difficulty can be based on e.g.
+<code>(connections - free) / pow_slots</code>.</p> <p>The challenge difficulty parameters can be set based on this, where 0.0
+means &quot;low pressure&quot; and 1.0 means &quot;maximum pressure&quot;. The
+<code>GetPressure</code> method below gives 0.0 at 67 connections (for a 50 POW
+slot set up), and hits the 1.0 mark at
+<code>(nMaxConnections - nMaxOutbound - nMaxFeeler)</code>, incrementing by 0.02
+for each new connection:</p> <div class="language- extra-class"><pre><code>int nMaxInbound = nMaxConnections - (nMaxOutbound + nMaxFeeler + nPOWConnectionSlots);
+return ((double)GetNodeCount(CONNECTIONS_ALL) - nMaxInbound) / nPOWConnectionSlots;
+</code></pre></div><p>An example of difficulty for a SHA256(Cuckoo-Cycle) specification would
+be based on a desired probability of a random SHA256 digest matching a
+given target:</p> <div class="language- extra-class"><pre><code>prob_target = 1 / (1 + pressure^2 * 15)
+</code></pre></div><p>This would result in probability targets according to the table below,
+for varying pressures (where the pressure is in the range [0..1]):</p> <p>pressure   prob_target   solution time sha256(cc)</p> <hr> <p>0.0        1.00          00:45
+0.1        0.87          00:51
+0.2        0.63          01:11
+0.3        0.43          01:45
+0.4        0.29          02:32
+0.5        0.21          03:32
+0.6        0.16          04:46
+0.7        0.12          06:13
+0.8        0.09          07:54
+0.9        0.08          09:48
+1.0        0.06          11:55</p> <h2 id="cuckoo-cycle-cuckoo-cycle-1"><a href="#cuckoo-cycle-cuckoo-cycle-1" class="header-anchor">#</a> Cuckoo Cycle {#cuckoo_cycle_1}</h2> <p>Cuckoo Cycle[1] is a &quot;graph-theoretic proof-of-work system, based on
+finding small cycles or other structures in large random graphs.&quot;</p> <p>It is memory hard, which greatly increases the complexity and cost of
+producing dedicated (special purpose) hardware, an ideal property for an
+anti-DoS system.</p> <p>The implementation specifics of the algorithm are beyond the scope of
+this BIP, but the github repository[2] has several reference
+implementations in various languages.</p> <h2 id="compatibility"><a href="#compatibility" class="header-anchor">#</a> Compatibility</h2> <p>This proposal is backward compatible. Non-supporting peers will ignore
+the <code>challenge</code> message and be disconnected, as if they hit the peer
+connection limit as normal.</p> <h2 id="reference-implementation-reference-implementation"><a href="#reference-implementation-reference-implementation" class="header-anchor">#</a> Reference implementation {#reference_implementation}</h2> <p><a href="https://github.com/kallewoof/bitcoin/pull/2" target="_blank" rel="noopener noreferrer">https://github.com/kallewoof/bitcoin/pull/2<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+(https://github.com/kallewoof/bitcoin/tree/pow-connection-slots)</p> <h2 id="references"><a href="#references" class="header-anchor">#</a> References</h2> <ul><li>[1] Cuckoo Cycle
+<a href="https://github.com/tromp/cuckoo/blob/master/doc/cuckoo.pdf?raw=true" target="_blank" rel="noopener noreferrer">https://github.com/tromp/cuckoo/blob/master/doc/cuckoo.pdf?raw=true<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li>[2] Cuckoo Cycle github <a href="https://github.com/tromp/cuckoo" target="_blank" rel="noopener noreferrer">https://github.com/tromp/cuckoo<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <h2 id="test-vectors-test-vectors"><a href="#test-vectors-test-vectors" class="header-anchor">#</a> Test vectors {#test_vectors}</h2> <h3 id="cuckoo-cycle-cuckoo-cycle-2"><a href="#cuckoo-cycle-cuckoo-cycle-2" class="header-anchor">#</a> Cuckoo-Cycle {#cuckoo_cycle_2}</h3> <p>Cuckoo Cycle header (76 bytes):</p> <div class="language- extra-class"><pre><code>00..1f   68a639cb 3deab5b6 23054d60 e7856037 8afa0f31 4f08dec1 6cc4ec4f d9bef1ff
+20..3f   468af883 c6c9c3d5 4260087a 046d12a0 7cc3988f 9ff2957a 384de8ed db75b037
+40..4b   798d1073 214b7ea6 954f1b3a
+</code></pre></div><p>Example solution nonce: 0 (<code>00000000</code>)</p> <p>Solution edges (16 number of 32-bit unsigned integers, read horizontally
+from top left):</p> <div class="language- extra-class"><pre><code>550b1100 0fc89a00 45034401 ddfce701 08da0e02 6ccc5703 06fe8404 1d3f8504
+559e3e05 d41a9905 17075206 97cfa006 59e50d07 7bd71f07 13fe2607 14493007
+</code></pre></div><h3 id="sha256-cuckoo-cycle-sha256cuckoo-cycle"><a href="#sha256-cuckoo-cycle-sha256cuckoo-cycle" class="header-anchor">#</a> SHA256(Cuckoo-Cycle) {#sha256cuckoo_cycle}</h3> <p>SHA256 target: <code>0x205fffff</code></p> <p>Cuckoo Cycle header (76 bytes, same as above):</p> <div class="language- extra-class"><pre><code>00..1f   68a639cb 3deab5b6 23054d60 e7856037 8afa0f31 4f08dec1 6cc4ec4f d9bef1ff
+20..3f   468af883 c6c9c3d5 4260087a 046d12a0 7cc3988f 9ff2957a 384de8ed db75b037
+40..4b   798d1073 214b7ea6 954f1b3a
+</code></pre></div><p>Example solution nonce: 0 (<code>00000000</code>)</p> <p>SHA256 input (cuckoo-cycle nonce + solution):</p> <div class="language- extra-class"><pre><code>00000000
+550b1100 0fc89a00 45034401 ddfce701 08da0e02 6ccc5703 06fe8404 1d3f8504
+559e3e05 d41a9905 17075206 97cfa006 59e50d07 7bd71f07 13fe2607 14493007
+</code></pre></div><p>SHA256 hash:
+<code>262c8558c7c589b19b3d513abf5fcb15162745473e603f0146889ceff750bcc3</code></p> <p>Must be less than:
+<code>5fffff0000000000000000000000000000000000000000000000000000000000</code></p> <h3 id="serialized-challenge-example-serialized-challenge-example"><a href="#serialized-challenge-example-serialized-challenge-example" class="header-anchor">#</a> Serialized challenge example {#serialized_challenge_example}</h3> <div class="language- extra-class"><pre><code>020100000009ffff5f2000000000000002000000051c0c00e4004c68a639cb3deab5b623054d60e7
+8560378afa0f314f08dec16cc4ec4fd9bef1ff468af883c6c9c3d54260087a046d12a07cc3988f9f
+f2957a384de8eddb75b037798d1073214b7ea6954f1b3a01000000a49d0659000000004730450221
+0095fc5fafe2032097c4d12a8901401cda297aad614e16f23ec42d4b78955856c002206ab7ada4ac
+8f6fa9d5bd7cd06f9ba89587a28e14cea14e7f8f8d5ab851541791
+</code></pre></div><p>Hex                                    Description</p> <hr> <p><code>0x02</code>                                 Two proofs of work
+<code>0x01000000</code>                           Proof of work ID = 1 (SHA256)
+<code>0x09</code>                                 Config is 9 bytes
+<code>0xffff5f20</code>                           SHA256: Compact target = 0x205fffff
+<code>0x00</code>                                 SHA256: Nonce size is 0 bytes
+<code>0x00000000</code>                           SHA256: Nonce offset is 0
+<code>0x00</code>                                 Payload is 0 bytes
+<code>0x02000000</code>                           Proof of work ID = 2 (cuckoo-cycle)
+<code>0x05</code>                                 Config is 5 bytes
+<code>0x1c</code>                                 Size shift is 28
+<code>0x0c00</code>                               Proof size min is 12
+<code>0xe400</code>                               Proof size max is 228
+<code>0x4c</code>                                 Payload is 76 bytes
+<code>0x68a639cb3deab5b623054d60e7856037</code>   Payload
+<code>0x8afa0f314f08dec16cc4ec4fd9bef1ff</code><br> <code>0x468af883c6c9c3d54260087a046d12a0</code><br> <code>0x7cc3988f9ff2957a384de8eddb75b037</code><br> <code>0x798d1073214b7ea6954f1b3a</code><br> <code>0x01000000</code>                           Purpose ID = 1 (PURPOSE_CONNECT)
+<code>0xa49d065900000000</code>                   UNIX timestamp 1493605796
+<code>0x47</code>                                 71 byte signature
+<code>0x304502210095fc5fafe2032097c4d12a</code>   Signature data
+<code>0x8901401cda297aad614e16f23ec42d4b</code><br> <code>0x78955856c002206ab7ada4ac8f6fa9d5</code><br> <code>0xbd7cd06f9ba89587a28e14cea14e7f8f</code><br> <code>0x8d5ab851541791</code></p> <h3 id="serialized-solution-example-serialized-solution-example"><a href="#serialized-solution-example-serialized-solution-example" class="header-anchor">#</a> Serialized solution example {#serialized_solution_example}</h3> <div class="language- extra-class"><pre><code>020100000009ffff5f2000000000000002000000051c0c00e4004c68a639cb3deab5b623054d60e7
+8560378afa0f314f08dec16cc4ec4fd9bef1ff468af883c6c9c3d54260087a046d12a07cc3988f9f
+f2957a384de8eddb75b037798d1073214b7ea6954f1b3a01000000a49d0659000000004730450221
+0095fc5fafe2032097c4d12a8901401cda297aad614e16f23ec42d4b78955856c002206ab7ada4ac
+8f6fa9d5bd7cd06f9ba89587a28e14cea14e7f8f8d5ab8515417914400000000550b11000fc89a00
+45034401ddfce70108da0e026ccc570306fe84041d3f8504559e3e05d41a99051707520697cfa006
+59e50d077bd71f0713fe260714493007
+</code></pre></div><p>Note that the first 187 bytes are identical to the challenge above.</p> <p>Hex                                    Description</p> <hr> <p><code>0x0201..1791</code>                         Challenge
+<code>0x44</code>                                 Solution is 68 bytes long
+<code>0x00000000</code>                           The cuckoo cycle nonce is 0
+<code>0x550b11000fc89a0045034401ddfce701</code>   Cycle edges 0..3
+<code>0x08da0e026ccc570306fe84041d3f8504</code>   Cycle edges 4..7
+<code>0x559e3e05d41a99051707520697cfa006</code>   Cycle edges 8..11
+<code>0x59e50d077bd71f0713fe260714493007</code>   Cycle edges 12..15</p> <h3 id="cuckoo-cycle-example-2-cuckoo-cycle-example-2"><a href="#cuckoo-cycle-example-2-cuckoo-cycle-example-2" class="header-anchor">#</a> Cuckoo-Cycle Example 2 {#cuckoo_cycle_example_2}</h3> <p>Cuckoo Cycle header (76 bytes):</p> <div class="language- extra-class"><pre><code>00..1f   3c1e3ee5 c799b7e9 92bcccbb 8985979d cb8dd229 b8d0db06 e677d00b b3a43c88
+20..3f   ef8596a7 7cbd1dda 23b0a0b8 4bdf6084 d7aa28dd bd5e91b5 11b3578c baf92707
+40..4b   c940b051 a0759b3f 80c5fb65
+</code></pre></div><p>Example solution nonce: 4 (<code>04000000</code>)</p> <p>Solution edges (22 number of 32-bit unsigned integers, read horizontally
+from top left):</p> <div class="language- extra-class"><pre><code>5a013700 7074ce00 e3dbeb00 e88f7901 06d71d02 984d3d02 091b5002 378a8e02
+90a6d202 b3c67003 757cb703 44d9cf03 297f2004 8e76a604 67e44a05 7b077405
+634f8405 23e88c05 0d887606 109d3e07 c4bdcd07 3db2d407
+</code></pre></div><h3 id="sha256-cuckoo-cycle-sha256cuckoo-cycle-1"><a href="#sha256-cuckoo-cycle-sha256cuckoo-cycle-1" class="header-anchor">#</a> SHA256(Cuckoo-Cycle) {#sha256cuckoo_cycle_1}</h3> <p>SHA256 target: <code>0x2021642c</code></p> <p>Cuckoo Cycle header (76 bytes, same as above):</p> <div class="language- extra-class"><pre><code>00..1f   3c1e3ee5 c799b7e9 92bcccbb 8985979d cb8dd229 b8d0db06 e677d00b b3a43c88
+20..3f   ef8596a7 7cbd1dda 23b0a0b8 4bdf6084 d7aa28dd bd5e91b5 11b3578c baf92707
+40..4b   c940b051 a0759b3f 80c5fb65
+</code></pre></div><p>Example solution nonce: 4 (<code>04000000</code>)</p> <p>SHA256 input (cuckoo-cycle nonce + solution):</p> <div class="language- extra-class"><pre><code>04000000
+5a013700 7074ce00 e3dbeb00 e88f7901 06d71d02 984d3d02 091b5002 378a8e02
+90a6d202 b3c67003 757cb703 44d9cf03 297f2004 8e76a604 67e44a05 7b077405
+634f8405 23e88c05 0d887606 109d3e07 c4bdcd07 3db2d407
+</code></pre></div><p>SHA256 hash:
+<code>08210561257e26776135ec1cb92cfe17f46803613c0bdc02043e5545b18556ce</code></p> <p>Must be less than:
+<code>21642c0000000000000000000000000000000000000000000000000000000000</code></p> <h3 id="serialized-challenge-example-serialized-challenge-example-1"><a href="#serialized-challenge-example-serialized-challenge-example-1" class="header-anchor">#</a> Serialized challenge example {#serialized_challenge_example_1}</h3> <div class="language- extra-class"><pre><code>0201000000092c64212000000000000002000000051c0c00e4004c3c1e3ee5c799b7e992bcccbb89
+85979dcb8dd229b8d0db06e677d00bb3a43c88ef8596a77cbd1dda23b0a0b84bdf6084d7aa28ddbd
+5e91b511b3578cbaf92707c940b051a0759b3f80c5fb650100000024aa0659000000004630440220
+0edfb5c4812a31d84cbbd4b24e631795435a0d16b57d37ef773735b8a87caa8a0220631d0b78b7f1
+d29c9e54a76f3457ff1a2ee19490ff027c528a896f4bf6aff577
+</code></pre></div><p>Hex                                    Description</p> <hr> <p><code>0x02</code>                                 Two proofs of work
+<code>0x01000000</code>                           Proof of work ID = 1 (SHA256)
+<code>0x09</code>                                 Config is 9 bytes
+<code>0x2c642120</code>                           SHA256: Compact target = 0x2021642c
+<code>0x00</code>                                 SHA256: Nonce size is 0 bytes
+<code>0x00000000</code>                           SHA256: Nonce offset is 0
+<code>0x00</code>                                 Payload is 0 bytes
+<code>0x02000000</code>                           Proof of work ID = 2 (cuckoo-cycle)
+<code>0x05</code>                                 Config is 5 bytes
+<code>0x1c</code>                                 Size shift is 28
+<code>0x0c00</code>                               Proof size min is 12
+<code>0xe400</code>                               Proof size max is 228
+<code>0x4c</code>                                 Payload is 76 bytes
+<code>0x3c1e3ee5c799b7e992bcccbb8985979d</code>   Payload
+<code>0xcb8dd229b8d0db06e677d00bb3a43c88</code><br> <code>0xef8596a77cbd1dda23b0a0b84bdf6084</code><br> <code>0xd7aa28ddbd5e91b511b3578cbaf92707</code><br> <code>0xc940b051a0759b3f80c5fb65</code><br> <code>0x01000000</code>                           Purpose ID = 1 (PURPOSE_CONNECT)
+<code>0x24aa065900000000</code>                   UNIX timestamp 1493608996
+<code>0x46</code>                                 70 byte signature
+<code>0x304402200edfb5c4812a31d84cbbd4b2</code>   Signature data
+<code>0x4e631795435a0d16b57d37ef773735b8</code><br> <code>0xa87caa8a0220631d0b78b7f1d29c9e54</code><br> <code>0xa76f3457ff1a2ee19490ff027c528a89</code><br> <code>0x6f4bf6aff577</code></p> <h3 id="serialized-solution-example-serialized-solution-example-1"><a href="#serialized-solution-example-serialized-solution-example-1" class="header-anchor">#</a> Serialized solution example {#serialized_solution_example_1}</h3> <div class="language- extra-class"><pre><code>0201000000092c64212000000000000002000000051c0c00e4004c3c1e3ee5c799b7e992bcccbb89
+85979dcb8dd229b8d0db06e677d00bb3a43c88ef8596a77cbd1dda23b0a0b84bdf6084d7aa28ddbd
+5e91b511b3578cbaf92707c940b051a0759b3f80c5fb650100000024aa0659000000004630440220
+0edfb5c4812a31d84cbbd4b24e631795435a0d16b57d37ef773735b8a87caa8a0220631d0b78b7f1
+d29c9e54a76f3457ff1a2ee19490ff027c528a896f4bf6aff5775c040000005a0137007074ce00e3
+dbeb00e88f790106d71d02984d3d02091b5002378a8e0290a6d202b3c67003757cb70344d9cf0329
+7f20048e76a60467e44a057b077405634f840523e88c050d887606109d3e07c4bdcd073db2d407
+</code></pre></div><p>Note that the first 186 bytes are identical to the challenge above.</p> <p>Hex                                    Description</p> <hr> <p><code>0x0201..f577</code>                         Challenge
+<code>0x5c</code>                                 Solution is 92 bytes long
+<code>0x04000000</code>                           The cuckoo cycle nonce is 4
+<code>0x5a0137007074ce00e3dbeb00e88f7901</code>   Cycle edges 0..3
+<code>0x06d71d02984d3d02091b5002378a8e02</code>   Cycle edges 4..7
+<code>0x90a6d202b3c67003757cb70344d9cf03</code>   Cycle edges 8..11
+<code>0x297f20048e76a60467e44a057b077405</code>   Cycle edges 12..15
+<code>0x634f840523e88c050d887606109d3e07</code>   Cycle edges 16..19
+<code>0xc4bdcd073db2d407</code>                   Cycle edges 20..21</p> <h2 id="copyright"><a href="#copyright" class="header-anchor">#</a> Copyright</h2> <p>This BIP is licensed under the BSD 2-clause license.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bitcoindocs/bips/152.html" class="prev">
+        152
+      </a></span> <span class="next"><a href="/bitcoindocs/bips/155.html">
+        155
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bitcoindocs/assets/js/app.c31d8641.js" defer></script><script src="/bitcoindocs/assets/js/2.b78a9106.js" defer></script><script src="/bitcoindocs/assets/js/60.1e424058.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>75 | Bitcoin Docs</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bitcoin.png">
+    <link rel="mask-icon" href="bitcoin.png" color="#3a0839">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="bitcoin.png">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#ff7e00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css" as="style"><link rel="preload" href="/bitcoindocs/assets/js/app.c31d8641.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/2.b78a9106.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/111.a33eb12f.js" as="script"><link rel="prefetch" href="/bitcoindocs/assets/js/10.68a64a6d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/100.bd554273.js"><link rel="prefetch" href="/bitcoindocs/assets/js/101.df38dcc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/102.3bf2a9d4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/103.d879654a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/104.fcff9e3b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/105.324f3006.js"><link rel="prefetch" href="/bitcoindocs/assets/js/106.b8b3ca20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/107.4a9863c3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/108.e93a5196.js"><link rel="prefetch" href="/bitcoindocs/assets/js/109.e770824e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/11.f67301bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/110.72ba2ba4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/112.ecf1c295.js"><link rel="prefetch" href="/bitcoindocs/assets/js/113.85f94e5b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/114.c79655f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/115.3940b629.js"><link rel="prefetch" href="/bitcoindocs/assets/js/116.9ead4ccc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/117.d4b75110.js"><link rel="prefetch" href="/bitcoindocs/assets/js/118.87575c0c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/119.65af5cbd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/12.fc1e786f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/120.99826b18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/121.608c453c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/122.b24765eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/123.64680142.js"><link rel="prefetch" href="/bitcoindocs/assets/js/124.4b4f9bc2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/125.0e07a49d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/126.be3bae0f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/127.3d041c50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/128.5feda1e3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/129.307399ad.js"><link rel="prefetch" href="/bitcoindocs/assets/js/13.47ba1b02.js"><link rel="prefetch" href="/bitcoindocs/assets/js/130.0659f005.js"><link rel="prefetch" href="/bitcoindocs/assets/js/131.69a612f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/132.b51e17e2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/133.7bb492d9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/134.0f7e8787.js"><link rel="prefetch" href="/bitcoindocs/assets/js/135.e2504a16.js"><link rel="prefetch" href="/bitcoindocs/assets/js/136.8b6c7216.js"><link rel="prefetch" href="/bitcoindocs/assets/js/137.e38fc5b2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/138.095843e4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/139.4a5e77fb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/14.42b93c7a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/140.f517d934.js"><link rel="prefetch" href="/bitcoindocs/assets/js/141.7a6497c0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/142.8ae1c029.js"><link rel="prefetch" href="/bitcoindocs/assets/js/143.2fadb8ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/144.a64d8f22.js"><link rel="prefetch" href="/bitcoindocs/assets/js/145.1b1fa851.js"><link rel="prefetch" href="/bitcoindocs/assets/js/146.a59efe37.js"><link rel="prefetch" href="/bitcoindocs/assets/js/147.a0a8fc92.js"><link rel="prefetch" href="/bitcoindocs/assets/js/148.e177254d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/149.88223d18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/15.cdd298ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/150.c07e2220.js"><link rel="prefetch" href="/bitcoindocs/assets/js/151.843c50f7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/152.4f34674a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/153.c2ba1434.js"><link rel="prefetch" href="/bitcoindocs/assets/js/154.dec4842c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/155.ecd7b99f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/156.55d078d3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/157.44501232.js"><link rel="prefetch" href="/bitcoindocs/assets/js/158.79220932.js"><link rel="prefetch" href="/bitcoindocs/assets/js/159.33765ed3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/16.4c7eeecf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/160.ea470a70.js"><link rel="prefetch" href="/bitcoindocs/assets/js/161.2dc38d81.js"><link rel="prefetch" href="/bitcoindocs/assets/js/162.a27303c6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/163.31e293c1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/164.fca747d6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/165.52456cdd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/166.c2464f79.js"><link rel="prefetch" href="/bitcoindocs/assets/js/167.25467097.js"><link rel="prefetch" href="/bitcoindocs/assets/js/168.92664946.js"><link rel="prefetch" href="/bitcoindocs/assets/js/169.df73d115.js"><link rel="prefetch" href="/bitcoindocs/assets/js/17.b107683f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/170.08fb6e7e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/171.ba749017.js"><link rel="prefetch" href="/bitcoindocs/assets/js/172.c92581cb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/173.1fce2c58.js"><link rel="prefetch" href="/bitcoindocs/assets/js/174.34c08943.js"><link rel="prefetch" href="/bitcoindocs/assets/js/175.0f3c7a0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/176.36c2e712.js"><link rel="prefetch" href="/bitcoindocs/assets/js/177.15027195.js"><link rel="prefetch" href="/bitcoindocs/assets/js/178.a42c47f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/179.e9af4276.js"><link rel="prefetch" href="/bitcoindocs/assets/js/18.608ae665.js"><link rel="prefetch" href="/bitcoindocs/assets/js/180.48a51584.js"><link rel="prefetch" href="/bitcoindocs/assets/js/181.cc255bc5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/182.64362e5e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/183.256b3077.js"><link rel="prefetch" href="/bitcoindocs/assets/js/184.3139561e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/185.5af948dd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/19.8b76fc9c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/20.122a4ef0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/21.1f8a8820.js"><link rel="prefetch" href="/bitcoindocs/assets/js/22.eb68688b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/23.9e751fd9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/24.72ecb396.js"><link rel="prefetch" href="/bitcoindocs/assets/js/25.ad100f49.js"><link rel="prefetch" href="/bitcoindocs/assets/js/26.654fcf2f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/27.fdb46ea9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/28.b28d1103.js"><link rel="prefetch" href="/bitcoindocs/assets/js/29.979a7705.js"><link rel="prefetch" href="/bitcoindocs/assets/js/3.0ccb3eb1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/30.27ab6b09.js"><link rel="prefetch" href="/bitcoindocs/assets/js/31.0b51055d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/32.e5d3f476.js"><link rel="prefetch" href="/bitcoindocs/assets/js/33.5325af50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/34.6cc1e8e6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/35.4f93edf4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/36.56c4b763.js"><link rel="prefetch" href="/bitcoindocs/assets/js/37.d7fc3cc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/38.ba47e0be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/39.a4948230.js"><link rel="prefetch" href="/bitcoindocs/assets/js/4.f750dbd8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/40.13f04ebc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/41.efba2874.js"><link rel="prefetch" href="/bitcoindocs/assets/js/42.71cd6fcf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/43.3dd10508.js"><link rel="prefetch" href="/bitcoindocs/assets/js/44.0e0f5018.js"><link rel="prefetch" href="/bitcoindocs/assets/js/45.4e467a20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/46.fbc682be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/47.79e3cde6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/48.36d1a4f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/49.5c861a4e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/5.8f3d1a69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/50.0c7609ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/51.6497b8ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/52.6fef223e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/53.dc5dd169.js"><link rel="prefetch" href="/bitcoindocs/assets/js/54.560108ca.js"><link rel="prefetch" href="/bitcoindocs/assets/js/55.a09c65a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/56.f7f7c539.js"><link rel="prefetch" href="/bitcoindocs/assets/js/57.3b3dfb34.js"><link rel="prefetch" href="/bitcoindocs/assets/js/58.1048b51d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/59.01f56552.js"><link rel="prefetch" href="/bitcoindocs/assets/js/6.ea542132.js"><link rel="prefetch" href="/bitcoindocs/assets/js/60.1e424058.js"><link rel="prefetch" href="/bitcoindocs/assets/js/61.6d4493b3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/62.849c30d7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/63.0c6aaa64.js"><link rel="prefetch" href="/bitcoindocs/assets/js/64.0d99b925.js"><link rel="prefetch" href="/bitcoindocs/assets/js/65.d60db57e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/66.c6c02735.js"><link rel="prefetch" href="/bitcoindocs/assets/js/67.c0c64c59.js"><link rel="prefetch" href="/bitcoindocs/assets/js/68.99f833eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/69.88769157.js"><link rel="prefetch" href="/bitcoindocs/assets/js/7.474d9a1c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/70.0a746051.js"><link rel="prefetch" href="/bitcoindocs/assets/js/71.9847fc9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/72.8e04fa9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/73.772916a2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/74.9663297b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/75.66154da0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/76.358626cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/77.8eafda69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/78.782695f1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/79.99523f6b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/8.7a9d23a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/80.2c556ea8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/81.b70d3d0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/82.f0c621cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/83.13117f68.js"><link rel="prefetch" href="/bitcoindocs/assets/js/84.2361b62a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/85.e8f23ad0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/86.eab303cd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/87.a547f760.js"><link rel="prefetch" href="/bitcoindocs/assets/js/88.3c748686.js"><link rel="prefetch" href="/bitcoindocs/assets/js/89.6b7de962.js"><link rel="prefetch" href="/bitcoindocs/assets/js/9.6e1ca0bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/90.0907331e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/91.fe47eeeb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/92.f4c67fe3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/93.efdc2e47.js"><link rel="prefetch" href="/bitcoindocs/assets/js/94.b7862723.js"><link rel="prefetch" href="/bitcoindocs/assets/js/95.06e410a5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/96.0cc67031.js"><link rel="prefetch" href="/bitcoindocs/assets/js/97.b9460d90.js"><link rel="prefetch" href="/bitcoindocs/assets/js/98.0689894c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/99.f18fe9ac.js">
+    <link rel="stylesheet" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bitcoindocs/" class="home-link router-link-active"><!----> <span class="site-name">Bitcoin Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>BIPs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bitcoindocs/bips/" aria-current="page" class="sidebar-link">Bitcoin Improvement Proposals</a></li><li><a href="/bitcoindocs/bips/1.html" class="sidebar-link">1</a></li><li><a href="/bitcoindocs/bips/2.html" class="sidebar-link">2</a></li><li><a href="/bitcoindocs/bips/8.html" class="sidebar-link">8</a></li><li><a href="/bitcoindocs/bips/9.html" class="sidebar-link">9</a></li><li><a href="/bitcoindocs/bips/16.html" class="sidebar-link">16</a></li><li><a href="/bitcoindocs/bips/32.html" class="sidebar-link">32</a></li><li><a href="/bitcoindocs/bips/39.html" class="sidebar-link">39</a></li><li><a href="/bitcoindocs/bips/42.html" class="sidebar-link">42</a></li><li><a href="/bitcoindocs/bips/43.html" class="sidebar-link">43</a></li><li><a href="/bitcoindocs/bips/44.html" class="sidebar-link">44</a></li><li><a href="/bitcoindocs/bips/45.html" class="sidebar-link">45</a></li><li><a href="/bitcoindocs/bips/47.html" class="sidebar-link">47</a></li><li><a href="/bitcoindocs/bips/49.html" class="sidebar-link">49</a></li><li><a href="/bitcoindocs/bips/50.html" class="sidebar-link">50</a></li><li><a href="/bitcoindocs/bips/60.html" class="sidebar-link">60</a></li><li><a href="/bitcoindocs/bips/61.html" class="sidebar-link">61</a></li><li><a href="/bitcoindocs/bips/62.html" class="sidebar-link">62</a></li><li><a href="/bitcoindocs/bips/64.html" class="sidebar-link">64</a></li><li><a href="/bitcoindocs/bips/65.html" class="sidebar-link">65</a></li><li><a href="/bitcoindocs/bips/66.html" class="sidebar-link">66</a></li><li><a href="/bitcoindocs/bips/67.html" class="sidebar-link">67</a></li><li><a href="/bitcoindocs/bips/68.html" class="sidebar-link">68</a></li><li><a href="/bitcoindocs/bips/69.html" class="sidebar-link">69</a></li><li><a href="/bitcoindocs/bips/70.html" class="sidebar-link">70</a></li><li><a href="/bitcoindocs/bips/71.html" class="sidebar-link">71</a></li><li><a href="/bitcoindocs/bips/72.html" class="sidebar-link">72</a></li><li><a href="/bitcoindocs/bips/73.html" class="sidebar-link">73</a></li><li><a href="/bitcoindocs/bips/74.html" class="sidebar-link">74</a></li><li><a href="/bitcoindocs/bips/75.html" aria-current="page" class="active sidebar-link">75</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#abstract" class="sidebar-link">Abstract</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#copyright" class="sidebar-link">Copyright</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#definitions" class="sidebar-link">Definitions</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#motivation" class="sidebar-link">Motivation</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#example-use-cases-example-use-cases" class="sidebar-link">Example Use Cases {#exampleusecases}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#modifying-bip70-pki-type-modifying-bip70-pki-type" class="sidebar-link">Modifying BIP70 pkitype {#modifyingbip70pkitype}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#new-messages-new-messages" class="sidebar-link">New Messages {#new_messages}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#payment-protocol-process-with-invoicerequests-payment-protocol-process-with-invoicerequests" class="sidebar-link">Payment Protocol Process with InvoiceRequests {#paymentprotocolprocesswithinvoicerequests}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#message-interaction-details-message-interaction-details" class="sidebar-link">Message Interaction Details {#messageinteractiondetails}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#extended-payment-protocol-process-details-extended-payment-protocol-process-details" class="sidebar-link">Extended Payment Protocol Process Details {#extendedpaymentprotocolprocessdetails}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#payment-paymentack-messages-with-a-http-store-forward-server-payment-paymentack-messages-with-a-http-store-forward-server" class="sidebar-link">Payment / PaymentACK Messages with a HTTP Store &amp; Forward Server {#paymentpaymentackmessageswithahttpstoreforwardserver}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#public-key-signature-encoding-public-key-signature-encoding" class="sidebar-link">Public Key &amp; Signature Encoding {#publickeysignature_encoding}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#implementation" class="sidebar-link">Implementation</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#bip70-extension-bip70-extension" class="sidebar-link">BIP70 Extension {#bip70_extension}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#mobile-to-mobile-examples-mobile-to-mobile-examples" class="sidebar-link">Mobile to Mobile Examples {#mobiletomobile_examples}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/75.html#references" class="sidebar-link">References</a></li></ul></li><li><a href="/bitcoindocs/bips/78.html" class="sidebar-link">78</a></li><li><a href="/bitcoindocs/bips/79.html" class="sidebar-link">79</a></li><li><a href="/bitcoindocs/bips/80.html" class="sidebar-link">80</a></li><li><a href="/bitcoindocs/bips/81.html" class="sidebar-link">81</a></li><li><a href="/bitcoindocs/bips/83.html" class="sidebar-link">83</a></li><li><a href="/bitcoindocs/bips/84.html" class="sidebar-link">84</a></li><li><a href="/bitcoindocs/bips/85.html" class="sidebar-link">85</a></li><li><a href="/bitcoindocs/bips/90.html" class="sidebar-link">90</a></li><li><a href="/bitcoindocs/bips/91.html" class="sidebar-link">91</a></li><li><a href="/bitcoindocs/bips/98.html" class="sidebar-link">98</a></li><li><a href="/bitcoindocs/bips/99.html" class="sidebar-link">99</a></li><li><a href="/bitcoindocs/bips/100.html" class="sidebar-link">100</a></li><li><a href="/bitcoindocs/bips/101.html" class="sidebar-link">101</a></li><li><a href="/bitcoindocs/bips/102.html" class="sidebar-link">102</a></li><li><a href="/bitcoindocs/bips/103.html" class="sidebar-link">103</a></li><li><a href="/bitcoindocs/bips/104.html" class="sidebar-link">104</a></li><li><a href="/bitcoindocs/bips/105.html" class="sidebar-link">105</a></li><li><a href="/bitcoindocs/bips/106.html" class="sidebar-link">106</a></li><li><a href="/bitcoindocs/bips/107.html" class="sidebar-link">107</a></li><li><a href="/bitcoindocs/bips/109.html" class="sidebar-link">109</a></li><li><a href="/bitcoindocs/bips/111.html" class="sidebar-link">111</a></li><li><a href="/bitcoindocs/bips/112.html" class="sidebar-link">112</a></li><li><a href="/bitcoindocs/bips/113.html" class="sidebar-link">113</a></li><li><a href="/bitcoindocs/bips/114.html" class="sidebar-link">114</a></li><li><a href="/bitcoindocs/bips/115.html" class="sidebar-link">115</a></li><li><a href="/bitcoindocs/bips/116.html" class="sidebar-link">116</a></li><li><a href="/bitcoindocs/bips/117.html" class="sidebar-link">117</a></li><li><a href="/bitcoindocs/bips/118.html" class="sidebar-link">118</a></li><li><a href="/bitcoindocs/bips/119.html" class="sidebar-link">119</a></li><li><a href="/bitcoindocs/bips/120.html" class="sidebar-link">120</a></li><li><a href="/bitcoindocs/bips/121.html" class="sidebar-link">121</a></li><li><a href="/bitcoindocs/bips/122.html" class="sidebar-link">122</a></li><li><a href="/bitcoindocs/bips/123.html" class="sidebar-link">123</a></li><li><a href="/bitcoindocs/bips/124.html" class="sidebar-link">124</a></li><li><a href="/bitcoindocs/bips/125.html" class="sidebar-link">125</a></li><li><a href="/bitcoindocs/bips/126.html" class="sidebar-link">126</a></li><li><a href="/bitcoindocs/bips/127.html" class="sidebar-link">127</a></li><li><a href="/bitcoindocs/bips/130.html" class="sidebar-link">130</a></li><li><a href="/bitcoindocs/bips/131.html" class="sidebar-link">131</a></li><li><a href="/bitcoindocs/bips/132.html" class="sidebar-link">132</a></li><li><a href="/bitcoindocs/bips/133.html" class="sidebar-link">133</a></li><li><a href="/bitcoindocs/bips/134.html" class="sidebar-link">134</a></li><li><a href="/bitcoindocs/bips/135.html" class="sidebar-link">135</a></li><li><a href="/bitcoindocs/bips/136.html" class="sidebar-link">136</a></li><li><a href="/bitcoindocs/bips/137.html" class="sidebar-link">137</a></li><li><a href="/bitcoindocs/bips/140.html" class="sidebar-link">140</a></li><li><a href="/bitcoindocs/bips/141.html" class="sidebar-link">141</a></li><li><a href="/bitcoindocs/bips/142.html" class="sidebar-link">142</a></li><li><a href="/bitcoindocs/bips/143.html" class="sidebar-link">143</a></li><li><a href="/bitcoindocs/bips/144.html" class="sidebar-link">144</a></li><li><a href="/bitcoindocs/bips/145.html" class="sidebar-link">145</a></li><li><a href="/bitcoindocs/bips/146.html" class="sidebar-link">146</a></li><li><a href="/bitcoindocs/bips/147.html" class="sidebar-link">147</a></li><li><a href="/bitcoindocs/bips/148.html" class="sidebar-link">148</a></li><li><a href="/bitcoindocs/bips/149.html" class="sidebar-link">149</a></li><li><a href="/bitcoindocs/bips/150.html" class="sidebar-link">150</a></li><li><a href="/bitcoindocs/bips/151.html" class="sidebar-link">151</a></li><li><a href="/bitcoindocs/bips/152.html" class="sidebar-link">152</a></li><li><a href="/bitcoindocs/bips/154.html" class="sidebar-link">154</a></li><li><a href="/bitcoindocs/bips/155.html" class="sidebar-link">155</a></li><li><a href="/bitcoindocs/bips/156.html" class="sidebar-link">156</a></li><li><a href="/bitcoindocs/bips/157.html" class="sidebar-link">157</a></li><li><a href="/bitcoindocs/bips/158.html" class="sidebar-link">158</a></li><li><a href="/bitcoindocs/bips/159.html" class="sidebar-link">159</a></li><li><a href="/bitcoindocs/bips/171.html" class="sidebar-link">171</a></li><li><a href="/bitcoindocs/bips/173.html" class="sidebar-link">173</a></li><li><a href="/bitcoindocs/bips/174.html" class="sidebar-link">174</a></li><li><a href="/bitcoindocs/bips/175.html" class="sidebar-link">175</a></li><li><a href="/bitcoindocs/bips/176.html" class="sidebar-link">176</a></li><li><a href="/bitcoindocs/bips/178.html" class="sidebar-link">178</a></li><li><a href="/bitcoindocs/bips/179.html" class="sidebar-link">179</a></li><li><a href="/bitcoindocs/bips/180.html" class="sidebar-link">180</a></li><li><a href="/bitcoindocs/bips/197.html" class="sidebar-link">197</a></li><li><a href="/bitcoindocs/bips/199.html" class="sidebar-link">199</a></li><li><a href="/bitcoindocs/bips/300.html" class="sidebar-link">300</a></li><li><a href="/bitcoindocs/bips/301.html" class="sidebar-link">301</a></li><li><a href="/bitcoindocs/bips/310.html" class="sidebar-link">310</a></li><li><a href="/bitcoindocs/bips/320.html" class="sidebar-link">320</a></li><li><a href="/bitcoindocs/bips/322.html" class="sidebar-link">322</a></li><li><a href="/bitcoindocs/bips/325.html" class="sidebar-link">325</a></li><li><a href="/bitcoindocs/bips/339.html" class="sidebar-link">339</a></li><li><a href="/bitcoindocs/bips/340.html" class="sidebar-link">340</a></li><li><a href="/bitcoindocs/bips/341.html" class="sidebar-link">341</a></li><li><a href="/bitcoindocs/bips/342.html" class="sidebar-link">342</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_75"><a href="#_75" class="header-anchor">#</a> 75</h1> <div class="language- extra-class"><pre><code>  BIP: 75
+  Layer: Applications
+  Title: Out of Band Address Exchange using Payment Protocol Encryption
+  Author: Justin Newton &lt;justin@netki.com&gt;
+          Matt David &lt;mgd@mgddev.com&gt;
+          Aaron Voisine &lt;voisine@gmail.com&gt;
+          James MacWhyte &lt;macwhyte@gmail.com&gt;
+  Comments-Summary: Recommended for implementation (one person)
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0075
+  Status: Final
+  Type: Standards Track
+  Created: 2015-11-20
+  License: CC-BY-4.0
+</code></pre></div><h2 id="abstract"><a href="#abstract" class="header-anchor">#</a> Abstract</h2> <p>This BIP is an extension to BIP 70 that provides two enhancements to the
+existing Payment Protocol.</p> <ol><li><p>It allows the requester (Sender) of a PaymentRequest to voluntarily
+sign the original request and provide a certificate to allow the
+payee to know the identity of who they are transacting with.</p></li> <li><p>It encrypts the PaymentRequest that is returned, before handing it
+off to the SSL/TLS layer to prevent man in the middle viewing of the
+Payment Request details.</p></li></ol> <p>The key words &quot;MUST&quot;, &quot;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL
+NOT&quot;, &quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;, &quot;MAY&quot;, and
+&quot;OPTIONAL&quot; in this document are to be interpreted as described in RFC
+2119.</p> <h2 id="copyright"><a href="#copyright" class="header-anchor">#</a> Copyright</h2> <img src="https://licensebuttons.net/l/by/4.0/88x31.png"> <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" title="wikilink" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0
+International
+License<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <h2 id="definitions"><a href="#definitions" class="header-anchor">#</a> Definitions</h2> <hr> <p>Sender     Entity wishing to transfer value that they control
+Receiver   Entity receiving a value transfer</p> <hr> <h2 id="motivation"><a href="#motivation" class="header-anchor">#</a> Motivation</h2> <p>The motivation for defining this extension to the
+<a href="bip-0070.mediawiki" title="wikilink">BIP70</a> Payment Protocol is to allow two
+parties to exchange payment information in a permissioned and encrypted
+way, such that wallet address communication can become a more automated
+process. This extension also expands the types of PKI (public-key
+infrastructure) data that is supported, and allows it to be shared by
+both parties (with <a href="bip-0070.mediawiki" title="wikilink">BIP70</a>, only the
+receiver could provide PKI information). This allows for automated
+creation of off-blockchain transaction logs that are human readable, now
+including information about the sender and not just the recipient.</p> <p>The motivation for this extension to
+<a href="bip-0070.mediawiki" title="wikilink">BIP70</a> is threefold:</p> <ol><li><p>Ensure that the payment details can only be seen by the participants
+in the transaction, and not by any third party.</p></li> <li><p>Enhance the Payment Protocol to allow for store and forward servers
+in order to allow, for example, mobile wallets to sign and serve
+Payment Requests.</p></li> <li><p>Allow a sender of funds the option of sharing their identity with
+the receiver. This information could then be used to:</p></li></ol> <p>#* Make Bitcoin logs (wallet transaction history) more human readable</p> <p>#* Give the user the ability to decide whether or not they share their
+Bitcoin address and other payment details when requested</p> <p>#* Allow for an open standards based way for businesses to keep
+verifiable records of their financial transactions, to better meet the
+needs of accounting practices or other reporting and statutory
+requirements</p> <p>#* Automate the active exchange of payment addresses, so static
+addresses and BIP32 X-Pubs can be avoided to maintain privacy and
+convenience</p> <p>In short we wanted to make Bitcoin more human, while at the same time
+improving transaction privacy.</p> <h2 id="example-use-cases-example-use-cases"><a href="#example-use-cases-example-use-cases" class="header-anchor">#</a> Example Use Cases {#example_use_cases}</h2> <p>1. Address Book</p> <p>A Bitcoin wallet developer would like to offer the ability to store an
+&quot;address book&quot; of payees, so users could send multiple payments to
+known entities without having to request an address every time. Static
+addresses compromise privacy, and address reuse is considered a security
+risk. BIP32 X-Pubs allow the generation of unique addresses, but
+watching an X-Pub chain for each person you wish to receive funds from
+is too resource-intensive for mobile applications, and there is always a
+risk of unknowingly sending funds to an X-Pub address after the owner
+has lost access to the corresponding private key.</p> <p>With this BIP, Bitcoin wallets could maintain an &quot;address book&quot; that
+only needs to store each payee's public key. Adding an entry to one's
+address book could be done by using a Wallet Name, scanning a QR code,
+sending a URI through a text message or e-mail, or searching a public
+repository. When the user wishes to make a payment, their wallet would
+do all the work in the background to communicate with the payee's
+wallet to receive a unique payment address. If the payee's wallet has
+been lost, replaced, or destroyed, no communication will be possible,
+and the sending of funds to a &quot;dead&quot; address is prevented.</p> <p>2. Individual Permissioned Address Release</p> <p>A Bitcoin wallet developer would like to allow users to view a potential
+sending party's identifying information before deciding whether or not
+to share payment information with them. Currently,
+<a href="bip-0070.mediawiki" title="wikilink">BIP70</a> shares the receiver's payment
+address and identity information with anyone who requests it.</p> <p>With this BIP, Bitcoin wallets could use the sender's identifying
+information to make a determination of whether or not to share their own
+information. This gives the receiving party more control over who
+receives their payment and identity information. Additionally, this
+could be used to automatically provide new payment addresses to
+whitelisted senders, or to protect users' privacy from unsolicited
+payment requests.</p> <p>3. Using Store &amp; Forward Servers</p> <p>A Bitcoin wallet developer would like to use a public Store &amp; Forward
+service for an asynchronous address exchange. This is a common case for
+mobile and offline wallets.</p> <p>With this BIP, returned payment information is encrypted with an
+ECDH-computed shared key before sending to a Store &amp; Forward service. In
+this case, a successful attack against a Store &amp; Forward service would
+not be able to read or modify wallet address or payment information,
+only delete encrypted messages.</p> <h2 id="modifying-bip70-pki-type-modifying-bip70-pki-type"><a href="#modifying-bip70-pki-type-modifying-bip70-pki-type" class="header-anchor">#</a> Modifying BIP70 pki_type {#modifying_bip70_pki_type}</h2> <p>This BIP adds additional possible values for the pki_type variable in
+the PaymentRequest message. The complete list is now as follows:</p> <p>pki_type       Description</p> <hr> <p>x509+sha256    A x.509 certificate, as described in BIP70
+pgp+sha256     An <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP" title="wikilink" target="_blank" rel="noopener noreferrer">OpenPGP<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> certificate
+ecdsa+sha256   A <a href="https://en.bitcoin.it/wiki/Secp256k1" title="wikilink" target="_blank" rel="noopener noreferrer">secp256k1<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm" title="wikilink" target="_blank" rel="noopener noreferrer">ECDSA<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> public key</p> <p><strong>NOTE</strong>: Although SHA1 was supported in BIP70, it has been deprecated
+and BIP75 only supports SHA256. The hashing algorithm is still specified
+in the values listed above for forward and backwards compatibility.</p> <h2 id="new-messages-new-messages"><a href="#new-messages-new-messages" class="header-anchor">#</a> New Messages {#new_messages}</h2> <p>Updated [/bip-0075/paymentrequest.proto paymentrequest.proto] contains
+the existing PaymentRequest Protocol Buffer messages as well as the
+messages newly defined in this BIP.</p> <p><strong>NOTE</strong>: Public keys from both parties must be known to each other in
+order to facilitate encrypted communication. Although including both
+public keys in every message may get redundant, it provides the most
+flexibility as each message is completely self-contained.</p> <h3 id="invoicerequest"><a href="#invoicerequest" class="header-anchor">#</a> InvoiceRequest</h3> <p>The <strong>InvoiceRequest</strong> message allows a Sender to send information to
+the Receiver such that the Receiver can create and return a
+PaymentRequest.</p> <div class="language- extra-class"><pre><code>message InvoiceRequest {
+        required bytes  sender_public_key = 1;
+        optional uint64 amount = 2 [default = 0];
+        optional string pki_type = 3 [default = &quot;none&quot;];
+        optional bytes  pki_data = 4;
+        optional string memo = 5;
+        optional string notification_url = 6;
+        optional bytes  signature = 7;
+}
+</code></pre></div><p>Field Name          Description</p> <hr> <p>sender_public_key   Sender's SEC-encoded EC public key
+amount              amount is integer-number-of-satoshis (default: 0)
+pki_type            none / x509+sha256 / pgp+sha256 / ecdsa+sha256 (default: &quot;none&quot;)
+pki_data            Depends on pki_type
+memo                Human-readable description of invoice request for the receiver
+notification_url    Secure (usually TLS-protected HTTP) location where an <a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a> SHOULD be sent when ready
+signature           PKI-dependent signature</p> <h3 id="protocolmessagetype-enum-protocolmessagetype-enum"><a href="#protocolmessagetype-enum-protocolmessagetype-enum" class="header-anchor">#</a> ProtocolMessageType Enum {#protocolmessagetype_enum}</h3> <p>This enum is used in the newly defined
+<a href="#ProtocolMessage" title="wikilink">ProtocolMessage</a> and
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+messages to define the serialized message type. The
+<strong>ProtocolMessageType</strong> enum is defined in an extensible way to allow
+for new message type additions to the Payment Protocol.</p> <div class="language- extra-class"><pre><code>enum ProtocolMessageType {
+    UNKNOWN_MESSAGE_TYPE = 0;
+    INVOICE_REQUEST = 1;
+    PAYMENT_REQUEST = 2;
+    PAYMENT = 3;
+    PAYMENT_ACK = 4;
+}
+</code></pre></div><h3 id="protocolmessage"><a href="#protocolmessage" class="header-anchor">#</a> ProtocolMessage</h3> <p>The <strong>ProtocolMessage</strong> message is an encapsulating wrapper for any
+Payment Protocol message. It allows two-way, non-encrypted communication
+of Payment Protocol messages. The message also includes a status code
+and a status message that is used for error communication such that the
+protocol does not rely on transport-layer error handling.</p> <div class="language- extra-class"><pre><code>message ProtocolMessage {
+    required uint64 version = 1
+    required uint64 status_code = 2;
+    required ProtocolMessageType message_type = 3;
+    required bytes serialized_message = 4;
+    optional string status_message = 5;
+    required bytes identifier = 6;
+}
+</code></pre></div><p>Field Name           Description</p> <hr> <p>version              Protocol version number (Currently 1)
+status_code          Payment Protocol Status Code
+message_type         Message Type of serialized_message
+serialized_message   Serialized Payment Protocol Message
+status_message       Human-readable Payment Protocol status message
+identifier           Unique key to identify this entire exchange on the server. Default value SHOULD be SHA256(Serialized Initial InvoiceRequest + Current Epoch Time in Seconds as a String)</p> <h3 id="versioning"><a href="#versioning" class="header-anchor">#</a> Versioning</h3> <p>This BIP introduces version 1 of this protocol. All messages sent using
+these base requirements MUST use a value of 1 for the version number.
+Any future BIPs that modify this protocol (encryption schemes, etc) MUST
+each increment the version number by 1.</p> <p>When initiating communication, the version field of the first message
+SHOULD be set to the highest version number the sender understands. All
+clients MUST be able to understand all version numbers less than the
+highest number they support. If a client receives a message with a
+version number higher than they understand, they MUST send the message
+back to the sender with a status code of 101 (&quot;version too high&quot;) and
+the version field set to the highest version number the recipient
+understands. The sender must then resend the original message using the
+same version number returned by the recipient or abort.</p> <h3 id="encryptedprotocolmessage"><a href="#encryptedprotocolmessage" class="header-anchor">#</a> EncryptedProtocolMessage</h3> <p>The <strong>EncryptedProtocolMessage</strong> message is an encapsualting wrapper for
+any Payment Protocol message. It allows two-way, authenticated and
+encrypted communication of Payment Protocol messages in order to keep
+their contents secret. The message also includes a status code and
+status message that is used for error communication such that the
+protocol does not rely on transport-layer error handling.</p> <div class="language- extra-class"><pre><code>message EncryptedProtocolMessage {
+    required uint64 version = 1 [default = 1];
+    required uint64 status_code = 2 [default = 1];
+    required ProtocolMessageType message_type = 3;
+    required bytes encrypted_message = 4;
+    required bytes receiver_public_key = 5;
+    required bytes sender_public_key = 6;
+    required uint64 nonce = 7;
+    required bytes identifier = 8;
+    optional string status_message = 9;
+    optional bytes signature = 10;
+}
+</code></pre></div><p>Field Name            Description</p> <hr> <p>version               Protocol version number
+status_code           Payment Protocol Status Code
+message_type          Message Type of Decrypted encrypted_message
+encrypted_message     AES-256-GCM Encrypted (as defined in BIP75) Payment Protocol Message
+receiver_public_key   Receiver's SEC-encoded EC Public Key
+sender_public_key     Sender's SEC-encoded EC Public Key
+nonce                 Microseconds since epoch
+identifier            Unique key to identify this entire exchange on the server. Default value SHOULD be SHA256(Serialized Initial InvoiceRequest + Current Epoch Time in Seconds as a String)
+status_message        Human-readable Payment Protocol status message
+signature             DER-encoded Signature over the full EncryptedProtocolMessage with EC Key Belonging to Sender / Receiver, respectively</p> <h2 id="payment-protocol-process-with-invoicerequests-payment-protocol-process-with-invoicerequests"><a href="#payment-protocol-process-with-invoicerequests-payment-protocol-process-with-invoicerequests" class="header-anchor">#</a> Payment Protocol Process with InvoiceRequests {#payment_protocol_process_with_invoicerequests}</h2> <p>The full process overview for using <strong>InvoiceRequests</strong> in the Payment
+Protocol is defined below.<br> <br>
+All Payment Protocol messages MUST be encapsulated in either a
+<a href="#ProtocolMessage" title="wikilink">ProtocolMessage</a> or
+<a href="#EncryptedProcotolMessage" title="wikilink">EncryptedProtocolMessage</a>. Once
+the process begins using
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+messages, all subsequent communications MUST use
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessages</a>.<br> <br>
+All Payment Protocol messages SHOULD be communicated using
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+encapsulating messages with the exception that an
+<a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> MAY be communicated using
+the <a href="#ProtocolMessage" title="wikilink">ProtocolMessage</a> if the receiver's
+public key is unknown.<br> <br>
+The process of creating encrypted Payment Protocol messages is
+enumerated in <a href="#Sending_Encrypted_Payment_Protocol_Messages_using_EncryptedProtocolMessages" title="wikilink">Sending Encrypted Payment Protocol Messages using
+EncryptedProtocolMessages</a>,
+and the process of decrypting encrypted messages can be found under
+<a href="#Validating_and_Decrypting_Payment_Protocol_Messages_using_EncryptedProtocolMessages" title="wikilink">Validating and Decrypting Payment Protocol Messages using
+EncryptedProtocolMessages</a>.</p> <p>A standard exchange from start to finish would look like the following:</p> <ol><li>Sender creates InvoiceRequest</li> <li>Sender encapsulates InvoiceRequest in (Encrypted)ProtocolMessage</li> <li>Sender sends (Encrypted)ProtocolMessage to Receiver</li> <li>Receiver retrieves InvoiceRequest in (Encrypted)ProtocolMessage from
+Sender</li> <li>Receiver creates PaymentRequest</li> <li>Receiver encapsulates PaymentRequest in EncryptedProtocolMessage</li> <li>Receiver transmits EncryptedProtocolMessage to Sender</li> <li>Sender validates PaymentRequest retrieved from the
+EncryptedProtocolMessage</li> <li>The PaymentRequest is processed according to
+<a href="bip-0070.mediawiki" title="wikilink">BIP70</a>, including optional Payment
+and PaymentACK messages encapsulated in EncryptedProtocolMessage
+messages.</li></ol> <p><strong>NOTE:</strong> See <a href="#Initial_Public_Key_Retrieval_for_InvoiceRequest_Encryption" title="wikilink">Initial Public Key Retrieval for InvoiceRequest
+Encryption</a>
+for possible options to retrieve Receiver's public key.</p> <p><code>&lt;img src=&quot;bip-0075/encrypted-invoice-request-process.png&quot; alt=&quot;Flow diagram of Encrypted InvoiceRequest&quot;&gt;</code></p> <h2 id="message-interaction-details-message-interaction-details"><a href="#message-interaction-details-message-interaction-details" class="header-anchor">#</a> Message Interaction Details {#message_interaction_details}</h2> <h3 id="http-content-types-for-new-message-types-http-content-types-for-new-message-types"><a href="#http-content-types-for-new-message-types-http-content-types-for-new-message-types" class="header-anchor">#</a> HTTP Content Types for New Message Types {#http_content_types_for_new_message_types}</h3> <p>When communicated via <strong>HTTP</strong>, the listed messages MUST be transmitted
+via TLS-protected HTTP using the appropriate Content-Type header as
+defined here per message:<br>
+{| class=&quot;wikitable&quot; ! Message Type !! Content Type |- |
+ProtocolMessage || application/bitcoin-paymentprotocol-message |- |
+EncryptedProtocolMessage ||
+application/bitcoin-encrypted-paymentprotocol-message |}</p> <h3 id="payment-protocol-status-communication-payment-protocol-status-communication"><a href="#payment-protocol-status-communication-payment-protocol-status-communication" class="header-anchor">#</a> Payment Protocol Status Communication {#payment_protocol_status_communication}</h3> <p>Every <a href="#ProtocolMessage" title="wikilink">ProtocolMessage</a> or
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a> MUST
+include a status code which conveys information about the last message
+received, if any (for the first message sent, use a status of 1 &quot;OK&quot;
+even though there was no previous message). In the case of an error that
+causes the Payment Protocol process to be stopped or requires that
+message be retried, a ProtocolMessage or EncryptedProtocolMessage SHOULD
+be returned by the party generating the error. The content of the
+message MUST contain the same <strong>serialized_message</strong> or
+<strong>encrypted_message</strong> and identifier (if present) and MUST have the
+status_code set appropriately.<br> <br>
+The status_message value SHOULD be set with a human readable explanation
+of the status code.</p> <h4 id="payment-protocol-status-codes-payment-protocol-status-codes"><a href="#payment-protocol-status-codes-payment-protocol-status-codes" class="header-anchor">#</a> Payment Protocol Status Codes {#payment_protocol_status_codes}</h4> <p>Status Code   Description</p> <hr> <p>1             OK
+2             Cancel
+100           General / Unknown Error
+101           Version Too High
+102           Authentication Failed
+103           Encrypted Message Required
+200           Amount Too High
+201           Amount Too Low
+202           Amount Invalid
+203           Payment Does Not Meet PaymentRequest Requirements
+300           Certificate Required
+301           Certificate Expired
+302           Certificate Invalid for Transaction
+303           Certificate Revoked
+304           Certificate Not Well Rooted</p> <p>+==Canceling A Message==+ If a participant to a transaction would like
+to inform the other party that a previous message should be canceled,
+they can send the same message with a status code of 2 (&quot;Cancel&quot;) and,
+where applicable, an updated nonce. How recipients make use of the
+&quot;Cancel&quot; message is up to developers. For example, wallet developers
+may want to offer users the ability to cancel payment requests they have
+sent to other users, and have that change reflected in the recipient's
+UI. Developers using the non-encrypted ProtocolMessage may want to
+ignore &quot;Cancel&quot; messages, as it may be difficult to authenticate that
+the message originated from the same user.</p> <h3 id="transport-layer-communication-errors-transport-layer-communication-errors"><a href="#transport-layer-communication-errors-transport-layer-communication-errors" class="header-anchor">#</a> Transport Layer Communication Errors {#transport_layer_communication_errors}</h3> <p>Communication errors MUST be communicated to the party that initiated
+the communication via the communication layer's existing error
+messaging faciltiies. In the case of TLS-protected HTTP, this SHOULD be
+done through standard HTTP Status Code messaging (<a href="https://tools.ietf.org/html/rfc7231" target="_blank" rel="noopener noreferrer">RFC 7231 Section
+6<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>).</p> <h2 id="extended-payment-protocol-process-details-extended-payment-protocol-process-details"><a href="#extended-payment-protocol-process-details-extended-payment-protocol-process-details" class="header-anchor">#</a> Extended Payment Protocol Process Details {#extended_payment_protocol_process_details}</h2> <p>This BIP extends the Payment Protocol as defined in
+<a href="bip-0070.mediawiki" title="wikilink">BIP70</a>.</p> <p>For the following we assume the Sender already knows the Receiver's
+public key, and the exchange is being facilitated by a Store &amp; Forward
+server which requires valid signatures for authentication.</p> <p><strong>nonce</strong> MUST be set to a non-repeating number <strong>and</strong> MUST be chosen
+by the encryptor. The current epoch time in microseconds SHOULD be used,
+unless the creating device doesn't have access to a RTC (in the case of
+a smart card, for example). The service receiving the message containing
+the <strong>nonce</strong> MAY use whatever method to make sure that the <strong>nonce</strong> is
+never repeated.</p> <h3 id="invoicerequest-message-creation-invoicerequest-message-creation"><a href="#invoicerequest-message-creation-invoicerequest-message-creation" class="header-anchor">#</a> InvoiceRequest Message Creation {#invoicerequest_message_creation}</h3> <ul><li>Create an <a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> message</li> <li><strong>sender_public_key</strong> MUST be set to the public key of an EC keypair</li> <li><strong>amount</strong> is optional. If the amount is not specified by the
+<a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a>, the Receiver MAY
+specify the amount in the returned PaymentRequest. If an amount is
+specified by the <a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> and a
+PaymentRequest cannot be generated for that amount, the
+<a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> SHOULD return the same
+<a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> in a
+<a href="#ProtocolMessage" title="wikilink">ProtocolMessage</a> or
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+with the status_code and status_message fields set appropriately.</li> <li><strong>memo</strong> is optional. This MAY be set to a human readable
+description of the InvoiceRequest</li> <li>Set <strong>notification_url</strong> to URL that the Receiver will submit
+completed PaymentRequest (encapsulated in an
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>) to</li> <li>If NOT including certificate, set <strong>pki_type</strong> to &quot;none&quot;</li> <li>If including certificate:
+<ul><li>Set <strong>pki_type</strong> to &quot;x509+sha256&quot;</li> <li>Set <strong>pki_data</strong> as it would be set in BIP-0070
+(<a href="https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki#Certificates" target="_blank" rel="noopener noreferrer">Certificates<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>)</li> <li>Sign <a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> with signature
+= &quot;&quot; using the X509 Certificate's private key</li> <li>Set <strong>signature</strong> value to the computed signature</li></ul></li></ul> <h3 id="invoicerequest-validation-invoicerequest-validation"><a href="#invoicerequest-validation-invoicerequest-validation" class="header-anchor">#</a> InvoiceRequest Validation {#invoicerequest_validation}</h3> <ul><li>Validate <strong>sender_public_key</strong> is a valid EC public key</li> <li>Validate <strong>notification_url</strong>, if set, contains characters deemed
+valid for a URL (avoiding XSS related characters, etc).</li> <li>If <strong>pki_type</strong> is None,
+<a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> is VALID</li> <li>If <strong>pki_type</strong> is x509+sha256 and <strong>signature</strong> is valid for the
+serialized <a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> where
+signature is set to &quot;&quot;,
+<a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> is VALID</li></ul> <h3 id="sending-encrypted-payment-protocol-messages-using-encryptedprotocolmessages-sending-encrypted-payment-protocol-messages-using-encryptedprotocolmessages"><a href="#sending-encrypted-payment-protocol-messages-using-encryptedprotocolmessages-sending-encrypted-payment-protocol-messages-using-encryptedprotocolmessages" class="header-anchor">#</a> Sending Encrypted Payment Protocol Messages using EncryptedProtocolMessages {#sending_encrypted_payment_protocol_messages_using_encryptedprotocolmessages}</h3> <ul><li>Encrypt the serialized Payment Protocol message using AES-256-GCM
+setup as described in <a href="#ECDH_Point_Generation_and_AES256_GCM_Mode_Setup" title="wikilink">ECDH Point Generation and AES-256 (GCM Mode)
+Setup</a></li> <li>Create
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+message</li> <li>Set <strong>encrypted_message</strong> to be the encrypted value of the Payment
+Protocol message</li> <li><strong>version</strong> SHOULD be set to the highest version number the client
+understands (currently 1)</li> <li><strong>sender_public_key</strong> MUST be set to the public key of the Sender's
+EC keypair</li> <li><strong>receiver_public_key</strong> MUST be set to the public key of the
+Receiver's EC keypair</li> <li><strong>nonce</strong> MUST be set to the nonce used in the AES-256-GCM
+encryption operation</li> <li>Set <strong>identifier</strong> to the identifier value received in the
+originating InvoiceRequest's ProtocolMessage or
+EncryptedProtocolMessage wrapper message</li> <li>Set <strong>signature</strong> to &quot;&quot;</li> <li>Sign the serialized
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+message with the communicating party's EC public key</li> <li>Set <strong>signature</strong> to the result of the signature operation above</li></ul> <p><strong>SIGNATURE NOTE:</strong> <a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+messages are signed with the public keys of the party transmitting the
+message. This allows a Store &amp; Forward server or other transmission
+system to prevent spam or other abuses. For those who are privacy
+conscious and don't want the server to track the interactions between
+two public keys, the Sender can generate a new public key for each
+interaction to keep their identity anonymous.</p> <h3 id="validating-and-decrypting-payment-protocol-messages-using-encryptedprotocolmessages-validating-and-decrypting-payment-protocol-messages-using-encryptedprotocolmessages"><a href="#validating-and-decrypting-payment-protocol-messages-using-encryptedprotocolmessages-validating-and-decrypting-payment-protocol-messages-using-encryptedprotocolmessages" class="header-anchor">#</a> Validating and Decrypting Payment Protocol Messages using EncryptedProtocolMessages {#validating_and_decrypting_payment_protocol_messages_using_encryptedprotocolmessages}</h3> <ul><li>The <strong>nonce</strong> MUST not be repeated. The service receiving the
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a> MAY
+use whatever method to make sure that the nonce is never repeated.</li> <li>Decrypt the serialized Payment Protocol message using AES-256-GCM
+setup as described in <a href="#ECDH_Point_Generation_and_AES256_GCM_Mode_Setup" title="wikilink">ECDH Point Generation and AES-256 (GCM Mode)
+Setup</a></li> <li>Deserialize the serialized Payment Protocol message</li></ul> <h3 id="ecdh-point-generation-and-aes-256-gcm-mode-setup-ecdh-point-generation-and-aes-256-gcm-mode-setup"><a href="#ecdh-point-generation-and-aes-256-gcm-mode-setup-ecdh-point-generation-and-aes-256-gcm-mode-setup" class="header-anchor">#</a> ECDH Point Generation and AES-256 (GCM Mode) Setup {#ecdh_point_generation_and_aes_256_gcm_mode_setup}</h3> <p><strong>NOTE</strong>: AES-256-GCM is used because it provides authenticated
+encryption facilities, thus negating the need for a separate message
+hash for authentication.</p> <ul><li><p>Generate the <strong>secret point</strong> using
+<a href="https://en.wikipedia.org/wiki/Elliptic_curve_Diffie%E2%80%93Hellman" target="_blank" rel="noopener noreferrer">ECDH<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+using the local entity's private key and the remote entity's
+public key as inputs</p></li> <li><p>Initialize
+<a href="http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf" target="_blank" rel="noopener noreferrer">HMAC_DRBG<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <ul><li>Use <strong>SHA512(secret point's X value in Big-Endian bytes)</strong> for
+Entropy</li> <li>Use the given message's <strong>nonce</strong> field for Nonce, converted to
+byte string (Big Endian)</li></ul></li> <li><p>Initialize AES-256 in GCM Mode</p> <ul><li>Initialize HMAC_DRBG with Security Strength of 256 bits</li> <li>Use HMAC_DRBG.GENERATE(32) as the Encryption Key (256 bits)</li> <li>Use HMAC_DRBG.GENERATE(12) as the Initialization Vector (IV) (96
+bits)</li></ul></li></ul> <h4 id="aes-256-gcm-authentication-tag-use-aes-256-gcm-authentication-tag-use"><a href="#aes-256-gcm-authentication-tag-use-aes-256-gcm-authentication-tag-use" class="header-anchor">#</a> AES-256 GCM Authentication Tag Use {#aes_256_gcm_authentication_tag_use}</h4> <p>The 16 byte authentication tag resulting from the AES-GCM encrypt
+operation MUST be prefixed to the returned ciphertext. The decrypt
+operation will use the first 16 bytes of the ciphertext as the GCM
+authentication tag and the remainder of the ciphertext as the ciphertext
+in the decrypt operation.</p> <h4 id="aes-256-gcm-additional-authenticated-data-aes-256-gcm-additional-authenticated-data"><a href="#aes-256-gcm-additional-authenticated-data-aes-256-gcm-additional-authenticated-data" class="header-anchor">#</a> AES-256 GCM Additional Authenticated Data {#aes_256_gcm_additional_authenticated_data}</h4> <p>When either <strong>status_code</strong> OR <strong>status_message</strong> are present, the
+AES-256 GCM authenticated data used in both the encrypt and decrypt
+operations MUST be: STRING(status_code) || status_message. Otherwise,
+there is no additional authenticated data. This provides that, while not
+encrypted, the status_code and status_message are authenticated.</p> <h3 id="initial-public-key-retrieval-for-invoicerequest-encryption-initial-public-key-retrieval-for-invoicerequest-encryption"><a href="#initial-public-key-retrieval-for-invoicerequest-encryption-initial-public-key-retrieval-for-invoicerequest-encryption" class="header-anchor">#</a> Initial Public Key Retrieval for InvoiceRequest Encryption {#initial_public_key_retrieval_for_invoicerequest_encryption}</h3> <p>Initial public key retrieval for
+<a href="#InvoiceRequest" title="wikilink">InvoiceRequest</a> encryption via
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a>
+encapsulation can be done in a number of ways including, but not limited
+to, the following:</p> <ol><li>Wallet Name public key asset type resolution - DNSSEC-validated name
+resolution returns Base64 encoded DER-formatted EC public key via
+TXT Record <a href="https://www.ietf.org/rfc/rfc5480.txt" target="_blank" rel="noopener noreferrer">RFC 5480<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li>Key Server lookup - Key Server lookup (similar to PGP's
+pgp.mit.edu) based on key server identifier (i.e., e-mail address)
+returns Base64 encoded DER-formatted EC public key <a href="https://www.ietf.org/rfc/rfc5480.txt" target="_blank" rel="noopener noreferrer">RFC
+5480<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li>QR Code - Use of QR-code to encode SEC-formatted EC public key <a href="https://www.ietf.org/rfc/rfc5480.txt" target="_blank" rel="noopener noreferrer">RFC
+5480<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li>Address Service Public Key Exposure</li></ol> <h2 id="payment-paymentack-messages-with-a-http-store-forward-server-payment-paymentack-messages-with-a-http-store-forward-server"><a href="#payment-paymentack-messages-with-a-http-store-forward-server-payment-paymentack-messages-with-a-http-store-forward-server" class="header-anchor">#</a> Payment / PaymentACK Messages with a HTTP Store &amp; Forward Server {#payment_paymentack_messages_with_a_http_store_forward_server}</h2> <p>If a Store &amp; Forward server wishes to protect themselves from spam or
+abuse, they MAY enact whatever rules they deem fit, such as the
+following:</p> <ul><li>Once an InvoiceRequest or PaymentRequest is received, all subsequent
+messages using the same identifier must use the same Sender and
+Receiver public keys.</li> <li>For each unique identifier, only one message each of type
+InvoiceRequest, PaymentRequest, and PaymentACK may be submitted.
+Payment messages may be submitted/overwritten multiple times. All
+messages submitted after a PaymentACK is received will be rejected.</li> <li>Specific messages are only saved until they have been verifiably
+received by the intended recipient or a certain amount of time has
+passed, whichever comes first.</li></ul> <p><br> <br>
+Clients SHOULD keep in mind Receivers can broadcast a transaction
+without returning an ACK. If a Payment message needs to be updated, it
+SHOULD include at least one input referenced in the original transaction
+to prevent the Receiver from broadcasting both transactions and getting
+paid twice.</p> <h2 id="public-key-signature-encoding-public-key-signature-encoding"><a href="#public-key-signature-encoding-public-key-signature-encoding" class="header-anchor">#</a> Public Key &amp; Signature Encoding {#public_key_signature_encoding}</h2> <ul><li>All x.509 certificates included in any message defined in this BIP
+MUST be DER [ITU.X690.1994] encoded.</li> <li>All EC public keys (<strong>sender_public_key</strong>, <strong>receiver_public_key</strong>)
+in any message defined in this BIP MUST be
+<a href="SECP256k1" title="wikilink"><a href="http://www.secg.org/sec2-v2.pdf" target="_blank" rel="noopener noreferrer">http://www.secg.org/sec2-v2.pdf<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></a> ECDSA
+Public Key ECPoints encoded using
+<a href="SEC_2.3.3_Encoding" title="wikilink"><a href="http://www.secg.org/sec1-v2.pdf" target="_blank" rel="noopener noreferrer">http://www.secg.org/sec1-v2.pdf<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></a>.
+Encoding MAY be compressed.</li> <li>All ECC signatures included in any message defined in this BIP MUST
+use the SHA-256 hashing algorithm and MUST be DER [ITU.X690.1994]
+encoded.</li> <li>All OpenPGP certificates must follow
+<a href="https://tools.ietf.org/html/rfc4880" title="wikilink" target="_blank" rel="noopener noreferrer">RFC4880<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, sections
+5.5 and 12.1.</li></ul> <h2 id="implementation"><a href="#implementation" class="header-anchor">#</a> Implementation</h2> <p>A reference implementation for a Store &amp; Forward server supporting this
+proposal can be found here:</p> <p><a href="https://github.com/netkicorp/addressimo" target="_blank" rel="noopener noreferrer">Addressimo<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>A reference client implementation can be found in the InvoiceRequest
+functional testing for Addressimo here:</p> <p><a href="https://github.com/netkicorp/addressimo/blob/master/functest/functest_bip75.py" target="_blank" rel="noopener noreferrer">BIP75 Client Reference
+Implementation<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="bip70-extension-bip70-extension"><a href="#bip70-extension-bip70-extension" class="header-anchor">#</a> BIP70 Extension {#bip70_extension}</h2> <p>The following flowchart is borrowed from
+<a href="bip-0070.mediawiki" title="wikilink">BIP70</a> and expanded upon in order to
+visually describe how this BIP is an extension to
+<a href="bip-0070.mediawiki" title="wikilink">BIP70</a>.</p> <p><code>&lt;img src=&quot;bip-0075/bip70-extension.png&quot; alt=&quot;Flowchart explaining how this BIP extends BIP 70&quot;&gt;</code></p> <h2 id="mobile-to-mobile-examples-mobile-to-mobile-examples"><a href="#mobile-to-mobile-examples-mobile-to-mobile-examples" class="header-anchor">#</a> Mobile to Mobile Examples {#mobile_to_mobile_examples}</h2> <h3 id="full-payment-protocol-full-payment-protocol"><a href="#full-payment-protocol-full-payment-protocol" class="header-anchor">#</a> Full Payment Protocol {#full_payment_protocol}</h3> <p>The following diagram shows a sample flow in which one mobile client is
+sending value to a second mobile client with the use of an
+InvoiceRequest, a Store &amp; Forward server, PaymentRequest, Payment and
+PaymentACK. In this case, the PaymentRequest, Payment and PaymentACK
+messages are encrypted using
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a> <strong>and</strong>
+the Receiver submits the transaction to the Bitcoin network.</p> <p><code>&lt;img src=&quot;bip-0075/mobile-sf-ir-with-payment.png&quot; alt=&quot;Payment Required flow diagram&quot;&gt;</code></p> <h3 id="encrypting-initial-invoicerequest-via-encryptedprotocolmessage-encrypting-initial-invoicerequest-via-encryptedprotocolmessage"><a href="#encrypting-initial-invoicerequest-via-encryptedprotocolmessage-encrypting-initial-invoicerequest-via-encryptedprotocolmessage" class="header-anchor">#</a> Encrypting Initial InvoiceRequest via EncryptedProtocolMessage {#encrypting_initial_invoicerequest_via_encryptedprotocolmessage}</h3> <p>The following diagram shows a sample flow in which one mobile client is
+sending value to a second mobile client using an
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a> to
+transmit the InvoiceRequest using encryption, Store &amp; Forward server,
+and PaymentRequest. In this case, all Payment Protocol messages are
+encrypting using
+<a href="#EncryptedProtocolMessage" title="wikilink">EncryptedProtocolMessage</a> <strong>and</strong>
+the Sender submits the transaction to the Bitcoin network.</p> <p><code>&lt;img src=&quot;bip-0075/mobile-sf-encrypted-ir-without-payment.png&quot; alt=&quot;Encrypted InvoiceRequest without payment&quot;&gt;</code></p> <h2 id="references"><a href="#references" class="header-anchor">#</a> References</h2> <ul><li><a href="bip-0070.mediawiki" title="wikilink">BIP70 - Payment Protocol</a></li> <li><a href="https://en.wikipedia.org/wiki/Elliptic_curve_Diffie%E2%80%93Hellman" target="_blank" rel="noopener noreferrer">ECDH<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf" target="_blank" rel="noopener noreferrer">HMAC_DRBG<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="http://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf" target="_blank" rel="noopener noreferrer">NIST Special Publication 800-38D - Recommendation for Block Cipher
+Modes of Operation: Galois/Counter Mode (GCM) and
+GMAC<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://tools.ietf.org/html/rfc6979" target="_blank" rel="noopener noreferrer">RFC6979<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://en.bitcoin.it/wiki/Address_reuse" target="_blank" rel="noopener noreferrer">Address Reuse<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf" target="_blank" rel="noopener noreferrer">FIPS 180-4 (Secure Hash
+Standard)<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bitcoindocs/bips/74.html" class="prev">
+        74
+      </a></span> <span class="next"><a href="/bitcoindocs/bips/78.html">
+        78
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bitcoindocs/assets/js/app.c31d8641.js" defer></script><script src="/bitcoindocs/assets/js/2.b78a9106.js" defer></script><script src="/bitcoindocs/assets/js/111.a33eb12f.js" defer></script>
+  </body>
+</html>

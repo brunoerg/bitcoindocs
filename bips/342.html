@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>342 | Bitcoin Docs</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bitcoin.png">
+    <link rel="mask-icon" href="bitcoin.png" color="#3a0839">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="bitcoin.png">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#ff7e00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css" as="style"><link rel="preload" href="/bitcoindocs/assets/js/app.c31d8641.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/2.b78a9106.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/88.3c748686.js" as="script"><link rel="prefetch" href="/bitcoindocs/assets/js/10.68a64a6d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/100.bd554273.js"><link rel="prefetch" href="/bitcoindocs/assets/js/101.df38dcc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/102.3bf2a9d4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/103.d879654a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/104.fcff9e3b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/105.324f3006.js"><link rel="prefetch" href="/bitcoindocs/assets/js/106.b8b3ca20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/107.4a9863c3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/108.e93a5196.js"><link rel="prefetch" href="/bitcoindocs/assets/js/109.e770824e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/11.f67301bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/110.72ba2ba4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/111.a33eb12f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/112.ecf1c295.js"><link rel="prefetch" href="/bitcoindocs/assets/js/113.85f94e5b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/114.c79655f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/115.3940b629.js"><link rel="prefetch" href="/bitcoindocs/assets/js/116.9ead4ccc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/117.d4b75110.js"><link rel="prefetch" href="/bitcoindocs/assets/js/118.87575c0c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/119.65af5cbd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/12.fc1e786f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/120.99826b18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/121.608c453c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/122.b24765eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/123.64680142.js"><link rel="prefetch" href="/bitcoindocs/assets/js/124.4b4f9bc2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/125.0e07a49d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/126.be3bae0f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/127.3d041c50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/128.5feda1e3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/129.307399ad.js"><link rel="prefetch" href="/bitcoindocs/assets/js/13.47ba1b02.js"><link rel="prefetch" href="/bitcoindocs/assets/js/130.0659f005.js"><link rel="prefetch" href="/bitcoindocs/assets/js/131.69a612f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/132.b51e17e2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/133.7bb492d9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/134.0f7e8787.js"><link rel="prefetch" href="/bitcoindocs/assets/js/135.e2504a16.js"><link rel="prefetch" href="/bitcoindocs/assets/js/136.8b6c7216.js"><link rel="prefetch" href="/bitcoindocs/assets/js/137.e38fc5b2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/138.095843e4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/139.4a5e77fb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/14.42b93c7a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/140.f517d934.js"><link rel="prefetch" href="/bitcoindocs/assets/js/141.7a6497c0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/142.8ae1c029.js"><link rel="prefetch" href="/bitcoindocs/assets/js/143.2fadb8ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/144.a64d8f22.js"><link rel="prefetch" href="/bitcoindocs/assets/js/145.1b1fa851.js"><link rel="prefetch" href="/bitcoindocs/assets/js/146.a59efe37.js"><link rel="prefetch" href="/bitcoindocs/assets/js/147.a0a8fc92.js"><link rel="prefetch" href="/bitcoindocs/assets/js/148.e177254d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/149.88223d18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/15.cdd298ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/150.c07e2220.js"><link rel="prefetch" href="/bitcoindocs/assets/js/151.843c50f7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/152.4f34674a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/153.c2ba1434.js"><link rel="prefetch" href="/bitcoindocs/assets/js/154.dec4842c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/155.ecd7b99f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/156.55d078d3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/157.44501232.js"><link rel="prefetch" href="/bitcoindocs/assets/js/158.79220932.js"><link rel="prefetch" href="/bitcoindocs/assets/js/159.33765ed3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/16.4c7eeecf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/160.ea470a70.js"><link rel="prefetch" href="/bitcoindocs/assets/js/161.2dc38d81.js"><link rel="prefetch" href="/bitcoindocs/assets/js/162.a27303c6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/163.31e293c1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/164.fca747d6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/165.52456cdd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/166.c2464f79.js"><link rel="prefetch" href="/bitcoindocs/assets/js/167.25467097.js"><link rel="prefetch" href="/bitcoindocs/assets/js/168.92664946.js"><link rel="prefetch" href="/bitcoindocs/assets/js/169.df73d115.js"><link rel="prefetch" href="/bitcoindocs/assets/js/17.b107683f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/170.08fb6e7e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/171.ba749017.js"><link rel="prefetch" href="/bitcoindocs/assets/js/172.c92581cb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/173.1fce2c58.js"><link rel="prefetch" href="/bitcoindocs/assets/js/174.34c08943.js"><link rel="prefetch" href="/bitcoindocs/assets/js/175.0f3c7a0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/176.36c2e712.js"><link rel="prefetch" href="/bitcoindocs/assets/js/177.15027195.js"><link rel="prefetch" href="/bitcoindocs/assets/js/178.a42c47f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/179.e9af4276.js"><link rel="prefetch" href="/bitcoindocs/assets/js/18.608ae665.js"><link rel="prefetch" href="/bitcoindocs/assets/js/180.48a51584.js"><link rel="prefetch" href="/bitcoindocs/assets/js/181.cc255bc5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/182.64362e5e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/183.256b3077.js"><link rel="prefetch" href="/bitcoindocs/assets/js/184.3139561e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/185.5af948dd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/19.8b76fc9c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/20.122a4ef0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/21.1f8a8820.js"><link rel="prefetch" href="/bitcoindocs/assets/js/22.eb68688b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/23.9e751fd9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/24.72ecb396.js"><link rel="prefetch" href="/bitcoindocs/assets/js/25.ad100f49.js"><link rel="prefetch" href="/bitcoindocs/assets/js/26.654fcf2f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/27.fdb46ea9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/28.b28d1103.js"><link rel="prefetch" href="/bitcoindocs/assets/js/29.979a7705.js"><link rel="prefetch" href="/bitcoindocs/assets/js/3.0ccb3eb1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/30.27ab6b09.js"><link rel="prefetch" href="/bitcoindocs/assets/js/31.0b51055d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/32.e5d3f476.js"><link rel="prefetch" href="/bitcoindocs/assets/js/33.5325af50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/34.6cc1e8e6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/35.4f93edf4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/36.56c4b763.js"><link rel="prefetch" href="/bitcoindocs/assets/js/37.d7fc3cc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/38.ba47e0be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/39.a4948230.js"><link rel="prefetch" href="/bitcoindocs/assets/js/4.f750dbd8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/40.13f04ebc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/41.efba2874.js"><link rel="prefetch" href="/bitcoindocs/assets/js/42.71cd6fcf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/43.3dd10508.js"><link rel="prefetch" href="/bitcoindocs/assets/js/44.0e0f5018.js"><link rel="prefetch" href="/bitcoindocs/assets/js/45.4e467a20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/46.fbc682be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/47.79e3cde6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/48.36d1a4f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/49.5c861a4e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/5.8f3d1a69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/50.0c7609ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/51.6497b8ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/52.6fef223e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/53.dc5dd169.js"><link rel="prefetch" href="/bitcoindocs/assets/js/54.560108ca.js"><link rel="prefetch" href="/bitcoindocs/assets/js/55.a09c65a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/56.f7f7c539.js"><link rel="prefetch" href="/bitcoindocs/assets/js/57.3b3dfb34.js"><link rel="prefetch" href="/bitcoindocs/assets/js/58.1048b51d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/59.01f56552.js"><link rel="prefetch" href="/bitcoindocs/assets/js/6.ea542132.js"><link rel="prefetch" href="/bitcoindocs/assets/js/60.1e424058.js"><link rel="prefetch" href="/bitcoindocs/assets/js/61.6d4493b3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/62.849c30d7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/63.0c6aaa64.js"><link rel="prefetch" href="/bitcoindocs/assets/js/64.0d99b925.js"><link rel="prefetch" href="/bitcoindocs/assets/js/65.d60db57e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/66.c6c02735.js"><link rel="prefetch" href="/bitcoindocs/assets/js/67.c0c64c59.js"><link rel="prefetch" href="/bitcoindocs/assets/js/68.99f833eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/69.88769157.js"><link rel="prefetch" href="/bitcoindocs/assets/js/7.474d9a1c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/70.0a746051.js"><link rel="prefetch" href="/bitcoindocs/assets/js/71.9847fc9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/72.8e04fa9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/73.772916a2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/74.9663297b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/75.66154da0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/76.358626cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/77.8eafda69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/78.782695f1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/79.99523f6b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/8.7a9d23a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/80.2c556ea8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/81.b70d3d0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/82.f0c621cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/83.13117f68.js"><link rel="prefetch" href="/bitcoindocs/assets/js/84.2361b62a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/85.e8f23ad0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/86.eab303cd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/87.a547f760.js"><link rel="prefetch" href="/bitcoindocs/assets/js/89.6b7de962.js"><link rel="prefetch" href="/bitcoindocs/assets/js/9.6e1ca0bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/90.0907331e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/91.fe47eeeb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/92.f4c67fe3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/93.efdc2e47.js"><link rel="prefetch" href="/bitcoindocs/assets/js/94.b7862723.js"><link rel="prefetch" href="/bitcoindocs/assets/js/95.06e410a5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/96.0cc67031.js"><link rel="prefetch" href="/bitcoindocs/assets/js/97.b9460d90.js"><link rel="prefetch" href="/bitcoindocs/assets/js/98.0689894c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/99.f18fe9ac.js">
+    <link rel="stylesheet" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bitcoindocs/" class="home-link router-link-active"><!----> <span class="site-name">Bitcoin Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>BIPs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bitcoindocs/bips/" aria-current="page" class="sidebar-link">Bitcoin Improvement Proposals</a></li><li><a href="/bitcoindocs/bips/1.html" class="sidebar-link">1</a></li><li><a href="/bitcoindocs/bips/2.html" class="sidebar-link">2</a></li><li><a href="/bitcoindocs/bips/8.html" class="sidebar-link">8</a></li><li><a href="/bitcoindocs/bips/9.html" class="sidebar-link">9</a></li><li><a href="/bitcoindocs/bips/16.html" class="sidebar-link">16</a></li><li><a href="/bitcoindocs/bips/32.html" class="sidebar-link">32</a></li><li><a href="/bitcoindocs/bips/39.html" class="sidebar-link">39</a></li><li><a href="/bitcoindocs/bips/42.html" class="sidebar-link">42</a></li><li><a href="/bitcoindocs/bips/43.html" class="sidebar-link">43</a></li><li><a href="/bitcoindocs/bips/44.html" class="sidebar-link">44</a></li><li><a href="/bitcoindocs/bips/45.html" class="sidebar-link">45</a></li><li><a href="/bitcoindocs/bips/47.html" class="sidebar-link">47</a></li><li><a href="/bitcoindocs/bips/49.html" class="sidebar-link">49</a></li><li><a href="/bitcoindocs/bips/50.html" class="sidebar-link">50</a></li><li><a href="/bitcoindocs/bips/60.html" class="sidebar-link">60</a></li><li><a href="/bitcoindocs/bips/61.html" class="sidebar-link">61</a></li><li><a href="/bitcoindocs/bips/62.html" class="sidebar-link">62</a></li><li><a href="/bitcoindocs/bips/64.html" class="sidebar-link">64</a></li><li><a href="/bitcoindocs/bips/65.html" class="sidebar-link">65</a></li><li><a href="/bitcoindocs/bips/66.html" class="sidebar-link">66</a></li><li><a href="/bitcoindocs/bips/67.html" class="sidebar-link">67</a></li><li><a href="/bitcoindocs/bips/68.html" class="sidebar-link">68</a></li><li><a href="/bitcoindocs/bips/69.html" class="sidebar-link">69</a></li><li><a href="/bitcoindocs/bips/70.html" class="sidebar-link">70</a></li><li><a href="/bitcoindocs/bips/71.html" class="sidebar-link">71</a></li><li><a href="/bitcoindocs/bips/72.html" class="sidebar-link">72</a></li><li><a href="/bitcoindocs/bips/73.html" class="sidebar-link">73</a></li><li><a href="/bitcoindocs/bips/74.html" class="sidebar-link">74</a></li><li><a href="/bitcoindocs/bips/75.html" class="sidebar-link">75</a></li><li><a href="/bitcoindocs/bips/78.html" class="sidebar-link">78</a></li><li><a href="/bitcoindocs/bips/79.html" class="sidebar-link">79</a></li><li><a href="/bitcoindocs/bips/80.html" class="sidebar-link">80</a></li><li><a href="/bitcoindocs/bips/81.html" class="sidebar-link">81</a></li><li><a href="/bitcoindocs/bips/83.html" class="sidebar-link">83</a></li><li><a href="/bitcoindocs/bips/84.html" class="sidebar-link">84</a></li><li><a href="/bitcoindocs/bips/85.html" class="sidebar-link">85</a></li><li><a href="/bitcoindocs/bips/90.html" class="sidebar-link">90</a></li><li><a href="/bitcoindocs/bips/91.html" class="sidebar-link">91</a></li><li><a href="/bitcoindocs/bips/98.html" class="sidebar-link">98</a></li><li><a href="/bitcoindocs/bips/99.html" class="sidebar-link">99</a></li><li><a href="/bitcoindocs/bips/100.html" class="sidebar-link">100</a></li><li><a href="/bitcoindocs/bips/101.html" class="sidebar-link">101</a></li><li><a href="/bitcoindocs/bips/102.html" class="sidebar-link">102</a></li><li><a href="/bitcoindocs/bips/103.html" class="sidebar-link">103</a></li><li><a href="/bitcoindocs/bips/104.html" class="sidebar-link">104</a></li><li><a href="/bitcoindocs/bips/105.html" class="sidebar-link">105</a></li><li><a href="/bitcoindocs/bips/106.html" class="sidebar-link">106</a></li><li><a href="/bitcoindocs/bips/107.html" class="sidebar-link">107</a></li><li><a href="/bitcoindocs/bips/109.html" class="sidebar-link">109</a></li><li><a href="/bitcoindocs/bips/111.html" class="sidebar-link">111</a></li><li><a href="/bitcoindocs/bips/112.html" class="sidebar-link">112</a></li><li><a href="/bitcoindocs/bips/113.html" class="sidebar-link">113</a></li><li><a href="/bitcoindocs/bips/114.html" class="sidebar-link">114</a></li><li><a href="/bitcoindocs/bips/115.html" class="sidebar-link">115</a></li><li><a href="/bitcoindocs/bips/116.html" class="sidebar-link">116</a></li><li><a href="/bitcoindocs/bips/117.html" class="sidebar-link">117</a></li><li><a href="/bitcoindocs/bips/118.html" class="sidebar-link">118</a></li><li><a href="/bitcoindocs/bips/119.html" class="sidebar-link">119</a></li><li><a href="/bitcoindocs/bips/120.html" class="sidebar-link">120</a></li><li><a href="/bitcoindocs/bips/121.html" class="sidebar-link">121</a></li><li><a href="/bitcoindocs/bips/122.html" class="sidebar-link">122</a></li><li><a href="/bitcoindocs/bips/123.html" class="sidebar-link">123</a></li><li><a href="/bitcoindocs/bips/124.html" class="sidebar-link">124</a></li><li><a href="/bitcoindocs/bips/125.html" class="sidebar-link">125</a></li><li><a href="/bitcoindocs/bips/126.html" class="sidebar-link">126</a></li><li><a href="/bitcoindocs/bips/127.html" class="sidebar-link">127</a></li><li><a href="/bitcoindocs/bips/130.html" class="sidebar-link">130</a></li><li><a href="/bitcoindocs/bips/131.html" class="sidebar-link">131</a></li><li><a href="/bitcoindocs/bips/132.html" class="sidebar-link">132</a></li><li><a href="/bitcoindocs/bips/133.html" class="sidebar-link">133</a></li><li><a href="/bitcoindocs/bips/134.html" class="sidebar-link">134</a></li><li><a href="/bitcoindocs/bips/135.html" class="sidebar-link">135</a></li><li><a href="/bitcoindocs/bips/136.html" class="sidebar-link">136</a></li><li><a href="/bitcoindocs/bips/137.html" class="sidebar-link">137</a></li><li><a href="/bitcoindocs/bips/140.html" class="sidebar-link">140</a></li><li><a href="/bitcoindocs/bips/141.html" class="sidebar-link">141</a></li><li><a href="/bitcoindocs/bips/142.html" class="sidebar-link">142</a></li><li><a href="/bitcoindocs/bips/143.html" class="sidebar-link">143</a></li><li><a href="/bitcoindocs/bips/144.html" class="sidebar-link">144</a></li><li><a href="/bitcoindocs/bips/145.html" class="sidebar-link">145</a></li><li><a href="/bitcoindocs/bips/146.html" class="sidebar-link">146</a></li><li><a href="/bitcoindocs/bips/147.html" class="sidebar-link">147</a></li><li><a href="/bitcoindocs/bips/148.html" class="sidebar-link">148</a></li><li><a href="/bitcoindocs/bips/149.html" class="sidebar-link">149</a></li><li><a href="/bitcoindocs/bips/150.html" class="sidebar-link">150</a></li><li><a href="/bitcoindocs/bips/151.html" class="sidebar-link">151</a></li><li><a href="/bitcoindocs/bips/152.html" class="sidebar-link">152</a></li><li><a href="/bitcoindocs/bips/154.html" class="sidebar-link">154</a></li><li><a href="/bitcoindocs/bips/155.html" class="sidebar-link">155</a></li><li><a href="/bitcoindocs/bips/156.html" class="sidebar-link">156</a></li><li><a href="/bitcoindocs/bips/157.html" class="sidebar-link">157</a></li><li><a href="/bitcoindocs/bips/158.html" class="sidebar-link">158</a></li><li><a href="/bitcoindocs/bips/159.html" class="sidebar-link">159</a></li><li><a href="/bitcoindocs/bips/171.html" class="sidebar-link">171</a></li><li><a href="/bitcoindocs/bips/173.html" class="sidebar-link">173</a></li><li><a href="/bitcoindocs/bips/174.html" class="sidebar-link">174</a></li><li><a href="/bitcoindocs/bips/175.html" class="sidebar-link">175</a></li><li><a href="/bitcoindocs/bips/176.html" class="sidebar-link">176</a></li><li><a href="/bitcoindocs/bips/178.html" class="sidebar-link">178</a></li><li><a href="/bitcoindocs/bips/179.html" class="sidebar-link">179</a></li><li><a href="/bitcoindocs/bips/180.html" class="sidebar-link">180</a></li><li><a href="/bitcoindocs/bips/197.html" class="sidebar-link">197</a></li><li><a href="/bitcoindocs/bips/199.html" class="sidebar-link">199</a></li><li><a href="/bitcoindocs/bips/300.html" class="sidebar-link">300</a></li><li><a href="/bitcoindocs/bips/301.html" class="sidebar-link">301</a></li><li><a href="/bitcoindocs/bips/310.html" class="sidebar-link">310</a></li><li><a href="/bitcoindocs/bips/320.html" class="sidebar-link">320</a></li><li><a href="/bitcoindocs/bips/322.html" class="sidebar-link">322</a></li><li><a href="/bitcoindocs/bips/325.html" class="sidebar-link">325</a></li><li><a href="/bitcoindocs/bips/339.html" class="sidebar-link">339</a></li><li><a href="/bitcoindocs/bips/340.html" class="sidebar-link">340</a></li><li><a href="/bitcoindocs/bips/341.html" class="sidebar-link">341</a></li><li><a href="/bitcoindocs/bips/342.html" aria-current="page" class="active sidebar-link">342</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/342.html#introduction" class="sidebar-link">Introduction</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/342.html#design" class="sidebar-link">Design</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/342.html#specification" class="sidebar-link">Specification</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/342.html#rationale" class="sidebar-link">Rationale</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/342.html#examples" class="sidebar-link">Examples</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/342.html#acknowledgements" class="sidebar-link">Acknowledgements</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_342"><a href="#_342" class="header-anchor">#</a> 342</h1> <div class="language- extra-class"><pre><code>  BIP: 342
+  Layer: Consensus (soft fork)
+  Title: Validation of Taproot Scripts
+  Author: Pieter Wuille &lt;pieter.wuille@gmail.com&gt;
+          Jonas Nick &lt;jonasd.nick@gmail.com&gt;
+          Anthony Towns &lt;aj@erisian.com.au&gt;
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0342
+  Status: Draft
+  Type: Standards Track
+  Created: 2020-01-19
+  License: BSD-3-Clause
+  Requires: 340, 341
+  Post-History: 2019-05-06: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-May/016914.html [bitcoin-dev] Taproot proposal
+</code></pre></div><h2 id="introduction"><a href="#introduction" class="header-anchor">#</a> Introduction</h2> <h3 id="abstract"><a href="#abstract" class="header-anchor">#</a> Abstract</h3> <p>This document specifies the semantics of the initial scripting system
+under <a href="bip-0341.mediawiki" title="wikilink">BIP341</a>.</p> <h3 id="copyright"><a href="#copyright" class="header-anchor">#</a> Copyright</h3> <p>This document is licensed under the 3-clause BSD license.</p> <h3 id="motivation"><a href="#motivation" class="header-anchor">#</a> Motivation</h3> <p><a href="bip-0341.mediawiki" title="wikilink">BIP341</a> proposes improvements to just
+the script structure, but some of its goals are incompatible with the
+semantics of certain opcodes within the scripting language itself. While
+it is possible to deal with these in separate optional improvements,
+their impact is not guaranteed unless they are addressed simultaneously
+with <a href="bip-0341.mediawiki" title="wikilink">BIP341</a> itself.</p> <p>Specifically, the goal is making <strong>Schnorr signatures</strong>, <strong>batch
+validation</strong>, and <strong>signature hash</strong> improvements available to spends
+that use the script system as well.</p> <h2 id="design"><a href="#design" class="header-anchor">#</a> Design</h2> <p>In order to achieve these goals, signature opcodes <code>OP_CHECKSIG</code> and
+<code>OP_CHECKSIGVERIFY</code> are modified to verify Schnorr signatures as
+specified in <a href="bip-0340.mediawiki" title="wikilink">BIP340</a> and to use a
+signature message algorithm based on the common message calculation in
+<a href="bip-0341.mediawiki" title="wikilink">BIP341</a>. The tapscript signature message
+also simplifies <code>OP_CODESEPARATOR</code> handling and makes it more efficient.</p> <p>The inefficient <code>OP_CHECKMULTISIG</code> and <code>OP_CHECKMULTISIGVERIFY</code> opcodes
+are disabled. Instead, a new opcode <code>OP_CHECKSIGADD</code> is introduced to
+allow creating the same multisignature policies in a batch-verifiable
+way. Tapscript uses a new, simpler signature opcode limit fixing
+complicated interactions with transaction weight. Furthermore, a
+potential malleability vector is eliminated by requiring MINIMALIF.</p> <p>Tapscript can be upgraded through soft forks by defining unknown key
+types, for example to add new <code>hash_types</code> or signature algorithms.
+Additionally, the new tapscript <code>OP_SUCCESS</code> opcodes allow introducing
+new opcodes more cleanly than through <code>OP_NOP</code>.</p> <h2 id="specification"><a href="#specification" class="header-anchor">#</a> Specification</h2> <p>The rules below only apply when validating a transaction input for which
+all of the conditions below are true:</p> <ul><li>The transaction input is a <strong>segregated witness spend</strong> (i.e., the
+scriptPubKey contains a witness program as defined in
+<a href="bip-0141.mediawiki" title="wikilink">BIP141</a>).</li> <li>It is a <strong>taproot spend</strong> as defined in
+<a href="bip-0341.mediawiki#design" title="wikilink">BIP341</a> (i.e., the witness
+version is 1, the witness program is 32 bytes, and it is not P2SH
+wrapped).</li> <li>It is a <strong>script path spend</strong> as defined in
+<a href="bip-0341.mediawiki#design" title="wikilink">BIP341</a> (i.e., after removing
+the optional annex from the witness stack, two or more stack
+elements remain).</li> <li>The leaf version is <em>0xc0</em> (i.e. the first byte of the last witness
+element after removing the optional annex is <em>0xc0</em> or <em>0xc1</em>),
+marking it as a <strong>tapscript spend</strong>.</li></ul> <p>Validation of such inputs must be equivalent to performing the following
+steps in the specified order.</p> <ol><li>If the input is invalid due to BIP141 or BIP341, fail.</li> <li>The script as defined in BIP341 (i.e., the penultimate witness stack
+element after removing the optional annex) is called the
+<strong>tapscript</strong> and is decoded into opcodes, one by one:
+<ol><li>If any opcode numbered <em>80, 98, 126-129, 131-134, 137-138,
+141-142, 149-153, 187-254</em> is encountered, validation succeeds
+(none of the rules below apply). This is true even if later
+bytes in the tapscript would fail to decode otherwise. These
+opcodes are renamed to <code>OP_SUCCESS80</code>, ..., <code>OP_SUCCESS254</code>,
+and collectively known as
+<code>OP_SUCCESSx &lt;ref&gt;</code> <strong><code>OP_SUCCESSx</code></strong> <code>OP_SUCCESSx</code> is a
+mechanism to upgrade the Script system. Using an <code>OP_SUCCESSx</code>
+before its meaning is defined by a softfork is insecure and
+leads to fund loss. The inclusion of <code>OP_SUCCESSx</code> in a script
+will pass it unconditionally. It precedes any script execution
+rules to avoid the difficulties in specifying various edge
+cases, for example: <code>OP_SUCCESSx</code> in a script with an input
+stack larger than 1000 elements, <code>OP_SUCCESSx</code> after too many
+signature opcodes, or even scripts with conditionals lacking
+<code>OP_ENDIF</code>. The mere existence of an <code>OP_SUCCESSx</code> anywhere in
+the script will guarantee a pass for all such cases.
+<code>OP_SUCCESSx</code> are similar to the <code>OP_RETURN</code> in very early
+bitcoin versions (v0.1 up to and including v0.3.5). The original
+<code>OP_RETURN</code> terminates script execution immediately, and return
+pass or fail based on the top stack element at the moment of
+termination. This was one of a major design flaws in the
+original bitcoin protocol as it permitted unconditional third
+party theft by placing an <code>OP_RETURN</code> in <code>scriptSig</code>. This is
+not a concern in the present proposal since it is not possible
+for a third party to inject an <code>OP_SUCCESSx</code> to the validation
+process, as the <code>OP_SUCCESSx</code> is part of the script (and thus
+committed to by the taproot output), implying the consent of the
+coin owner. <code>OP_SUCCESSx</code> can be used for a variety of upgrade
+possibilities:</li></ol></li></ol> <ul><li>An <code>OP_SUCCESSx</code> could be turned into a functional opcode through a
+softfork. Unlike <code>OP_NOPx</code>-derived opcodes which only have read-only
+access to the stack, <code>OP_SUCCESSx</code> may also write to the stack. Any
+rule changes to an <code>OP_SUCCESSx</code>-containing script may only turn a
+valid script into an invalid one, and this is always achievable with
+softforks.</li> <li>Since <code>OP_SUCCESSx</code> precedes size check of initial stack and push
+opcodes, an <code>OP_SUCCESSx</code>-derived opcode requiring stack elements
+bigger than 520 bytes may uplift the limit in a softfork.</li> <li><code>OP_SUCCESSx</code> may also redefine the behavior of existing opcodes so
+they could work together with the new opcode. For example, if an
+<code>OP_SUCCESSx</code>-derived opcode works with 64-bit integers, it may also
+allow the existing arithmetic opcodes in the <em>same script</em> to do the
+same.</li> <li>Given that <code>OP_SUCCESSx</code> even causes potentially unparseable scripts
+to pass, it can be used to introduce multi-byte opcodes, or even a
+completely new scripting language when prefixed with a specific
+<code>OP_SUCCESSx</code> opcode.<code>&lt;/ref&gt;</code> .</li></ul> <ol><li><ol><li>If any push opcode fails to decode because it would extend past
+the end of the tapscript, fail.</li></ol></li> <li><p>If the <strong>initial stack</strong> as defined in BIP341 (i.e., the witness
+stack after removing both the optional annex and the two last stack
+elements after that) violates any resource limits (stack size, and
+size of the elements in the stack; see &quot;Resource Limits&quot; below),
+fail. Note that this check can be bypassed using <code>OP_SUCCESSx</code>.</p></li> <li><p>The tapscript is executed according to the rules in the following
+section, with the initial stack as input.</p> <ol><li>If execution fails for any reason, fail.</li> <li>If the execution results in anything but exactly one element on
+the stack which evaluates to true with <code>CastToBool()</code>, fail.</li></ol></li> <li><p>If this step is reached without encountering a failure, validation
+succeeds.</p></li></ol> <h3 id="script-execution-script-execution"><a href="#script-execution-script-execution" class="header-anchor">#</a> Script execution {#script_execution}</h3> <p>The execution rules for tapscript are based on those for P2WSH according
+to BIP141, including the <code>OP_CHECKLOCKTIMEVERIFY</code> and
+<code>OP_CHECKSEQUENCEVERIFY</code> opcodes defined in
+<a href="bip-0065.mediawiki" title="wikilink">BIP65</a> and
+<a href="bip-0112.mediawiki" title="wikilink">BIP112</a>, but with the following
+modifications:</p> <ul><li><strong>Disabled script opcodes</strong> The following script opcodes are
+disabled in tapscript: <code>OP_CHECKMULTISIG</code> and
+<code>OP_CHECKMULTISIGVERIFY</code>[^1]. The disabled opcodes behave in the
+same way as <code>OP_RETURN</code>, by failing and terminating the script
+immediately when executed, and being ignored when found in
+unexecuted branch of the script.</li> <li><strong>Consensus-enforced MINIMALIF</strong> The MINIMALIF rules, which are only
+a standardness rule in P2WSH, are consensus enforced in tapscript.
+This means that the input argument to the <code>OP_IF</code> and <code>OP_NOTIF</code>
+opcodes must be either exactly 0 (the empty vector) or exactly 1
+(the one-byte vector with value 1)[^2].</li> <li><strong>OP_SUCCESSx opcodes</strong> As listed above, some opcodes are renamed to
+<code>OP_SUCCESSx</code>, and make the script unconditionally valid.</li> <li><strong>Signature opcodes</strong>. The <code>OP_CHECKSIG</code> and <code>OP_CHECKSIGVERIFY</code> are
+modified to operate on Schnorr public keys and signatures (see
+<a href="bip-0340.mediawiki" title="wikilink">BIP340</a>) instead of ECDSA, and a new
+opcode <code>OP_CHECKSIGADD</code> is added.
+<ul><li>The opcode 186 (<code>0xba</code>) is named as <code>OP_CHECKSIGADD</code>.
+[^3]<code>&lt;ref&gt;</code> <strong>Alternatives to <code>CHECKMULTISIG</code></strong> There are
+multiple ways of implementing a threshold <em>k</em>-of-<em>n</em> policy
+using Taproot and Tapscript:</li></ul></li> <li><strong>Using a single <code>OP_CHECKSIGADD</code>-based script</strong> A <code>CHECKMULTISIG</code>
+script
+<code>m &lt;pubkey_1&gt;</code> <code>... &lt;pubkey_n&gt;</code> <code>n CHECKMULTISIG</code>
+with witness <code>0 &lt;signature_1&gt;</code> <code>... &lt;signature_m&gt;</code>
+can be rewritten as script
+<code>&lt;pubkey_1&gt;</code> <code>CHECKSIG &lt;pubkey_2&gt;</code> <code>CHECKSIGADD ... &lt;pubkey_n&gt;</code> <code>CHECKSIGADD m NUMEQUAL</code>
+with witness <code>&lt;w_n&gt;</code> <code>... &lt;w_1&gt;</code> . Every witness
+element <code>w_i</code> is either a signature corresponding to <code>pubkey_i</code> or
+an empty vector. A similar <code>CHECKMULTISIGVERIFY</code> script can be
+translated to BIP342 by replacing <code>NUMEQUAL</code> with <code>NUMEQUALVERIFY</code>.
+This approach has very similar characteristics to the existing
+<code>OP_CHECKMULTISIG</code>-based scripts.</li> <li><strong>Using a <em>k</em>-of-<em>k</em> script for every combination</strong> A <em>k</em>-of-<em>n</em>
+policy can be implemented by splitting the script into several
+leaves of the Merkle tree, each implementing a <em>k</em>-of-<em>k</em> policy
+using
+<code>&lt;pubkey_1&gt;</code> <code>CHECKSIGVERIFY ... &lt;pubkey_(n-1)&gt; CHECKSIGVERIFY &lt;pubkey_n&gt;</code> <code>CHECKSIG</code>.
+This may be preferable for privacy reasons over the previous
+approach, as it only exposes the participating public keys, but it
+is only more cost effective for small values of <em>k</em> (1-of-<em>n</em> for
+any <em>n</em>, 2-of-<em>n</em> for <em>n ≥ 6</em>, 3-of-<em>n</em> for <em>n ≥ 9</em>, ...).
+Furthermore, the signatures here commit to the branch used, which
+means signers need to be aware of which other signers will be
+participating, or produce signatures for each of the tree leaves.</li> <li><strong>Using an aggregated public key for every combination</strong> Instead of
+building a tree where every leaf consists of <em>k</em> public keys, it is
+possible instead build a tree where every leaf contains a single
+<em>aggregate</em> of those <em>k</em> keys using
+<a href="https://eprint.iacr.org/2018/068" target="_blank" rel="noopener noreferrer">MuSig<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. This approach is far more
+efficient, but does require a 3-round interactive signing protocol
+to jointly produce the (single) signature.</li> <li><strong>Native Schnorr threshold signatures</strong> Multisig policies can also
+be realized with <a href="http://cacr.uwaterloo.ca/techreports/2001/corr2001-13.ps" target="_blank" rel="noopener noreferrer">threshold
+signatures<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+using verifiable secret sharing. This results in outputs and inputs
+that are indistinguishable from single-key payments, but at the cost
+of needing an interactive protocol (and associated backup
+procedures) before determining the address to send
+to.<code>&lt;/ref&gt;</code></li></ul> <h3 id="rules-for-signature-opcodes"><a href="#rules-for-signature-opcodes" class="header-anchor">#</a> Rules for signature opcodes</h3> <p>The following rules apply to <code>OP_CHECKSIG</code>, <code>OP_CHECKSIGVERIFY</code>, and
+<code>OP_CHECKSIGADD</code>.</p> <ul><li>For <code>OP_CHECKSIGVERIFY</code> and <code>OP_CHECKSIG</code>, the public key (top
+element) and a signature (second to top element) are popped from the
+stack.
+<ul><li>If fewer than 2 elements are on the stack, the script MUST fail
+and terminate immediately.</li></ul></li> <li>For <code>OP_CHECKSIGADD</code>, the public key (top element), a <code>CScriptNum</code> <code>n</code> (second to top element), and a signature (third to top element)
+are popped from the stack.
+<ul><li>If fewer than 3 elements are on the stack, the script MUST fail
+and terminate immediately.</li> <li>If <code>n</code> is larger than 4 bytes, the script MUST fail and
+terminate immediately.</li></ul></li> <li>If the public key size is zero, the script MUST fail and terminate
+immediately.</li> <li>If the public key size is 32 bytes, it is considered to be a public
+key as described in BIP340:
+<ul><li>If the signature is not the empty vector, the signature is
+validated against the public key (see the next subsection).
+Validation failure in this case immediately terminates script
+execution with failure.</li></ul></li> <li>If the public key size is not zero and not 32 bytes, the public key
+is of an <em>unknown public key type</em>[^4] and no actual signature
+verification is applied. During script execution of signature
+opcodes they behave exactly as known public key types except that
+signature validation is considered to be successful.</li> <li>If the script did not fail and terminate before this step,
+regardless of the public key type:
+<ul><li>If the signature is the empty vector:
+<ul><li>For <code>OP_CHECKSIGVERIFY</code>, the script MUST fail and terminate
+immediately.</li> <li>For <code>OP_CHECKSIG</code>, an empty vector is pushed onto the stack,
+and execution continues with the next opcode.</li> <li>For <code>OP_CHECKSIGADD</code>, a <code>CScriptNum</code> with value <code>n</code> is
+pushed onto the stack, and execution continues with the next
+opcode.</li></ul></li> <li>If the signature is not the empty vector, the opcode is counted
+towards the sigops budget (see further).
+<ul><li>For <code>OP_CHECKSIGVERIFY</code>, execution continues without any
+further changes to the stack.</li> <li>For <code>OP_CHECKSIG</code>, a 1-byte value <code>0x01</code> is pushed onto the
+stack.</li> <li>For <code>OP_CHECKSIGADD</code>, a <code>CScriptNum</code> with value of <code>n + 1</code>
+is pushed onto the stack.</li></ul></li></ul></li></ul> <h3 id="signature-validation"><a href="#signature-validation" class="header-anchor">#</a> Signature validation</h3> <p>To validate a signature <em>sig</em> with public key <em>p</em>:</p> <ul><li>Compute the tapscript message extension <em>ext</em>, consisting of the
+concatenation of:
+<ul><li><em>tapleaf_hash</em> (32): the tapleaf hash as defined in
+<a href="bip-0341.mediawiki#design" title="wikilink">BIP341</a></li> <li><em>key_version</em> (1): a constant value <em>0x00</em> representing the
+current version of public keys in the tapscript signature opcode
+execution.</li> <li><em>codesep_pos</em> (4): the opcode position of the last executed
+<code>OP_CODESEPARATOR</code> before the currently executed signature
+opcode, with the value in little endian (or <em>0xffffffff</em> if none
+executed). The first opcode in a script has a position of 0. A
+multi-byte push opcode is counted as one opcode, regardless of
+the size of data being pushed. Opcodes in parsed but unexecuted
+branches count towards this value as well.</li></ul></li> <li>If the <em>sig</em> is 64 bytes long, return <em>Verify(p,
+hash~TapSighash~(0x00 || SigMsg(0x00, 1) || ext), sig)</em>, where
+<em>Verify</em> is defined in
+<a href="bip-0340.mediawiki#design" title="wikilink">BIP340</a>.</li> <li>If the <em>sig</em> is 65 bytes long, return <em>sig[64] ≠ 0x00 and
+Verify(p, hash~TapSighash~(0x00 || SigMsg(sig[64], 1) || ext),
+sig[0:64])</em>.</li> <li>Otherwise, fail.</li></ul> <p>In summary, the semantics of signature validation is identical to
+BIP340, except the following:</p> <ol><li>The signature message includes the tapscript-specific data
+<em>key_version</em>.[^5]</li> <li>The signature message commits to the executed script through the
+<em>tapleaf_hash</em> which includes the leaf version and script instead of
+<em>scriptCode</em>. This implies that this commitment is unaffected by
+<code>OP_CODESEPARATOR</code>.</li> <li>The signature message includes the opcode position of the last
+executed <code>OP_CODESEPARATOR</code>.[^6]</li></ol> <h3 id="resource-limits-resource-limits"><a href="#resource-limits-resource-limits" class="header-anchor">#</a> Resource limits {#resource_limits}</h3> <p>In addition to changing the semantics of a number of opcodes, there are
+also some changes to the resource limitations:</p> <ul><li><strong>Script size limit</strong> The maximum script size of 10000 bytes does
+not apply. Their size is only implicitly bounded by the block weight
+limit.[^7]</li> <li><strong>Non-push opcodes limit</strong> The maximum non-push opcodes limit of 201
+per script does not apply.[^8]</li> <li><strong>Sigops limit</strong> The sigops in tapscripts do not count towards the
+block-wide limit of 80000 (weighted). Instead, there is a per-script
+sigops <em>budget</em>. The budget equals 50 + the total serialized size in
+bytes of the transaction input's witness (including the
+<code>CompactSize</code> prefix). Executing a signature opcode (<code>OP_CHECKSIG</code>,
+<code>OP_CHECKSIGVERIFY</code>, or <code>OP_CHECKSIGADD</code>) with a non-empty signature
+decrements the budget by 50. If that brings the budget below zero,
+the script fails immediately. Signature opcodes with unknown public
+key type and non-empty signature are also counted.[^9][^10][^11].</li> <li><strong>Stack + altstack element count limit</strong> The existing limit of 1000
+elements in the stack and altstack together after every executed
+opcode remains. It is extended to also apply to the size of initial
+stack.</li> <li><strong>Stack element size limit</strong> The existing limit of maximum 520 bytes
+per stack element remains, both in the initial stack and in push
+opcodes.</li></ul> <h2 id="rationale"><a href="#rationale" class="header-anchor">#</a> Rationale</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;references /&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="examples"><a href="#examples" class="header-anchor">#</a> Examples</h2> <h2 id="acknowledgements"><a href="#acknowledgements" class="header-anchor">#</a> Acknowledgements</h2> <p>This document is the result of many discussions and contains
+contributions by a number of people. The authors wish to thank all those
+who provided valuable feedback and reviews, including the participants
+of the <a href="https://github.com/ajtowns/taproot-review" target="_blank" rel="noopener noreferrer">structured reviews<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p>[^1]: <strong>Why are <code>OP_CHECKMULTISIG</code> and <code>OP_CHECKMULTISIGVERIFY</code>
+disabled, and not turned into OP_SUCCESSx?</strong> This is a precaution to
+make sure people who accidentally keep using <code>OP_CHECKMULTISIG</code> in
+Tapscript notice a problem immediately. It also avoids the
+complication of script disassemblers needing to become
+context-dependent.</p> <p>[^2]: <strong>Why make MINIMALIF consensus?</strong> This makes it considerably
+easier to write non-malleable scripts that take branch information
+from the stack.</p> <p>[^3]: <strong><code>OP_CHECKSIGADD</code></strong> This opcode is added to compensate for the
+loss of <code>OP_CHECKMULTISIG</code>-like opcodes, which are incompatible with
+batch verification. <code>OP_CHECKSIGADD</code> is functionally equivalent to
+<code>OP_ROT OP_SWAP OP_CHECKSIG OP_ADD</code>, but only takes 1 byte. All
+<code>CScriptNum</code>-related behaviours of <code>OP_ADD</code> are also applicable to
+<code>OP_CHECKSIGADD</code>.</p> <p>[^4]: <strong>Unknown public key types</strong> allow adding new signature validation
+rules through softforks. A softfork could add actual signature
+validation which either passes or makes the script fail and
+terminate immediately. This way, new <code>SIGHASH</code> modes can be added,
+as well as <a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2018-December/016549.html" target="_blank" rel="noopener noreferrer">NOINPUT-tagged public
+keys<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+and a public key constant which is replaced by the taproot internal
+key for signature validation.</p> <p>[^5]: <strong>Why does the signature message commit to the <em>key_version</em>?</strong>
+This is for future extensions that define unknown public key types,
+making sure signatures can't be moved from one key type to another.</p> <p>[^6]: <strong>Why does the signature message include the position of the last
+executed <code>OP_CODESEPARATOR</code>?</strong> This allows continuing to use
+<code>OP_CODESEPARATOR</code> to sign the executed path of the script. Because
+the <code>codeseparator_position</code> is the last input to the hash, the
+SHA256 midstate can be efficiently cached for multiple
+<code>OP_CODESEPARATOR</code>s in a single script. In contrast, the BIP143
+handling of <code>OP_CODESEPARATOR</code> is to commit to the executed script
+only from the last executed <code>OP_CODESEPARATOR</code> onwards which
+requires unnecessary rehashing of the script. It should be noted
+that the one known <code>OP_CODESEPARATOR</code> use case of saving a second
+public key push in a script by sharing the first one between two
+code branches can be most likely expressed even cheaper by moving
+each branch into a separate taproot leaf.</p> <p>[^7]: <strong>Why is a limit on script size no longer needed?</strong> Since there is
+no <code>scriptCode</code> directly included in the signature hash (only
+indirectly through a precomputable tapleaf hash), the CPU time spent
+on a signature check is no longer proportional to the size of the
+script being executed.</p> <p>[^8]: <strong>Why is a limit on the number of opcodes no longer needed?</strong> An
+opcode limit only helps to the extent that it can prevent data
+structures from growing unboundedly during execution (both because
+of memory usage, and because of time that may grow in proportion to
+the size of those structures). The size of stack and altstack is
+already independently limited. By using O(1) logic for <code>OP_IF</code>,
+<code>OP_NOTIF</code>, <code>OP_ELSE</code>, and <code>OP_ENDIF</code> as suggested
+<a href="https://bitslog.com/2017/04/17/new-quadratic-delays-in-bitcoin-scripts/" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+and implemented
+<a href="https://github.com/bitcoin/bitcoin/pull/16902" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, the only
+other instance can be avoided as well.</p> <p>[^9]: <strong>The tapscript sigop limit</strong> The signature opcode limit protects
+against scripts which are slow to verify due to excessively many
+signature operations. In tapscript the number of signature opcodes
+does not count towards the BIP141 or legacy sigop limit. The old
+sigop limit makes transaction selection in block construction
+unnecessarily difficult because it is a second constraint in
+addition to weight. Instead, the number of tapscript signature
+opcodes is limited by witness weight. Additionally, the limit
+applies to the transaction input instead of the block and only
+actually executed signature opcodes are counted. Tapscript execution
+allows one signature opcode per 50 witness weight units plus one
+free signature opcode.</p> <p>[^10]: <strong>Parameter choice of the sigop limit</strong> Regular witnesses are
+unaffected by the limit as their weight is composed of public key
+and (<code>SIGHASH_ALL</code>) signature pairs with <em>33 + 65</em> weight units each
+(which includes a 1 weight unit <code>CompactSize</code> tag). This is also the
+case if public keys are reused in the script because a signature's
+weight alone is 65 or 66 weight units. However, the limit increases
+the fees of abnormal scripts with duplicate signatures (and public
+keys) by requiring additional weight. The weight per sigop factor 50
+corresponds to the ratio of BIP141 block limits: 4 mega weight units
+divided by 80,000 sigops. The &quot;free&quot; signature opcode permitted by
+the limit exists to account for the weight of the non-witness parts
+of the transaction input.</p> <p>[^11]: <strong>Why are only signature opcodes counted toward the budget, and
+not for example hashing opcodes or other expensive operations?</strong> It
+turns out that the CPU cost per witness byte for verification of a
+script consisting of the maximum density of signature checking
+opcodes (taking the 50 WU/sigop limit into account) is already very
+close to that of scripts packed with other opcodes, including
+hashing opcodes (taking the 520 byte stack element limit into
+account) and <code>OP_ROLL</code> (taking the 1000 stack element limit into
+account). That said, the construction is very flexible, and allows
+adding new signature opcodes like <code>CHECKSIGFROMSTACK</code> to count
+towards the limit through a soft fork. Even if in the future new
+opcodes are introduced which change normal script cost there is no
+need to stuff the witness with meaningless data. Instead, the
+taproot annex can be used to add weight to the witness without
+increasing the actual witness size.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bitcoindocs/bips/341.html" class="prev">
+        341
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bitcoindocs/assets/js/app.c31d8641.js" defer></script><script src="/bitcoindocs/assets/js/2.b78a9106.js" defer></script><script src="/bitcoindocs/assets/js/88.3c748686.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>141 | Bitcoin Docs</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bitcoin.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="bitcoin.png">
+    <link rel="mask-icon" href="bitcoin.png" color="#3a0839">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="bitcoin.png">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#ff7e00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css" as="style"><link rel="preload" href="/bitcoindocs/assets/js/app.c31d8641.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/2.b78a9106.js" as="script"><link rel="preload" href="/bitcoindocs/assets/js/48.36d1a4f2.js" as="script"><link rel="prefetch" href="/bitcoindocs/assets/js/10.68a64a6d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/100.bd554273.js"><link rel="prefetch" href="/bitcoindocs/assets/js/101.df38dcc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/102.3bf2a9d4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/103.d879654a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/104.fcff9e3b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/105.324f3006.js"><link rel="prefetch" href="/bitcoindocs/assets/js/106.b8b3ca20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/107.4a9863c3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/108.e93a5196.js"><link rel="prefetch" href="/bitcoindocs/assets/js/109.e770824e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/11.f67301bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/110.72ba2ba4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/111.a33eb12f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/112.ecf1c295.js"><link rel="prefetch" href="/bitcoindocs/assets/js/113.85f94e5b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/114.c79655f2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/115.3940b629.js"><link rel="prefetch" href="/bitcoindocs/assets/js/116.9ead4ccc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/117.d4b75110.js"><link rel="prefetch" href="/bitcoindocs/assets/js/118.87575c0c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/119.65af5cbd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/12.fc1e786f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/120.99826b18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/121.608c453c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/122.b24765eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/123.64680142.js"><link rel="prefetch" href="/bitcoindocs/assets/js/124.4b4f9bc2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/125.0e07a49d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/126.be3bae0f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/127.3d041c50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/128.5feda1e3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/129.307399ad.js"><link rel="prefetch" href="/bitcoindocs/assets/js/13.47ba1b02.js"><link rel="prefetch" href="/bitcoindocs/assets/js/130.0659f005.js"><link rel="prefetch" href="/bitcoindocs/assets/js/131.69a612f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/132.b51e17e2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/133.7bb492d9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/134.0f7e8787.js"><link rel="prefetch" href="/bitcoindocs/assets/js/135.e2504a16.js"><link rel="prefetch" href="/bitcoindocs/assets/js/136.8b6c7216.js"><link rel="prefetch" href="/bitcoindocs/assets/js/137.e38fc5b2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/138.095843e4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/139.4a5e77fb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/14.42b93c7a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/140.f517d934.js"><link rel="prefetch" href="/bitcoindocs/assets/js/141.7a6497c0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/142.8ae1c029.js"><link rel="prefetch" href="/bitcoindocs/assets/js/143.2fadb8ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/144.a64d8f22.js"><link rel="prefetch" href="/bitcoindocs/assets/js/145.1b1fa851.js"><link rel="prefetch" href="/bitcoindocs/assets/js/146.a59efe37.js"><link rel="prefetch" href="/bitcoindocs/assets/js/147.a0a8fc92.js"><link rel="prefetch" href="/bitcoindocs/assets/js/148.e177254d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/149.88223d18.js"><link rel="prefetch" href="/bitcoindocs/assets/js/15.cdd298ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/150.c07e2220.js"><link rel="prefetch" href="/bitcoindocs/assets/js/151.843c50f7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/152.4f34674a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/153.c2ba1434.js"><link rel="prefetch" href="/bitcoindocs/assets/js/154.dec4842c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/155.ecd7b99f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/156.55d078d3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/157.44501232.js"><link rel="prefetch" href="/bitcoindocs/assets/js/158.79220932.js"><link rel="prefetch" href="/bitcoindocs/assets/js/159.33765ed3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/16.4c7eeecf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/160.ea470a70.js"><link rel="prefetch" href="/bitcoindocs/assets/js/161.2dc38d81.js"><link rel="prefetch" href="/bitcoindocs/assets/js/162.a27303c6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/163.31e293c1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/164.fca747d6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/165.52456cdd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/166.c2464f79.js"><link rel="prefetch" href="/bitcoindocs/assets/js/167.25467097.js"><link rel="prefetch" href="/bitcoindocs/assets/js/168.92664946.js"><link rel="prefetch" href="/bitcoindocs/assets/js/169.df73d115.js"><link rel="prefetch" href="/bitcoindocs/assets/js/17.b107683f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/170.08fb6e7e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/171.ba749017.js"><link rel="prefetch" href="/bitcoindocs/assets/js/172.c92581cb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/173.1fce2c58.js"><link rel="prefetch" href="/bitcoindocs/assets/js/174.34c08943.js"><link rel="prefetch" href="/bitcoindocs/assets/js/175.0f3c7a0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/176.36c2e712.js"><link rel="prefetch" href="/bitcoindocs/assets/js/177.15027195.js"><link rel="prefetch" href="/bitcoindocs/assets/js/178.a42c47f3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/179.e9af4276.js"><link rel="prefetch" href="/bitcoindocs/assets/js/18.608ae665.js"><link rel="prefetch" href="/bitcoindocs/assets/js/180.48a51584.js"><link rel="prefetch" href="/bitcoindocs/assets/js/181.cc255bc5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/182.64362e5e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/183.256b3077.js"><link rel="prefetch" href="/bitcoindocs/assets/js/184.3139561e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/185.5af948dd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/19.8b76fc9c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/20.122a4ef0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/21.1f8a8820.js"><link rel="prefetch" href="/bitcoindocs/assets/js/22.eb68688b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/23.9e751fd9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/24.72ecb396.js"><link rel="prefetch" href="/bitcoindocs/assets/js/25.ad100f49.js"><link rel="prefetch" href="/bitcoindocs/assets/js/26.654fcf2f.js"><link rel="prefetch" href="/bitcoindocs/assets/js/27.fdb46ea9.js"><link rel="prefetch" href="/bitcoindocs/assets/js/28.b28d1103.js"><link rel="prefetch" href="/bitcoindocs/assets/js/29.979a7705.js"><link rel="prefetch" href="/bitcoindocs/assets/js/3.0ccb3eb1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/30.27ab6b09.js"><link rel="prefetch" href="/bitcoindocs/assets/js/31.0b51055d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/32.e5d3f476.js"><link rel="prefetch" href="/bitcoindocs/assets/js/33.5325af50.js"><link rel="prefetch" href="/bitcoindocs/assets/js/34.6cc1e8e6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/35.4f93edf4.js"><link rel="prefetch" href="/bitcoindocs/assets/js/36.56c4b763.js"><link rel="prefetch" href="/bitcoindocs/assets/js/37.d7fc3cc3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/38.ba47e0be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/39.a4948230.js"><link rel="prefetch" href="/bitcoindocs/assets/js/4.f750dbd8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/40.13f04ebc.js"><link rel="prefetch" href="/bitcoindocs/assets/js/41.efba2874.js"><link rel="prefetch" href="/bitcoindocs/assets/js/42.71cd6fcf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/43.3dd10508.js"><link rel="prefetch" href="/bitcoindocs/assets/js/44.0e0f5018.js"><link rel="prefetch" href="/bitcoindocs/assets/js/45.4e467a20.js"><link rel="prefetch" href="/bitcoindocs/assets/js/46.fbc682be.js"><link rel="prefetch" href="/bitcoindocs/assets/js/47.79e3cde6.js"><link rel="prefetch" href="/bitcoindocs/assets/js/49.5c861a4e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/5.8f3d1a69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/50.0c7609ac.js"><link rel="prefetch" href="/bitcoindocs/assets/js/51.6497b8ba.js"><link rel="prefetch" href="/bitcoindocs/assets/js/52.6fef223e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/53.dc5dd169.js"><link rel="prefetch" href="/bitcoindocs/assets/js/54.560108ca.js"><link rel="prefetch" href="/bitcoindocs/assets/js/55.a09c65a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/56.f7f7c539.js"><link rel="prefetch" href="/bitcoindocs/assets/js/57.3b3dfb34.js"><link rel="prefetch" href="/bitcoindocs/assets/js/58.1048b51d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/59.01f56552.js"><link rel="prefetch" href="/bitcoindocs/assets/js/6.ea542132.js"><link rel="prefetch" href="/bitcoindocs/assets/js/60.1e424058.js"><link rel="prefetch" href="/bitcoindocs/assets/js/61.6d4493b3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/62.849c30d7.js"><link rel="prefetch" href="/bitcoindocs/assets/js/63.0c6aaa64.js"><link rel="prefetch" href="/bitcoindocs/assets/js/64.0d99b925.js"><link rel="prefetch" href="/bitcoindocs/assets/js/65.d60db57e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/66.c6c02735.js"><link rel="prefetch" href="/bitcoindocs/assets/js/67.c0c64c59.js"><link rel="prefetch" href="/bitcoindocs/assets/js/68.99f833eb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/69.88769157.js"><link rel="prefetch" href="/bitcoindocs/assets/js/7.474d9a1c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/70.0a746051.js"><link rel="prefetch" href="/bitcoindocs/assets/js/71.9847fc9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/72.8e04fa9b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/73.772916a2.js"><link rel="prefetch" href="/bitcoindocs/assets/js/74.9663297b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/75.66154da0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/76.358626cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/77.8eafda69.js"><link rel="prefetch" href="/bitcoindocs/assets/js/78.782695f1.js"><link rel="prefetch" href="/bitcoindocs/assets/js/79.99523f6b.js"><link rel="prefetch" href="/bitcoindocs/assets/js/8.7a9d23a8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/80.2c556ea8.js"><link rel="prefetch" href="/bitcoindocs/assets/js/81.b70d3d0d.js"><link rel="prefetch" href="/bitcoindocs/assets/js/82.f0c621cf.js"><link rel="prefetch" href="/bitcoindocs/assets/js/83.13117f68.js"><link rel="prefetch" href="/bitcoindocs/assets/js/84.2361b62a.js"><link rel="prefetch" href="/bitcoindocs/assets/js/85.e8f23ad0.js"><link rel="prefetch" href="/bitcoindocs/assets/js/86.eab303cd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/87.a547f760.js"><link rel="prefetch" href="/bitcoindocs/assets/js/88.3c748686.js"><link rel="prefetch" href="/bitcoindocs/assets/js/89.6b7de962.js"><link rel="prefetch" href="/bitcoindocs/assets/js/9.6e1ca0bd.js"><link rel="prefetch" href="/bitcoindocs/assets/js/90.0907331e.js"><link rel="prefetch" href="/bitcoindocs/assets/js/91.fe47eeeb.js"><link rel="prefetch" href="/bitcoindocs/assets/js/92.f4c67fe3.js"><link rel="prefetch" href="/bitcoindocs/assets/js/93.efdc2e47.js"><link rel="prefetch" href="/bitcoindocs/assets/js/94.b7862723.js"><link rel="prefetch" href="/bitcoindocs/assets/js/95.06e410a5.js"><link rel="prefetch" href="/bitcoindocs/assets/js/96.0cc67031.js"><link rel="prefetch" href="/bitcoindocs/assets/js/97.b9460d90.js"><link rel="prefetch" href="/bitcoindocs/assets/js/98.0689894c.js"><link rel="prefetch" href="/bitcoindocs/assets/js/99.f18fe9ac.js">
+    <link rel="stylesheet" href="/bitcoindocs/assets/css/0.styles.6b9516dd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bitcoindocs/" class="home-link router-link-active"><!----> <span class="site-name">Bitcoin Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bitcoindocs/whitepaper/" class="nav-link">
+  Whitepaper
+</a></div><div class="nav-item"><a href="/bitcoindocs/releases/" class="nav-link">
+  Releases
+</a></div><div class="nav-item"><a href="/bitcoindocs/bips/" class="nav-link router-link-active">
+  BIPs
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>BIPs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bitcoindocs/bips/" aria-current="page" class="sidebar-link">Bitcoin Improvement Proposals</a></li><li><a href="/bitcoindocs/bips/1.html" class="sidebar-link">1</a></li><li><a href="/bitcoindocs/bips/2.html" class="sidebar-link">2</a></li><li><a href="/bitcoindocs/bips/8.html" class="sidebar-link">8</a></li><li><a href="/bitcoindocs/bips/9.html" class="sidebar-link">9</a></li><li><a href="/bitcoindocs/bips/16.html" class="sidebar-link">16</a></li><li><a href="/bitcoindocs/bips/32.html" class="sidebar-link">32</a></li><li><a href="/bitcoindocs/bips/39.html" class="sidebar-link">39</a></li><li><a href="/bitcoindocs/bips/42.html" class="sidebar-link">42</a></li><li><a href="/bitcoindocs/bips/43.html" class="sidebar-link">43</a></li><li><a href="/bitcoindocs/bips/44.html" class="sidebar-link">44</a></li><li><a href="/bitcoindocs/bips/45.html" class="sidebar-link">45</a></li><li><a href="/bitcoindocs/bips/47.html" class="sidebar-link">47</a></li><li><a href="/bitcoindocs/bips/49.html" class="sidebar-link">49</a></li><li><a href="/bitcoindocs/bips/50.html" class="sidebar-link">50</a></li><li><a href="/bitcoindocs/bips/60.html" class="sidebar-link">60</a></li><li><a href="/bitcoindocs/bips/61.html" class="sidebar-link">61</a></li><li><a href="/bitcoindocs/bips/62.html" class="sidebar-link">62</a></li><li><a href="/bitcoindocs/bips/64.html" class="sidebar-link">64</a></li><li><a href="/bitcoindocs/bips/65.html" class="sidebar-link">65</a></li><li><a href="/bitcoindocs/bips/66.html" class="sidebar-link">66</a></li><li><a href="/bitcoindocs/bips/67.html" class="sidebar-link">67</a></li><li><a href="/bitcoindocs/bips/68.html" class="sidebar-link">68</a></li><li><a href="/bitcoindocs/bips/69.html" class="sidebar-link">69</a></li><li><a href="/bitcoindocs/bips/70.html" class="sidebar-link">70</a></li><li><a href="/bitcoindocs/bips/71.html" class="sidebar-link">71</a></li><li><a href="/bitcoindocs/bips/72.html" class="sidebar-link">72</a></li><li><a href="/bitcoindocs/bips/73.html" class="sidebar-link">73</a></li><li><a href="/bitcoindocs/bips/74.html" class="sidebar-link">74</a></li><li><a href="/bitcoindocs/bips/75.html" class="sidebar-link">75</a></li><li><a href="/bitcoindocs/bips/78.html" class="sidebar-link">78</a></li><li><a href="/bitcoindocs/bips/79.html" class="sidebar-link">79</a></li><li><a href="/bitcoindocs/bips/80.html" class="sidebar-link">80</a></li><li><a href="/bitcoindocs/bips/81.html" class="sidebar-link">81</a></li><li><a href="/bitcoindocs/bips/83.html" class="sidebar-link">83</a></li><li><a href="/bitcoindocs/bips/84.html" class="sidebar-link">84</a></li><li><a href="/bitcoindocs/bips/85.html" class="sidebar-link">85</a></li><li><a href="/bitcoindocs/bips/90.html" class="sidebar-link">90</a></li><li><a href="/bitcoindocs/bips/91.html" class="sidebar-link">91</a></li><li><a href="/bitcoindocs/bips/98.html" class="sidebar-link">98</a></li><li><a href="/bitcoindocs/bips/99.html" class="sidebar-link">99</a></li><li><a href="/bitcoindocs/bips/100.html" class="sidebar-link">100</a></li><li><a href="/bitcoindocs/bips/101.html" class="sidebar-link">101</a></li><li><a href="/bitcoindocs/bips/102.html" class="sidebar-link">102</a></li><li><a href="/bitcoindocs/bips/103.html" class="sidebar-link">103</a></li><li><a href="/bitcoindocs/bips/104.html" class="sidebar-link">104</a></li><li><a href="/bitcoindocs/bips/105.html" class="sidebar-link">105</a></li><li><a href="/bitcoindocs/bips/106.html" class="sidebar-link">106</a></li><li><a href="/bitcoindocs/bips/107.html" class="sidebar-link">107</a></li><li><a href="/bitcoindocs/bips/109.html" class="sidebar-link">109</a></li><li><a href="/bitcoindocs/bips/111.html" class="sidebar-link">111</a></li><li><a href="/bitcoindocs/bips/112.html" class="sidebar-link">112</a></li><li><a href="/bitcoindocs/bips/113.html" class="sidebar-link">113</a></li><li><a href="/bitcoindocs/bips/114.html" class="sidebar-link">114</a></li><li><a href="/bitcoindocs/bips/115.html" class="sidebar-link">115</a></li><li><a href="/bitcoindocs/bips/116.html" class="sidebar-link">116</a></li><li><a href="/bitcoindocs/bips/117.html" class="sidebar-link">117</a></li><li><a href="/bitcoindocs/bips/118.html" class="sidebar-link">118</a></li><li><a href="/bitcoindocs/bips/119.html" class="sidebar-link">119</a></li><li><a href="/bitcoindocs/bips/120.html" class="sidebar-link">120</a></li><li><a href="/bitcoindocs/bips/121.html" class="sidebar-link">121</a></li><li><a href="/bitcoindocs/bips/122.html" class="sidebar-link">122</a></li><li><a href="/bitcoindocs/bips/123.html" class="sidebar-link">123</a></li><li><a href="/bitcoindocs/bips/124.html" class="sidebar-link">124</a></li><li><a href="/bitcoindocs/bips/125.html" class="sidebar-link">125</a></li><li><a href="/bitcoindocs/bips/126.html" class="sidebar-link">126</a></li><li><a href="/bitcoindocs/bips/127.html" class="sidebar-link">127</a></li><li><a href="/bitcoindocs/bips/130.html" class="sidebar-link">130</a></li><li><a href="/bitcoindocs/bips/131.html" class="sidebar-link">131</a></li><li><a href="/bitcoindocs/bips/132.html" class="sidebar-link">132</a></li><li><a href="/bitcoindocs/bips/133.html" class="sidebar-link">133</a></li><li><a href="/bitcoindocs/bips/134.html" class="sidebar-link">134</a></li><li><a href="/bitcoindocs/bips/135.html" class="sidebar-link">135</a></li><li><a href="/bitcoindocs/bips/136.html" class="sidebar-link">136</a></li><li><a href="/bitcoindocs/bips/137.html" class="sidebar-link">137</a></li><li><a href="/bitcoindocs/bips/140.html" class="sidebar-link">140</a></li><li><a href="/bitcoindocs/bips/141.html" aria-current="page" class="active sidebar-link">141</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#abstract" class="sidebar-link">Abstract</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#motivation" class="sidebar-link">Motivation</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#specification" class="sidebar-link">Specification</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#examples" class="sidebar-link">Examples</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#future-extensions-future-extensions" class="sidebar-link">Future extensions {#future_extensions}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#backward-compatibility-backward-compatibility" class="sidebar-link">Backward compatibility {#backward_compatibility}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#deployment" class="sidebar-link">Deployment</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#credits" class="sidebar-link">Credits</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#footnotes" class="sidebar-link">Footnotes</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#reference-implementation-reference-implementation" class="sidebar-link">Reference Implementation {#reference_implementation}</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#references" class="sidebar-link">References</a></li><li class="sidebar-sub-header"><a href="/bitcoindocs/bips/141.html#copyright" class="sidebar-link">Copyright</a></li></ul></li><li><a href="/bitcoindocs/bips/142.html" class="sidebar-link">142</a></li><li><a href="/bitcoindocs/bips/143.html" class="sidebar-link">143</a></li><li><a href="/bitcoindocs/bips/144.html" class="sidebar-link">144</a></li><li><a href="/bitcoindocs/bips/145.html" class="sidebar-link">145</a></li><li><a href="/bitcoindocs/bips/146.html" class="sidebar-link">146</a></li><li><a href="/bitcoindocs/bips/147.html" class="sidebar-link">147</a></li><li><a href="/bitcoindocs/bips/148.html" class="sidebar-link">148</a></li><li><a href="/bitcoindocs/bips/149.html" class="sidebar-link">149</a></li><li><a href="/bitcoindocs/bips/150.html" class="sidebar-link">150</a></li><li><a href="/bitcoindocs/bips/151.html" class="sidebar-link">151</a></li><li><a href="/bitcoindocs/bips/152.html" class="sidebar-link">152</a></li><li><a href="/bitcoindocs/bips/154.html" class="sidebar-link">154</a></li><li><a href="/bitcoindocs/bips/155.html" class="sidebar-link">155</a></li><li><a href="/bitcoindocs/bips/156.html" class="sidebar-link">156</a></li><li><a href="/bitcoindocs/bips/157.html" class="sidebar-link">157</a></li><li><a href="/bitcoindocs/bips/158.html" class="sidebar-link">158</a></li><li><a href="/bitcoindocs/bips/159.html" class="sidebar-link">159</a></li><li><a href="/bitcoindocs/bips/171.html" class="sidebar-link">171</a></li><li><a href="/bitcoindocs/bips/173.html" class="sidebar-link">173</a></li><li><a href="/bitcoindocs/bips/174.html" class="sidebar-link">174</a></li><li><a href="/bitcoindocs/bips/175.html" class="sidebar-link">175</a></li><li><a href="/bitcoindocs/bips/176.html" class="sidebar-link">176</a></li><li><a href="/bitcoindocs/bips/178.html" class="sidebar-link">178</a></li><li><a href="/bitcoindocs/bips/179.html" class="sidebar-link">179</a></li><li><a href="/bitcoindocs/bips/180.html" class="sidebar-link">180</a></li><li><a href="/bitcoindocs/bips/197.html" class="sidebar-link">197</a></li><li><a href="/bitcoindocs/bips/199.html" class="sidebar-link">199</a></li><li><a href="/bitcoindocs/bips/300.html" class="sidebar-link">300</a></li><li><a href="/bitcoindocs/bips/301.html" class="sidebar-link">301</a></li><li><a href="/bitcoindocs/bips/310.html" class="sidebar-link">310</a></li><li><a href="/bitcoindocs/bips/320.html" class="sidebar-link">320</a></li><li><a href="/bitcoindocs/bips/322.html" class="sidebar-link">322</a></li><li><a href="/bitcoindocs/bips/325.html" class="sidebar-link">325</a></li><li><a href="/bitcoindocs/bips/339.html" class="sidebar-link">339</a></li><li><a href="/bitcoindocs/bips/340.html" class="sidebar-link">340</a></li><li><a href="/bitcoindocs/bips/341.html" class="sidebar-link">341</a></li><li><a href="/bitcoindocs/bips/342.html" class="sidebar-link">342</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_141"><a href="#_141" class="header-anchor">#</a> 141</h1> <div class="language- extra-class"><pre><code>  BIP: 141
+  Layer: Consensus (soft fork)
+  Title: Segregated Witness (Consensus layer)
+  Author: Eric Lombrozo &lt;elombrozo@gmail.com&gt;
+          Johnson Lau &lt;jl2012@xbt.hk&gt;
+          Pieter Wuille &lt;pieter.wuille@gmail.com&gt;
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0141
+  Status: Final
+  Type: Standards Track
+  Created: 2015-12-21
+  License: PD
+</code></pre></div><h2 id="abstract"><a href="#abstract" class="header-anchor">#</a> Abstract</h2> <p>This BIP defines a new structure called a &quot;witness&quot; that is committed
+to blocks separately from the transaction merkle tree. This structure
+contains data required to check transaction validity but not required to
+determine transaction effects. In particular, scripts and signatures are
+moved into this new structure.</p> <p>The witness is committed in a tree that is nested into the block's
+existing merkle root via the coinbase transaction for the purpose of
+making this BIP soft fork compatible. A future hard fork can place this
+tree in its own branch.</p> <h2 id="motivation"><a href="#motivation" class="header-anchor">#</a> Motivation</h2> <p>The entirety of the transaction's effects are determined by output
+consumption (spends) and new output creation. Other transaction data,
+and signatures in particular, are only required to validate the
+blockchain state, not to determine it.</p> <p>By removing this data from the transaction structure committed to the
+transaction merkle tree, several problems are fixed:</p> <ol><li><strong>Nonintentional malleability becomes impossible</strong>. Since signature
+data is no longer part of the transaction hash, changes to how the
+transaction was signed are no longer relevant to transaction
+identification. As a solution of transaction malleability, this is
+superior to the canonical signature approach
+(<a href="https://github.com/bitcoin/bips/blob/master/bip-0062.mediawiki" target="_blank" rel="noopener noreferrer">BIP62<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>):
+<ul><li>It prevents involuntary transaction malleability for any type of
+scripts, as long as all inputs are signed (with at least one
+CHECKSIG or CHECKMULTISIG operation)</li> <li>In the case of an m-of-n CHECKMULTISIG script, a transaction is
+malleable only with agreement of m private key holders (as
+opposed to only 1 private key holder with BIP62)</li> <li>It prevents involuntary transaction malleability due to unknown
+ECDSA signature malleability</li> <li>It allows creation of unconfirmed transaction dependency chains
+without counterparty risk, an important feature for offchain
+protocols such as the Lightning Network</li></ul></li> <li><strong>Transmission of signature data becomes optional</strong>. It is needed
+only if a peer is trying to validate a transaction instead of just
+checking its existence. This reduces the size of SPV proofs and
+potentially improves the privacy of SPV clients as they can download
+more transactions using the same bandwidth.</li> <li><strong>Some constraints could be bypassed with a soft fork</strong> by moving
+part of the transaction data to a structure unknown to current
+protocol, for example:
+<ul><li>Size of witness could be ignored / discounted when calculating
+the block size, effectively increasing the block size to some
+extent</li> <li>Hard coded constants, such as maximum data push size (520 bytes)
+or sigops limit could be reevaluated or removed</li> <li>New script system could be introduced without any limitation
+from the existing script semantic. For example, a new
+transaction digest algorithm for transaction signature
+verification is described in
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki" target="_blank" rel="noopener noreferrer">BIP143<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ol> <h2 id="specification"><a href="#specification" class="header-anchor">#</a> Specification</h2> <h3 id="transaction-id-transaction-id"><a href="#transaction-id-transaction-id" class="header-anchor">#</a> Transaction ID {#transaction_id}</h3> <p>A new data structure, <code>witness</code>, is defined. Each transaction will have
+2 IDs.</p> <p>Definition of <code>txid</code> remains unchanged: the double SHA256 of the
+traditional serialization format:</p> <p><code>[nVersion][txins][txouts][nLockTime]</code><br> <code></code></p> <p>A new <code>wtxid</code> is defined: the double SHA256 of the new serialization
+with witness data:</p> <p><code>[nVersion][marker][flag][txins][txouts][witness][nLockTime]</code><br> <code></code></p> <p>Format of <code>nVersion</code>, <code>txins</code>, <code>txouts</code>, and <code>nLockTime</code> are same as
+traditional serialization.</p> <p>The <code>marker</code> MUST be a 1-byte zero value: <code>0x00</code>.</p> <p>The <code>flag</code> MUST be a 1-byte non-zero value. Currently, <code>0x01</code> MUST be
+used.</p> <p>The <code>witness</code> is a serialization of all witness data of the transaction.
+Each txin is associated with a witness field. A witness field starts
+with a <code>var_int</code> to indicate the number of stack items for the txin. It
+is followed by stack items, with each item starts with a <code>var_int</code> to
+indicate the length. Witness data is NOT script.</p> <p>A non-witness program (defined hereinafter) txin MUST be associated with
+an empty witness field, represented by a <code>0x00</code>. If all txins are not
+witness program, a transaction's <code>wtxid</code> is equal to its <code>txid</code>.</p> <h3 id="commitment-structure-commitment-structure"><a href="#commitment-structure-commitment-structure" class="header-anchor">#</a> Commitment structure {#commitment_structure}</h3> <p>A new block rule is added which requires a commitment to the <code>wtxid</code>.
+The <code>wtxid</code> of coinbase transaction is assumed to be <code>0x0000....0000</code>.</p> <p>A <code>witness root hash</code> is calculated with all those <code>wtxid</code> as leaves, in
+a way similar to the <code>hashMerkleRoot</code> in the block header.</p> <p>The commitment is recorded in a <code>scriptPubKey</code> of the coinbase
+transaction. It must be at least 38 bytes, with the first 6-byte of
+<code>0x6a24aa21a9ed</code>, that is:</p> <p><code>1-byte - OP_RETURN (0x6a)</code><br> <code>1-byte - Push the following 36 bytes (0x24)</code><br> <code>4-byte - Commitment header (0xaa21a9ed)</code><br> <code>32-byte - Commitment hash: Double-SHA256(witness root hash|witness reserved value)</code><br> <code></code><br> <code>39th byte onwards: Optional data with no consensus meaning</code><br> <code></code></p> <p>and the coinbase's input's witness must consist of a single 32-byte
+array for the <code>witness reserved value</code>.</p> <p>If there are more than one <code>scriptPubKey</code> matching the pattern, the one
+with highest output index is assumed to be the commitment.</p> <p>If all transactions in a block do not have witness data, the commitment
+is optional.</p> <h3 id="witness-program-witness-program"><a href="#witness-program-witness-program" class="header-anchor">#</a> Witness program {#witness_program}</h3> <p>A <code>scriptPubKey</code> (or <code>redeemScript</code> as defined in BIP16/P2SH) that
+consists of a 1-byte push opcode (for 0 to 16) followed by a data push
+between 2 and 40 bytes gets a new special meaning. The value of the
+first push is called the &quot;version byte&quot;. The following byte vector
+pushed is called the &quot;witness program&quot;.</p> <p>There are two cases in which witness validation logic are triggered.
+Each case determines the location of the witness version byte and
+program, as well as the form of the scriptSig:</p> <ol><li>Triggered by a <code>scriptPubKey</code> that is exactly a push of a version
+byte, plus a push of a witness program. The scriptSig must be
+exactly empty or validation fails. (<em>&quot;native witness program&quot;</em>)</li> <li>Triggered when a <code>scriptPubKey</code> is a P2SH script, and the BIP16
+<code>redeemScript</code> pushed in the <code>scriptSig</code> is exactly a push of a
+version byte plus a push of a witness program. The <code>scriptSig</code> must
+be exactly a push of the BIP16 <code>redeemScript</code> or validation fails.
+(<em>&quot;P2SH witness program&quot;</em>)</li></ol> <p>If the version byte is 0, and the witness program is 20 bytes:</p> <ul><li>It is interpreted as a pay-to-witness-public-key-hash (P2WPKH)
+program.</li> <li>The witness must consist of exactly 2 items (≤ 520 bytes each). The
+first one a signature, and the second one a public key.</li> <li>The HASH160 of the public key must match the 20-byte witness
+program.</li> <li>After normal script evaluation, the signature is verified against
+the public key with CHECKSIG operation. The verification must result
+in a single TRUE on the stack.</li></ul> <p>If the version byte is 0, and the witness program is 32 bytes:</p> <ul><li>It is interpreted as a pay-to-witness-script-hash (P2WSH) program.</li> <li>The witness must consist of an input stack to feed to the script,
+followed by a serialized script (<code>witnessScript</code>).</li> <li>The <code>witnessScript</code> (≤ 10,000 bytes) is popped off the initial
+witness stack. SHA256 of the <code>witnessScript</code> must match the 32-byte
+witness program.</li> <li>The <code>witnessScript</code> is deserialized, and executed after normal
+script evaluation with the remaining witness stack (≤ 520 bytes for
+each stack item).</li> <li>The script must not fail, and result in exactly a single TRUE on the
+stack.</li></ul> <p>If the version byte is 0, but the witness program is neither 20 nor 32
+bytes, the script must fail.[^1]</p> <p>If the version byte is 1 to 16, no further interpretation of the witness
+program or witness stack happens, and there is no size restriction for
+the witness stack. These versions are reserved for future
+extensions.[^2]</p> <h3 id="other-consensus-critical-limits-other-consensus-critical-limits"><a href="#other-consensus-critical-limits-other-consensus-critical-limits" class="header-anchor">#</a> Other consensus critical limits {#other_consensus_critical_limits}</h3> <h4 id="block-size-block-size"><a href="#block-size-block-size" class="header-anchor">#</a> Block size {#block_size}</h4> <p>Blocks are currently limited to 1,000,000 bytes (1MB) total size. We
+change this restriction as follows:</p> <p><em>Block weight</em> is defined as <em>Base size</em> * 3 + <em>Total size</em>.
+(rationale[^3])</p> <p><em>Base size</em> is the block size in bytes with the original transaction
+serialization without any witness-related data, as seen by a
+non-upgraded node.</p> <p><em>Total size</em> is the block size in bytes with transactions serialized as
+described in <a href="bip-0144.mediawiki" title="wikilink">BIP144</a>, including base
+data and witness data.</p> <p>The new rule is <em>block weight</em> ≤ 4,000,000.</p> <h4 id="sigops"><a href="#sigops" class="header-anchor">#</a> Sigops</h4> <p>Sigops per block is currently limited to 20,000. We change this
+restriction as follows:</p> <p>Sigops in the current pubkey script, signature script, and P2SH check
+script are counted at 4 times their previous value. The sigop limit is
+likewise quadrupled to ≤ 80,000.</p> <p>Each P2WPKH input is counted as 1 sigop. In addition, opcodes within a
+P2WSH <code>witnessScript</code> are counted identically as previously within the
+P2SH <code>redeemScript</code>. That is, CHECKSIG is counted as only 1 sigop, and
+CHECKMULTISIG is counted as 1 to 20 sigops according to the arguments.
+This rule applies to both native witness program and P2SH witness
+program.</p> <h3 id="additional-definitions-additional-definitions"><a href="#additional-definitions-additional-definitions" class="header-anchor">#</a> Additional definitions {#additional_definitions}</h3> <p>The following definitions are not used for consensus limits, but are
+suggested to provide language consistent with the terminology introduced
+above.</p> <h4 id="transaction-size-calculations-transaction-size-calculations"><a href="#transaction-size-calculations-transaction-size-calculations" class="header-anchor">#</a> Transaction size calculations {#transaction_size_calculations}</h4> <p><em>Transaction weight</em> is defined as <em>Base transaction size</em> * 3 + <em>Total
+transaction size</em> (ie. the same method as calculating <em>Block weight</em>
+from <em>Base size</em> and <em>Total size</em>).</p> <p><em>Virtual transaction size</em> is defined as <em>Transaction weight</em> / 4
+(rounded up to the next integer).</p> <p><em>Base transaction size</em> is the size of the transaction serialised with
+the witness data stripped.</p> <p><em>Total transaction size</em> is the transaction size in bytes serialized as
+described in <a href="bip-0144.mediawiki" title="wikilink">BIP144</a>, including base
+data and witness data.</p> <h3 id="new-script-semantics-new-script-semantics"><a href="#new-script-semantics-new-script-semantics" class="header-anchor">#</a> New script semantics {#new_script_semantics}</h3> <p>Despite that the script language for P2WPKH and P2WSH looks very similar
+to pre-segregated witness script, there are several notable differences.
+Users MUST NOT assume that a script spendable in pre-segregated witness
+system would also be spendable as a P2WPKH or P2WSH script. Before
+large-scale deployment in the production network, developers should test
+the scripts on testnet with the default relay policy turned on, and with
+a small amount of money after BIP141 is activated on mainnet.</p> <p>A major difference at consensus level is described in
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki" target="_blank" rel="noopener noreferrer">BIP143<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>,
+as a new transaction digest algorithm for signature verification in
+version 0 witness program.</p> <p>Three relay and mining policies are also included in the first release
+of segregated witness at reference implementation version 0.13.1.
+Softforks based on these policies are likely to be proposed in the near
+future. To avoid indefinite delay in transaction confirmation and
+permanent fund loss in a potential softfork, users MUST observe the new
+semantics carefully:</p> <ol><li>Only compressed public keys are accepted in P2WPKH and P2WSH (See
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki#Restrictions_on_public_key_type" target="_blank" rel="noopener noreferrer">BIP143<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>)</li> <li>The argument of OP_IF/NOTIF in P2WSH must be minimal<a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-August/013014.html" target="_blank" rel="noopener noreferrer">^4<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li>Signature(s) must be null vector(s) if an OP_CHECKSIG or
+OP_CHECKMULTISIG is failed (for both pre-segregated witness script
+and P2WSH. See
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0146.mediawiki" target="_blank" rel="noopener noreferrer">BIP146<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>)</li></ol> <h2 id="examples"><a href="#examples" class="header-anchor">#</a> Examples</h2> <h3 id="p2wpkh"><a href="#p2wpkh" class="header-anchor">#</a> P2WPKH</h3> <p>The following example is a version 0 pay-to-witness-public-key-hash
+(P2WPKH):</p> <p><code>witness:       &lt;signature&gt;</code> <code>&lt;pubkey&gt;</code> <br> <code>scriptSig:    (empty)</code><br> <code>scriptPubKey: 0 &lt;20-byte-key-hash&gt;</code><br> <code>(0x0014{20-byte-key-hash})</code></p> <p>The '0' in scriptPubKey indicates the following push is a version 0
+witness program. The length of the witness program indicates that it is
+a P2WPKH type. The witness must consist of exactly 2 items. The HASH160
+of the pubkey in witness must match the witness program.</p> <p>The signature is verified as</p> <p><code>&lt;signature&gt;</code> <code>&lt;pubkey&gt;</code> <code>CHECKSIG</code></p> <p>Comparing with a traditional P2PKH output, the P2WPKH equivalent
+occupies 3 less bytes in the scriptPubKey, and moves the signature and
+public key from scriptSig to witness.</p> <h3 id="p2wpkh-nested-in-bip16-p2sh-p2wpkh-nested-in-bip16-p2sh"><a href="#p2wpkh-nested-in-bip16-p2sh-p2wpkh-nested-in-bip16-p2sh" class="header-anchor">#</a> P2WPKH nested in BIP16 P2SH {#p2wpkh_nested_in_bip16_p2sh}</h3> <p>The following example is the same P2WPKH, but nested in a BIP16 P2SH
+output.</p> <p><code>witness:       &lt;signature&gt;</code> <code>&lt;pubkey&gt;</code> <br> <code>scriptSig:    &lt;0 &lt;20-byte-key-hash&gt;&gt;</code><br> <code>(0x160014{20-byte-key-hash})</code><br> <code>scriptPubKey: HASH160 &lt;20-byte-script-hash&gt; EQUAL</code><br> <code>(0xA914{20-byte-script-hash}87)</code></p> <p>The only item in scriptSig is hashed with HASH160, compared against the
+20-byte-script-hash in scriptPubKey, and interpreted as:</p> <p><code>0 &lt;20-byte-key-hash&gt;</code></p> <p>The public key and signature are then verified as described in the
+previous example.</p> <p>Comparing with the previous example, the scriptPubKey is 1 byte bigger
+and the scriptSig is 23 bytes bigger. Although a nested witness program
+is less efficient, its payment address is fully transparent and backward
+compatible for all Bitcoin reference client since version 0.6.0.</p> <h3 id="p2wsh"><a href="#p2wsh" class="header-anchor">#</a> P2WSH</h3> <p>The following example is an 1-of-2 multi-signature version 0
+pay-to-witness-script-hash (P2WSH).</p> <p><code>witness:      0  &lt;signature1&gt;</code> <code>&lt;1  &lt;pubkey1&gt;</code> <code>&lt;pubkey2&gt;</code> <code>2 CHECKMULTISIG&gt;</code><br> <code>scriptSig:    (empty)</code><br> <code>scriptPubKey: 0 &lt;32-byte-hash&gt;</code><br> <code>(0x0020{32-byte-hash})</code></p> <p>The '0' in scriptPubKey indicates the following push is a version 0
+witness program. The length of the witness program indicates that it is
+a P2WSH type. The last item in the witness (the &quot;witnessScript&quot;) is
+popped off, hashed with SHA256, compared against the 32-byte-hash in
+scriptPubKey, and deserialized:</p> <p><code>1  &lt;pubkey1&gt;</code> <code>&lt;pubkey2&gt;</code> <code>2 CHECKMULTISIG</code></p> <p>The script is executed with the remaining data from witness:</p> <p><code>0  &lt;signature1&gt;</code> <code>1  &lt;pubkey1&gt;</code> <code>&lt;pubkey2&gt;</code> <code>2 CHECKMULTISIG</code></p> <p>P2WSH allows maximum script size of 10,000 bytes, as the 520-byte push
+limit is bypassed.</p> <p>The scriptPubKey occupies 34 bytes, as opposed to 23 bytes of BIP16
+P2SH. The increased size improves security against possible collision
+attacks, as 2^80^ work is not infeasible anymore (By the end of 2015,
+2^84^ hashes have been calculated in Bitcoin mining since the creation
+of Bitcoin). The spending script is same as the one for an equivalent
+BIP16 P2SH output but is moved to witness.</p> <h3 id="p2wsh-nested-in-bip16-p2sh-p2wsh-nested-in-bip16-p2sh"><a href="#p2wsh-nested-in-bip16-p2sh-p2wsh-nested-in-bip16-p2sh" class="header-anchor">#</a> P2WSH nested in BIP16 P2SH {#p2wsh_nested_in_bip16_p2sh}</h3> <p>The following example is the same 1-of-2 multi-signature P2WSH script,
+but nested in a BIP16 P2SH output.</p> <p><code>witness:      0  &lt;signature1&gt;</code> <code>&lt;1  &lt;pubkey1&gt;</code> <code>&lt;pubkey2&gt;</code> <code>2 CHECKMULTISIG&gt;</code><br> <code>scriptSig:    &lt;0 &lt;32-byte-hash&gt;&gt;</code><br> <code>(0x220020{32-byte-hash})</code><br> <code>scriptPubKey: HASH160 &lt;20-byte-hash&gt; EQUAL</code><br> <code>(0xA914{20-byte-hash}87)</code></p> <p>The only item in scriptSig is hashed with HASH160, compared against the
+20-byte-hash in scriptPubKey, and interpreted as:</p> <p><code>0 &lt;32-byte-hash&gt;</code></p> <p>The P2WSH witnessScript is then executed as described in the previous
+example.</p> <p>Comparing with the previous example, the scriptPubKey is 11 bytes
+smaller (with reduced security) while witness is the same. However, it
+also requires 35 bytes in scriptSig.</p> <h3 id="extensible-commitment-structure-extensible-commitment-structure"><a href="#extensible-commitment-structure-extensible-commitment-structure" class="header-anchor">#</a> Extensible commitment structure {#extensible_commitment_structure}</h3> <p>The new commitment in coinbase transaction is a hash of the
+<code>witness root hash</code> and a <code>witness reserved value</code>. The
+<code>witness reserved value</code> currently has no consensus meaning, but in the
+future allows new commitment values for future softforks. For example,
+if a new consensus-critical commitment is required in the future, the
+commitment in coinbase becomes:</p> <p><code>Double-SHA256(Witness root hash|Hash(new commitment|witness reserved value))</code></p> <p>For backward compatibility, the
+<code>Hash(new commitment|witness reserved value)</code> will go to the coinbase
+witness, and the <code>witness reserved value</code> will be recorded in another
+location specified by the future softfork. Any number of new commitment
+could be added in this way.</p> <p>Any commitments that are not consensus-critical to Bitcoin, such as
+merge-mining, MUST NOT use the <code>witness reserved value</code> to preserve the
+ability to do upgrades of the Bitcoin consensus protocol.</p> <p>The optional data space following the commitment also leaves room for
+metadata of future softforks, and MUST NOT be used for other purpose.</p> <h3 id="trust-free-unconfirmed-transaction-dependency-chain-trust-free-unconfirmed-transaction-dependency-chain"><a href="#trust-free-unconfirmed-transaction-dependency-chain-trust-free-unconfirmed-transaction-dependency-chain" class="header-anchor">#</a> Trust-free unconfirmed transaction dependency chain {#trust_free_unconfirmed_transaction_dependency_chain}</h3> <p>Segregated witness fixes the problem of transaction malleability
+fundamentally, which enables the building of unconfirmed transaction
+dependency chains in a trust-free manner.</p> <p>Two parties, Alice and Bob, may agree to send certain amount of Bitcoin
+to a 2-of-2 multisig output (the &quot;funding transaction&quot;). Without
+signing the funding transaction, they may create another transaction,
+time-locked in the future, spending the 2-of-2 multisig output to third
+account(s) (the &quot;spending transaction&quot;). Alice and Bob will sign the
+spending transaction and exchange the signatures. After examining the
+signatures, they will sign and commit the funding transaction to the
+blockchain. Without further action, the spending transaction will be
+confirmed after the lock-time and release the funding according to the
+original contract. It also retains the flexibility of revoking the
+original contract before the lock-time, by another spending transaction
+with shorter lock-time, but only with mutual-agreement of both parties.</p> <p>Such setups are not possible with BIP62 as the malleability fix, since
+the spending transaction could not be created without both parties first
+signing the funding transaction. If Alice reveals the funding
+transaction signature before Bob does, Bob is able to lock up the
+funding indefinitely without ever signing the spending transaction.</p> <p>Unconfirmed transaction dependency chain is a fundamental building block
+of more sophisticated payment networks, such as duplex micropayment
+channel and the Lightning Network, which have the potential to greatly
+improve the scalability and efficiency of the Bitcoin system.</p> <h2 id="future-extensions-future-extensions"><a href="#future-extensions-future-extensions" class="header-anchor">#</a> Future extensions {#future_extensions}</h2> <h3 id="compact-fraud-proof-for-spv-nodes-compact-fraud-proof-for-spv-nodes"><a href="#compact-fraud-proof-for-spv-nodes-compact-fraud-proof-for-spv-nodes" class="header-anchor">#</a> Compact fraud proof for SPV nodes {#compact_fraud_proof_for_spv_nodes}</h3> <p>Bitcoin right now only has two real security models. A user either runs
+a full-node which validates every block with all rules in the system, or
+a SPV (Simple Payment Verification) client which only validates the
+headers as a proof of publication of some transactions. The Bitcoin
+whitepaper suggested that SPV nodes may accept alerts from full nodes
+when they detect an invalid block, prompting the SPV node to download
+the questioned blocks and transactions for validation. This approach,
+however, could become a DoS attack vector as there is virtually no cost
+to generate a false alarm. An alarm must come with a compact, yet
+deterministic fraud proof.</p> <p>In the current Bitcoin protocol, it is possible to generate compact
+fraud proof for almost all rules except a few:</p> <ol><li>It is not possible to prove a miner has introduced too many Bitcoins
+in the coinbase transaction outputs without showing the whole block
+itself and all input transactions.</li> <li>It is not possible to prove the violation of any block specific
+constraints, such as size and sigop limits, without showing the
+whole block (and all input transactions in the case of sigop limit)</li> <li>It is not possible to prove the spending of a non-existing input
+without showing all transaction IDs in the blockchain way back to
+the genesis block.</li></ol> <p>Extra witness data can be committed that allows short proofs of block
+invalidity that SPV nodes can quickly verify:</p> <ol><li>Sum trees for transaction fee can be committed making it possible to
+construct short proofs that the miner does not add excessive fees to
+the coinbase transaction. Similar for the block size and sigop count
+limit.</li> <li>Backlinks for the outputs spent by the transaction's inputs can be
+provided. These backlinks consist of a block hash and an offset that
+thin clients can easily query and check to verify that the outputs
+exist.</li></ol> <p>These commitments could be included in the extensible commitment
+structure through a soft fork and will be transparent to nodes that do
+not understand such new rules.</p> <h3 id="new-script-system-new-script-system"><a href="#new-script-system-new-script-system" class="header-anchor">#</a> New script system {#new_script_system}</h3> <p>Since a version byte is pushed before a witness program, and programs
+with unknown versions are always considered as anyone-can-spend script,
+it is possible to introduce any new script system with a soft fork. The
+witness as a structure is not restricted by any existing script
+semantics and constraints, the 520-byte push limit in particular, and
+therefore allows arbitrarily large scripts and signatures.</p> <p>Examples of new script system include Schnorr signatures which reduce
+the size of multisig transactions dramatically, Lamport signature which
+is quantum computing resistance, and Merklized abstract syntax trees
+which allow very compact witness for conditional scripts with extreme
+complexity.</p> <h3 id="per-input-lock-time-and-relative-lock-time-per-input-lock-time-and-relative-lock-time"><a href="#per-input-lock-time-and-relative-lock-time-per-input-lock-time-and-relative-lock-time" class="header-anchor">#</a> Per-input lock-time and relative-lock-time {#per_input_lock_time_and_relative_lock_time}</h3> <p>Currently there is only one nLockTime field in a transaction and all
+inputs must share the same value.
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki" target="_blank" rel="noopener noreferrer">BIP68<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+enables per-input relative-lock-time using the nSequence field, however,
+with a limited lock-time period and resolution.</p> <p>With a soft fork, it is possible to introduce a separate witness
+structure to allow per-input lock-time and relative-lock-time, and a new
+script system that could sign and manipulate the new data (like
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki" target="_blank" rel="noopener noreferrer">BIP65<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+and
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki" target="_blank" rel="noopener noreferrer">BIP112<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>).</p> <h2 id="backward-compatibility-backward-compatibility"><a href="#backward-compatibility-backward-compatibility" class="header-anchor">#</a> Backward compatibility {#backward_compatibility}</h2> <p>As a soft fork, older software will continue to operate without
+modification. Non-upgraded nodes, however, will not see nor validate the
+witness data and will consider all witness programs as anyone-can-spend
+scripts (except a few edge cases where the witness programs are equal to
+0, which the script must fail). Wallets should always be wary of
+anyone-can-spend scripts and treat them with suspicion. Non-upgraded
+nodes are strongly encouraged to upgrade in order to take advantage of
+the new features.</p> <p><strong>What a non-upgraded wallet can do</strong></p> <ul><li>Receiving bitcoin from non-upgraded and upgraded wallets</li> <li>Sending bitcoin to non-upgraded and upgraded wallets with
+traditional P2PKH address (without any benefit of segregated
+witness)</li> <li>Sending bitcoin to upgraded wallets using a P2SH address</li> <li>Sending bitcoin to upgraded wallets using a native witness program
+through
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki" target="_blank" rel="noopener noreferrer">BIP70<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+payment protocol</li></ul> <p><strong>What a non-upgraded wallet cannot do</strong></p> <ul><li>Validating segregated witness transaction. It assumes such a
+transaction is always valid</li></ul> <h2 id="deployment"><a href="#deployment" class="header-anchor">#</a> Deployment</h2> <p>This BIP will be deployed by &quot;version bits&quot; BIP9 with the name
+&quot;segwit&quot; and using bit 1.</p> <p>For Bitcoin mainnet, the BIP9 starttime will be midnight 15 november
+2016 UTC (Epoch timestamp 1479168000) and BIP9 timeout will be midnight
+15 november 2017 UTC (Epoch timestamp 1510704000).</p> <p>For Bitcoin testnet, the BIP9 starttime will be midnight 1 May 2016 UTC
+(Epoch timestamp 1462060800) and BIP9 timeout will be midnight 1 May
+2017 UTC (Epoch timestamp 1493596800).</p> <h2 id="credits"><a href="#credits" class="header-anchor">#</a> Credits</h2> <p>Special thanks to Gregory Maxwell for originating many of the ideas in
+this BIP and Luke-Jr for figuring out how to deploy this as a soft fork.</p> <h2 id="footnotes"><a href="#footnotes" class="header-anchor">#</a> Footnotes</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;references /&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="reference-implementation-reference-implementation"><a href="#reference-implementation-reference-implementation" class="header-anchor">#</a> Reference Implementation {#reference_implementation}</h2> <p><a href="https://github.com/bitcoin/bitcoin/pull/8149" target="_blank" rel="noopener noreferrer">https://github.com/bitcoin/bitcoin/pull/8149<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="references"><a href="#references" class="header-anchor">#</a> References</h2> <ul><li><a href="bip-0016.mediawiki" title="wikilink">BIP16 Pay to Script Hash</a></li> <li><a href="bip-0143.mediawiki" title="wikilink">BIP143 Transaction Signature Verification for Version 0 Witness
+Program</a></li> <li><a href="bip-0144.mediawiki" title="wikilink">BIP144 Segregated Witness (Peer
+Services)</a></li> <li><a href="bip-0173.mediawiki" title="wikilink">BIP173 Base32 address format for native v0-16 witness
+outputs</a></li></ul> <h2 id="copyright"><a href="#copyright" class="header-anchor">#</a> Copyright</h2> <p>This document is placed in the public domain.</p> <p>[^1]: For example, a scriptPubKey with OP_0 followed by a 40-byte
+non-zero data push will fail due to incorrect program size. However,
+a scriptPubKey with OP_0 followed by a 41-byte non-zero data push
+will pass, since it is not considered to be a witness program</p> <p>[^2]: For backward compatibility, for any version byte from 0 to 16, the
+script must fail if the witness program has a <code>CastToBool</code> value of
+zero. However, having a hash like this is a successful preimage
+attack against the hash function, and the risk is negligible.</p> <p>[^3]: Rationale of using a single composite constraint, instead of two
+separate limits such as 1MB base data and 3MB witness data: Using
+two separate limits would make mining and fee estimation nearly
+impossible. Miners would need to solve a complex non-linear
+optimization problem to find the set of transactions that maximize
+fees given both constraints, and wallets would not be able to know
+what to pay as it depends on which of the two conditions is most
+constrained by the time miners try to produce blocks with their
+transactions in. Another problem with such an approach is
+freeloading. Once a set of transactions hit the base data 1MB
+constraint, up to 3MB extra data could be added to the witness by
+just minimally increasing the fee. The marginal cost for extra
+witness space effectively becomes zero in that case.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bitcoindocs/bips/140.html" class="prev">
+        140
+      </a></span> <span class="next"><a href="/bitcoindocs/bips/142.html">
+        142
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bitcoindocs/assets/js/app.c31d8641.js" defer></script><script src="/bitcoindocs/assets/js/2.b78a9106.js" defer></script><script src="/bitcoindocs/assets/js/48.36d1a4f2.js" defer></script>
+  </body>
+</html>
