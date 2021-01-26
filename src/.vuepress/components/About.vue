@@ -1,6 +1,6 @@
 <template>
   <div class="cards-list">
-    <a href="/whitepaper">
+    <a :href="$withBase('/whitepaper')">
       <div class="card 1">
         <div class="card_image test"></div>
         <div class="card_title title-white">
@@ -9,7 +9,7 @@
       </div>
     </a>
 
-    <a href="/releases">
+    <a :href="$withBase('/whitepaper')">
       <div class="card 2">
         <div class="card_image">
         </div>
@@ -19,7 +19,7 @@
       </div>
     </a>
 
-    <a href="/bips">
+    <a :href="$withBase('/bips')">
       <div class="card 3">
         <div class="card_image">
         </div>
@@ -29,7 +29,7 @@
       </div>
     </a>
     
-    <a href="/segwit">
+    <a :href="$withBase('/segwit')">
       <div class="card 4">
         <div class="card_image">
         </div>
