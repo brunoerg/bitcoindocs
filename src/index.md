@@ -4,7 +4,7 @@ heroImage: /bitcoin.png
 tagline: 
 actionText: Quick Start →
 actionLink: /whitepaper/
-footer: Made by with ❤️
+footer: No copyright
 ---
 
 <About/>
